@@ -13,25 +13,6 @@ Please follow these steps.
 
 1. Create EW folder inside MOD folder.
 2. Extract zip content into MOD/EW folder.
-3. Edit mod.ini file in root game folder so that it looks like this:
-
-[Mods]
-mods_on=1  ;set to 1 to enable mods
-;set this to your MOD folder name under mods (only can be set at a time)
-; Legacy V1.4 Files
-;mods_folder=Legacy
-; Emperor Wars
-mods_folder=EW
-; Emperor Wars Reality Mod
-;mods_folder=EWRM
-; Hyperion by Matt Caspermeyer
-;mods_folder=Hyperion
-; Nova by Richard Wein
-;mods_folder=Nova
-; Subversion by Todd Calvin
-;mods_folder=Subversion
-; Placeholder for one not listed
-;mods_folder=YourMod
-;Feel free to add more!
-
+3. Extract mod.zip file in root game folder.
+[mod.zip](https://github.com/Luxor70/EmperorWars/files/11049435/mod.zip)
 4. Start the game and enjoy the mod :-)
