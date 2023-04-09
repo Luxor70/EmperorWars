@@ -8,6 +8,8 @@ MOD content:
 - Revamped combat system. Now units have specific roles. Combined arms are now strongly suggested.
 - Brand new tech tree with almost 200 techs to be researched.
 
+Work in Progress: unit graphics is still in development
+
 INSTALLATION GUIDE.
 Please follow these steps.
 
