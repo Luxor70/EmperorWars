@@ -74,7 +74,7 @@ Please follow these steps.
 - Added Xenotrenium's icons for House Guards/Knights
 - Church and Stigmata are now allied at the start of the game
 
-- 4.1a
+4.1a
 - Fixed missing League garrison bug on Byzantium II's agora.
 - Cx-omega tech is for Hazat-only
 - Removed double Brother Battle tech
