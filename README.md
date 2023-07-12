@@ -73,3 +73,22 @@ Please follow these steps.
 - Added Fort to Madoc to prevent conquest exploit
 - Added Xenotrenium's icons for House Guards/Knights
 - Church and Stigmata are now allied at the start of the game
+
+- 4.1a
+- Fixed missing League garrison bug on Byzantium II's agora.
+- Cx-omega tech is for Hazat-only
+- Removed double Brother Battle tech
+- Added Scions of Zhal buildable unit
+- Tweaked Assault Landers
+- Buffed camo for stealth units
+- Reworked Twilight planet
+- League Fast Freighter is now stealthy
+- Reworked ruins and alien ruins files (thanks to Jonathan)
+
+4.1b
+- Nerfed Golem garrison for ruins
+- Buffed vehicles armor
+- Buffed flak air damage
+- Added Noble/Officer roles to Titan/Dreadnought
+- Tweaked target.dat file (order and phases)
+- Increased costs for Mercenaries units
