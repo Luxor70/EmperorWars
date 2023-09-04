@@ -88,6 +88,25 @@ Please follow these steps.
 4.1b
 - Nerfed Golem garrison for ruins
 - Buffed vehicles armor
+
+4.2
+- NBC and Chem/Bio can now tactically spread plague like Pestulator Artillery
+- NBC and Chem/Bio are immune to plague
+- Buffed Church forces.
+- Buffed League forces.
+- Changed Trace to Rare Earths and Monopols to Fusion Cells.
+- Changed supply chain: rare earths are now more expensive and needed for Wetware, Fusion Cells, Ceramsteel.
+- Reduced rare earths resource on planets.
+- Reduced range from 2 to 1 for mines/wells/farms
+- Added new unit icons by Xenotrenium
+- Added new recon air unit (AWACS)
+- Added Galliot spaceship unit
+- Hover units can now cross oceans
+- Changed Cadavus to frozen
+- Buffed psy
+- Anunnaki ships ruin reward must now be upgraded in starports after researching Vau Psychology tech
+- Added new Lost Worlds: Aspiration, Gizeh, Pandora, Rimpoche
+- Rebalanced units
 - Buffed flak air damage
 - Added Noble/Officer roles to Titan/Dreadnought
 - Tweaked target.dat file (order and phases)
