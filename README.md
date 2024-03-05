@@ -88,6 +88,10 @@ Please follow these steps.
 4.1b
 - Nerfed Golem garrison for ruins
 - Buffed vehicles armor
+- Buffed flak air damage
+- Added Noble/Officer roles to Titan/Dreadnought
+- Tweaked target.dat file (order and phases)
+- Increased costs for Mercenaries units
 
 4.2
 - NBC and Chem/Bio can now tactically spread plague like Pestulator Artillery
@@ -107,7 +111,45 @@ Please follow these steps.
 - Anunnaki ships ruin reward must now be upgraded in starports after researching Vau Psychology tech
 - Added new Lost Worlds: Aspiration, Gizeh, Pandora, Rimpoche
 - Rebalanced units
-- Buffed flak air damage
-- Added Noble/Officer roles to Titan/Dreadnought
-- Tweaked target.dat file (order and phases)
-- Increased costs for Mercenaries units
+
+4.2a
+- Added missing resources to Delphi
+- Changed starting difficulty settings to Beginner
+
+4.2b
+- Buffed well and arborium yields
+
+4.2c
+- Removed credits/turn costs from League units
+- Farms are not buildable anymore to allow university building
+
+4.2.4
+- Fixed Knight Retinue tech bug where only Li Halan could research it
+- Remoced Battlemaster unit requirement. They now act as officers and assassins
+- Nerfed Symbiot spaceships
+
+4.2.5
+- Added energy depots to Twilight
+- Added * after planet name for planets that require key to jump in (according to House rules)
+- Connected Yathrib and Ustar planets
+- Added unit symbols for medic, noble, officer roles
+- Golems are now immune to plague
+- Added engineer functionality to Battle Engineers
+- Removed Officer role from Light Carriers
+- Removed many tech descriptions that caused crash when selecting them for research
+
+4.2.6
+- Increased tech maintenance costs
+- Changed sect.dat ruin gift chances: 2 for Eskatonics and 1 for Incarnates
+- Increased Ceramsteel and Wetware values
+
+4.2.7
+- Increased air transports cargo to 4
+- Nerfed Imperial Fleet ground forces
+- Disabled Peasants and Scientists units
+
+4.2.8
+- Added University to Aragon
+- Increased Ruins/Alien Ruins in Apshai
+- Nerfed troops landing capability of Fleet
+- Vau Interceptor can no longer be loaded as cargo
