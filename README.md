@@ -151,3 +151,8 @@ Please follow these steps.
 - Increased Ruins/Alien Ruins in Apshai
 - Nerfed troops landing capability of Fleet
 - Vau Interceptor can no longer be loaded as cargo
+
+
+4.3.0
+- EFS 1.5.2 Compatibility
+- Added new Manowitz entries
