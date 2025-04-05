@@ -156,3 +156,6 @@ Please follow these steps.
 4.3.0
 - EFS 1.5.2 Compatibility
 - Added new Manowitz entries
+
+4.3.0a
+- Fixed efs.res file that caused a crash
