@@ -159,3 +159,7 @@ Please follow these steps.
 
 4.3.0a
 - Fixed efs.res file that caused a crash
+
+4.3.0b
+- Fixed Combat yellow flags and skull images
+- Increased combat time
