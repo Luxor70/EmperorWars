@@ -163,3 +163,11 @@ Please follow these steps.
 4.3.0b
 - Fixed Combat yellow flags and skull images
 - Increased combat time
+
+4.3.0c
+- Added small flag/skull combat image (courtesy of Jukelo)
+- Added static planet images (courtesy of Sprite Monkey)
+- Fixed corrupted units images
+- Moved planets to improve galaxy map readability
+- Switched PTS missile and torpedo stats
+- Fixed League Small Freighter costs
