@@ -171,3 +171,6 @@ Please follow these steps.
 - Moved planets to improve galaxy map readability
 - Switched PTS missile and torpedo stats
 - Fixed League Small Freighter costs
+
+4.3.0d
+- Fixed string files after 27th April patch
