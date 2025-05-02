@@ -174,3 +174,10 @@ Please follow these steps.
 
 4.3.0d
 - Fixed string files after 27th April patch
+
+4.3.1
+- Farms can now be built
+- Universities cannot be built anymore
+- Added Mercenaries Frigates, Destroyers, Cruisers, Dreadnoughts
+- Doubled 3rd Republic min/max FBs requirements
+- Added icon graphics by Lagi
