@@ -1,0 +1,3 @@
+Chameleon Suit
+
+A suit that can change its appearance to blend into surroundings.

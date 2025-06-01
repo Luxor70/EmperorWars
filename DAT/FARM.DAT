@@ -1,0 +1,95 @@
+// Farm harvesting information
+//
+// For every terrain type and every alternate tile set type, there is a
+// list of the resource and the amount of the resource it produces.  You can
+// put up to 3 different resources per line.  A @ must go in the last slot
+// to indicate the end of the list.
+//
+// The resource names correspond to the names in strings.rc.  You do not
+// have to have the same case.
+//
+// IMPORTANT!!!!  As of 10/25 we are trying to balance the amount of food
+// produced at the beginning of the game, so don't muck with this without
+// consulting Garner or Andrew, as we know what numbers we're targeting.
+//
+// *****************************IMPORTANT****************************
+// As of 11/5 NOONE "muck" with this without consulting Ed. 
+//
+//
+{ "ocean"
+   "normal"     "food" "5" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "6" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "grass"
+   "normal"     "food" "7" "@"
+   "city"       "food" "5" "@"
+   "ice"        "food" "5" "@"
+   "jungle"     "food" "5" "@"
+   "barren"     "food" "0" "@"
+}
+{ "arid grass"
+   "normal"     "food" "5" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "desert"  
+   "normal"     "food" "0" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "0" "@"
+   "jungle"     "food" "0" "@"
+   "barren"     "food" "0" "@"
+}
+{ "ice"
+   "normal"     "food" "0" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "0" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "tundra"
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "mountain"
+   "normal"     "food" "0" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "0" "@"
+   "jungle"     "food" "0" "@"
+   "barren"     "food" "0" "@"
+}
+{ "hill"
+   "normal"     "food" "4" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "0" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "tree"
+   "normal"     "food" "4" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "0" "@"
+}
+{ "river"
+   "normal"     "food" "8" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "5" "@"
+   "jungle"     "food" "5" "@"
+   "barren"     "food" "0" "@"
+}
+{ "delta"
+   "normal"     "food" "10" "@"
+   "city"       "food" "0" "@"
+   "ice"        "food" "6" "@"
+   "jungle"     "food" "5" "@"
+   "barren"     "food" "0" "@"
+}

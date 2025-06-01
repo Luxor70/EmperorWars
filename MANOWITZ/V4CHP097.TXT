@@ -1,0 +1,3 @@
+Void Suit
+
+A suit designed for survival in the vacuum of space.

@@ -1,0 +1,3 @@
+Blaster Shotgun
+
+An energy weapon that fires a spread of blasts, ideal for close-range encounters.

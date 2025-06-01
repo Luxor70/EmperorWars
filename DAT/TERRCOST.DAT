@@ -1,0 +1,140 @@
+// terrain movement cost chart
+//
+// V2015-02-21 (Matt): Added new Mech, Gate, and Underwater movement types
+//
+// Mames of terrains and tile set types MUST stay in the order below
+// for each type of terrain, lists the tile set type and the movement cost
+// for the movement types...foot, wheel, tread, air, naval, space, hover, jump,
+// crawler, lander, mech, gate, and underwater.
+//
+// Note that all values are read in as floats and multiple terrain types are multiplied
+// together and then divided by the total number of terrain tiles. This becomes the cost
+// to move through that type of terrain.
+//
+// If a unit can move on road, then its move cost is set to 1
+//
+// Examples:
+//  1. Artillery Wheel unit is on a normal planet with grass as base tile, then trees,
+//     river, and then road. The Movement Cost is:
+//     Grass = 2.0
+//     Trees = 3.5
+//     River = 6.0
+//     Road = .01
+//     Movement Cost = 2.0 * 3.5 * 6.0 * 0.01 / 4 = 0.105 -> round up to 1
+//  2. Submarine Underwater unit on ocean jungle planet
+//     Jungle = 1.0
+//     Movement Cost = 1
+//  3. Tracker Legion Foot unit is on jungle grass with trees and mountains
+//     Grass = 2.0
+//     Mountain = 2.5
+//     Tree = 2.0
+//     Movement Cost = 2.0 * 2.5 * 2.0 / 3 = 3.33 -> round up to 4
+//  4. Hover Tank Hover unit on Desert Planet with Arid Grass with River
+//     Arid Grass = 2.0
+//     River = 1.0
+//     Movement Cost = 2.0 * 1.0 / 2 = 1
+//
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "ocean"
+   "normal"     "0.0 0.0 0.0 1.0 1.0 0.0 1.5 0.0 1.0 0.0 0.0 0.0 1.0"
+   "desert"     "0.0 0.0 0.0 1.0 1.0 0.0 1.5 0.0 1.0 0.0 0.0 0.0 1.0"
+   "ice"        "0.0 0.0 0.0 1.0 1.0 0.0 1.5 0.0 1.0 0.0 0.0 0.0 1.0"
+   "jungle"     "0.0 0.0 0.0 1.0 1.0 0.0 1.5 0.0 1.0 0.0 0.0 0.0 1.0"
+   "barren"     "1.3 2.5 2.0 1.0 0.0 0.0 1.3 0.0 1.3 0.0 1.3 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "grass"
+   "normal"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "desert"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "ice"        "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "jungle"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "barren"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "arid grass"
+   "normal"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "desert"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "ice"        "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "jungle"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "barren"     "2.0 2.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "desert"
+   "normal"     "2.0 3.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "desert"     "2.0 3.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "ice"        "2.0 3.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "jungle"     "2.0 3.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "barren"     "2.0 3.0 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "ice"
+   "normal"     "2.5 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.5 0.0 2.0 0.0 0.0"
+   "desert"     "2.5 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.5 0.0 2.0 0.0 0.0"
+   "ice"        "2.5 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.5 0.0 2.0 0.0 0.0"
+   "jungle"     "2.5 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.5 0.0 2.0 0.0 0.0"
+   "barren"     "2.5 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.5 0.0 2.0 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "tundra"
+   "normal"     "2.0 2.5 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "desert"     "2.0 2.5 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "ice"        "2.0 2.5 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "jungle"     "2.0 2.5 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+   "barren"     "2.0 2.5 2.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 2.0 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "mountain"
+   "normal"     "2.5 3.0 3.0 1.0 0.0 0.0 1.5 0.0 2.5 0.0 1.5 0.0 0.0"
+   "desert"     "2.5 3.0 3.0 1.0 0.0 0.0 1.5 0.0 2.5 0.0 1.5 0.0 0.0"
+   "ice"        "2.5 3.0 3.0 1.0 0.0 0.0 1.5 0.0 2.5 0.0 1.5 0.0 0.0"
+   "jungle"     "2.5 3.0 3.0 1.0 0.0 0.0 1.5 0.0 2.5 0.0 1.5 0.0 0.0"
+   "barren"     "2.5 3.0 3.0 1.0 0.0 0.0 1.5 0.0 2.5 0.0 1.5 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "hill"
+   "normal"     "2.2 2.5 2.2 1.0 0.0 0.0 1.3 0.0 2.2 0.0 2.2 0.0 0.0"
+   "desert"     "2.2 2.5 2.2 1.0 0.0 0.0 1.3 0.0 2.2 0.0 2.2 0.0 0.0"
+   "ice"        "2.2 2.5 2.2 1.0 0.0 0.0 1.3 0.0 2.2 0.0 2.2 0.0 0.0"
+   "jungle"     "2.2 2.5 2.2 1.0 0.0 0.0 1.3 0.0 2.2 0.0 2.2 0.0 0.0"
+   "barren"     "2.2 2.5 2.2 1.0 0.0 0.0 1.3 0.0 2.2 0.0 2.2 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "tree"
+   "normal"     "2.0 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 1.5 0.0 0.0"
+   "desert"     "2.0 2.5 2.5 1.0 0.0 0.0 1.5 0.0 2.0 0.0 1.5 0.0 0.0"
+   "ice"        "2.0 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 1.5 0.0 0.0"
+   "jungle"     "2.5 4.5 3.5 1.0 0.0 0.0 2.5 0.0 2.5 0.0 2.5 0.0 0.0"
+   "barren"     "2.0 3.5 3.0 1.0 0.0 0.0 2.0 0.0 2.0 0.0 1.5 0.0 0.0"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "river"
+   "normal"     "4.0 6.0 5.0 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "desert"     "4.0 6.0 5.0 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "ice"        "4.0 6.0 5.0 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "jungle"     "4.0 6.0 5.0 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "barren"     "4.0 6.0 5.0 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "delta"
+   "normal"     "2.5 2.5 2.2 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "desert"     "2.5 2.5 2.2 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "ice"        "2.5 2.5 2.2 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "jungle"     "2.5 3.5 2.2 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+   "barren"     "2.5 2.5 2.2 1.0 1.5 0.0 1.0 0.0 1.5 0.0 1.0 0.0 1.5"
+}
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "road"
+   "normal"     ".01 .01 .01 .01 0.0 .01 .01 .01 .01 0.0 .01 0.0 0.0"
+   "desert"     ".01 .01 .01 .01 0.0 .01 .01 .01 .01 0.0 .01 0.0 0.0"
+   "ice"        ".01 .01 .01 .01 0.0 .01 .01 .01 .01 0.0 .01 0.0 0.0"
+   "jungle"     ".01 .01 .01 .01 0.0 .01 .01 .01 .01 0.0 .01 0.0 0.0"
+   "barren"     ".01 .01 .01 .01 0.0 .01 .01 .01 .01 0.0 .01 0.0 0.0"
+}
+// New Section:
+//  attackadj - whether movement type can attack adjacent units on terrain that cannot move on (1 = Yes, 0 = No)
+//  ... more to come in the future...
+//
+//                F   W   T   A   N   S   H   J   C   L   M   G   U
+{ "misc"
+   "attackadj"  " 0   0   0   1   1   0   1   0   0   0   1   0   0"
+}

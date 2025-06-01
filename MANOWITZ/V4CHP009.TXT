@@ -1,0 +1,3 @@
+Autocannons
+
+Automated cannons that provide continuous fire with high accuracy.

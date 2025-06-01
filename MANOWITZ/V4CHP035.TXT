@@ -1,0 +1,3 @@
+Flamegun
+
+A weapon that projects a stream of fire, effective for close-range combat.

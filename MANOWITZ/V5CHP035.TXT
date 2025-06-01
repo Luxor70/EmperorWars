@@ -1,0 +1,5 @@
+Cyber Fighter
+
+A Cyber Fighter is a starfighter spacecraft that incorporates cybernetic enhancements.
+
+The cybernetic enhancements enhance the pilot's reflexes, targeting capabilities, and provide direct neural interface control, allowing for precise maneuvers and quick decision-making in the heat of battle.

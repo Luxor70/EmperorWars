@@ -1,0 +1,3 @@
+Clustered Synapses 
+
+The use of clustering networks of macroscopic synaptic nodes to attain maximum meganeuron transmission per available surface area.

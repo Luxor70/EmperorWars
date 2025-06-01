@@ -1,0 +1,3 @@
+Plasma Bomb
+
+An explosive device that releases a burst of superheated plasma.

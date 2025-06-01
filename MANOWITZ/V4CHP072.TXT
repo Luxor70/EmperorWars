@@ -1,0 +1,3 @@
+Plasma Thrower
+
+A weapon that projects a stream of superheated plasma.
