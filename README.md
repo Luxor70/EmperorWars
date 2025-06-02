@@ -204,3 +204,7 @@ Changelog
 - Added new Vau units
 - Increased 3rd Republic requirements to 1M and 2M (min/max)
 - Added Demons units that will spawn at ruins. Need psy units to defeat.
+
+4.3.2a
+- Renamed Close Attack to Soft Attack
+- Renamed Direct Attack to Hard Attack
