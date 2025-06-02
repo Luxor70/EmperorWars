@@ -3009,7 +3009,7 @@
             "style": 128,
             "fore": 13290702,
             "back": -1,
-            "data": "Direct Attack"
+            "data": "Hard Attack"
         },
         {
             "type": "static",
@@ -3021,7 +3021,7 @@
             "style": 128,
             "fore": 13290702,
             "back": -1,
-            "data": "Close Attack"
+            "data": "Soft Attack"
         },
         {
             "type": "static",

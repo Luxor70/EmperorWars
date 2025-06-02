@@ -618,11 +618,11 @@
         },
         {
             "ID": 6903,
-            "value": "Direct"
+            "value": "Hard"
         },
         {
             "ID": 6904,
-            "value": "Close"
+            "value": "Soft"
         },
         {
             "ID": 6905,
