@@ -9,12 +9,16 @@ Added Vuldrok, Kurgans, and Lost Worlds to the map. All worlds have been reworke
 More than 400 unique units to be built/discovered. Among them you can find Anunnaki ships, 2nd Republic lost tech, future techs available.
 Revamped combat system. Now units have specific roles. Combined arms are now strongly suggested.
 Brand new tech tree with 300+ techs to be researched.
+
 INSTALLATION GUIDE. Please follow these steps.
 
-Create EW folder inside MOD folder.
-Extract zip content into MOD/EW folder.
-Extract mod.zip file in root game folder. mod.zip
-Start the game and enjoy the mod :-)
+1. Create EW folder inside MOD folder.
+
+2. Extract zip content into MOD/EW folder.
+
+3. Extract mod.zip file in root game folder. mod.zip
+
+4. Start the game and enjoy the mod :-)
 
 Changelog
 
