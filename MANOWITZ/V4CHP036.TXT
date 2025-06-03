@@ -1,0 +1,4 @@
+Flux Sword
+
+A melee weapon with a blade that vibrates at high frequencies to cut through armor.
+

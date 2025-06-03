@@ -1,0 +1,3 @@
+Heavy Carrier Hull
+
+A reinforced hull designed for large carriers that deploy numerous spacecraft.

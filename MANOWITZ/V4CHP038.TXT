@@ -1,0 +1,3 @@
+Freighter Hull
+
+A hull designed for large cargo ships, optimized for transport.

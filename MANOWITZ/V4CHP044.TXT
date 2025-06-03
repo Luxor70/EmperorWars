@@ -1,0 +1,3 @@
+Gauss Cannons
+
+Electromagnetic cannons that launch projectiles at extremely high speeds.

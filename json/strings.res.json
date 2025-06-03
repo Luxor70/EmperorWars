@@ -1,0 +1,3164 @@
+"glStrings": {
+    "strings": [
+        {
+            "ID": -25536,
+            "value": "Dormant Symbiot abominations!"
+        },
+        {
+            "ID": -25535,
+            "value": "A secret Rebel air base!"
+        },
+        {
+            "ID": -25534,
+            "value": "A hidden Rebel spaceport!"
+        },
+        {
+            "ID": -25533,
+            "value": "A Rebel training camp!"
+        },
+        {
+            "ID": -25532,
+            "value": "A hidden Rebel HQ!"
+        },
+        {
+            "ID": -25532,
+            "value": "A secret Rebel armor cache!"
+        },
+        {
+            "ID": -25526,
+            "value": "A lone Warlock and his pets!"
+        },
+        {
+            "ID": -25525,
+            "value": "A Warlock coven!"
+        },
+        {
+            "ID": -25524,
+            "value": "Techno heretics!"
+        },
+        {
+            "ID": -25523,
+            "value": "A baker's coven!"
+        },
+        {
+            "ID": 1000,
+            "value": "Orthodox"
+        },
+        {
+            "ID": 1001,
+            "value": "Amaltheans"
+        },
+        {
+            "ID": 1002,
+            "value": "Eskatonics"
+        },
+        {
+            "ID": 1003,
+            "value": "Incarnates"
+        },
+        {
+            "ID": 1004,
+            "value": "Avestites"
+        },
+        {
+            "ID": 1005,
+            "value": "Brother Battle"
+        },
+        {
+            "ID": 1006,
+            "value": "Hesychasts"
+        },
+        {
+            "ID": 1007,
+            "value": "Symbiot"
+        },
+        {
+            "ID": 1008,
+            "value": "Vau"
+        },
+        {
+            "ID": 1030,
+            "value": "None"
+        },
+        {
+            "ID": 1031,
+            "value": "Hold"
+        },
+        {
+            "ID": 1032,
+            "value": "Avoid"
+        },
+        {
+            "ID": 1033,
+            "value": "Normal"
+        },
+        {
+            "ID": 1034,
+            "value": "Assault"
+        },
+        {
+            "ID": 1035,
+            "value": "Feint"
+        },
+        {
+            "ID": 1036,
+            "value": "Green"
+        },
+        {
+            "ID": 1037,
+            "value": "Expert"
+        },
+        {
+            "ID": 1038,
+            "value": "Elite"
+        },
+        {
+            "ID": 1044,
+            "value": "Li Halan"
+        },
+        {
+            "ID": 1045,
+            "value": "Hazat"
+        },
+        {
+            "ID": 1046,
+            "value": "Decados"
+        },
+        {
+            "ID": 1047,
+            "value": "Hawkwood"
+        },
+        {
+            "ID": 1048,
+            "value": "al-Malik"
+        },
+        {
+            "ID": 1049,
+            "value": "League"
+        },
+        {
+            "ID": 1050,
+            "value": "Church"
+        },
+        {
+            "ID": 1051,
+            "value": "Symbiot"
+        },
+        {
+            "ID": 1052,
+            "value": "Vau"
+        },
+        {
+            "ID": 1053,
+            "value": "Imperial Guard"
+        },
+        {
+            "ID": 1054,
+            "value": "Imperial Fleet"
+        },
+        {
+            "ID": 1055,
+            "value": "Stigmata"
+        },
+        {
+            "ID": 1056,
+            "value": "Imperial Eye"
+        },
+        {
+            "ID": 1057,
+            "value": "Rebels"
+        },
+        {
+            "ID": 1067,
+            "value": "Experience"
+        },
+        {
+            "ID": 1068,
+            "value": "Faith"
+        },
+        {
+            "ID": 1069,
+            "value": "Ownership"
+        },
+        {
+            "ID": 1080,
+            "value": "Foot"
+        },
+        {
+            "ID": 1081,
+            "value": "Wheel"
+        },
+        {
+            "ID": 1082,
+            "value": "Tread"
+        },
+        {
+            "ID": 1083,
+            "value": "Air"
+        },
+        {
+            "ID": 1084,
+            "value": "Naval"
+        },
+        {
+            "ID": 1085,
+            "value": "Space"
+        },
+        {
+            "ID": 1086,
+            "value": "Hover"
+        },
+        {
+            "ID": 1087,
+            "value": "Jump"
+        },
+        {
+            "ID": 1088,
+            "value": "Crawler"
+        },
+        {
+            "ID": 1089,
+            "value": "Lander"
+        },
+        {
+            "ID": 1090,
+            "value": "Mech"
+        },
+        {
+            "ID": 1091,
+            "value": "Gate"
+        },
+        {
+            "ID": 1092,
+            "value": "Underwater"
+        },
+        {
+            "ID": 1180,
+            "value": ": Ground unit that can only move on land and through rough terrain faster than most other ground units."
+        },
+        {
+            "ID": 1181,
+            "value": ": Ground unit that can only move on land and through rough terrain slower than most other ground units."
+        },
+        {
+            "ID": 1182,
+            "value": ": Ground unit that can only move on land and through rough terrain slightly faster than most other ground units."
+        },
+        {
+            "ID": 1183,
+            "value": ": Ground unit that can move unencumbered anywhere on the map, but requires refueling after being away from city or refueling unit at turn's end."
+        },
+        {
+            "ID": 1184,
+            "value": ": Ground unit that can only move on water, rivers, or cities adjacent to water."
+        },
+        {
+            "ID": 1185,
+            "value": ": Can launch into space, but cannot use the Jump Gates.\nCannot move on the ground and takes damage when landing outside cities."
+        },
+        {
+            "ID": 1186,
+            "value": ": Ground unit that can only move on land and through rough terrain the fastest of all ground units."
+        },
+        {
+            "ID": 1187,
+            "value": ": Can launch into space and use the Jump Gates.\nCannot move on the ground and takes damage when landing outside cities."
+        },
+        {
+            "ID": 1188,
+            "value": ": Ground unit that can only move on land and through rough terrain the slowest of all ground units."
+        },
+        {
+            "ID": 1189,
+            "value": ": Can launch into space and use the Jump Gates.\nCannot move on the ground, but does not take damage when landing outside cities."
+        },
+        {
+            "ID": 1190,
+            "value": ": Can launch into space and move on the ground similar to a Foot unit.\nCannot use the Jump Gates, but does not take damage when landing outside cities."
+        },
+        {
+            "ID": 1191,
+            "value": ": Can launch into space and use the Jump Gates and move on the ground similar to Hover units.\nDoes not take damage when landing outside cities."
+        },
+        {
+            "ID": 1192,
+            "value": ": Ground unit that can only move on water, rivers, or cities adjacent to water."
+        },
+        {
+            "ID": 4200,
+            "value": "Noblesse Oblige"
+        },
+        {
+            "ID": 4201,
+            "value": "Noble Scholars"
+        },
+        {
+            "ID": 4202,
+            "value": "Enlightened Nobility"
+        },
+        {
+            "ID": 4203,
+            "value": "Rule Of Law"
+        },
+        {
+            "ID": 4204,
+            "value": "Warrior Ethic"
+        },
+        {
+            "ID": 4205,
+            "value": "Charismatic Leadership"
+        },
+        {
+            "ID": 4206,
+            "value": "Administration"
+        },
+        {
+            "ID": 4207,
+            "value": "Mercantile Savvy"
+        },
+        {
+            "ID": 4208,
+            "value": "A Friend in the Church"
+        },
+        {
+            "ID": 4209,
+            "value": "A Friend in the League"
+        },
+        {
+            "ID": 4210,
+            "value": "Ancient Documentarium"
+        },
+        {
+            "ID": 4211,
+            "value": "Ancient Documentarium"
+        },
+        {
+            "ID": 4212,
+            "value": "Ancient Documentarium"
+        },
+        {
+            "ID": 4213,
+            "value": "Internal Security Apparatus"
+        },
+        {
+            "ID": 4214,
+            "value": "Battlemaster"
+        },
+        {
+            "ID": 4215,
+            "value": ""
+        },
+        {
+            "ID": 4220,
+            "value": "Doing good works for your subjects increases their loyalty at the beginning of the game."
+        },
+        {
+            "ID": 4221,
+            "value": "Increases food yields."
+        },
+        {
+            "ID": 4222,
+            "value": "Increases yield of research facilities."
+        },
+        {
+            "ID": 4223,
+            "value": "Increases loyalty at the beginning of the game."
+        },
+        {
+            "ID": 4224,
+            "value": "Units receive expert experience rating fresh out of boot camp."
+        },
+        {
+            "ID": 4225,
+            "value": "+20 to planet unit loyalty if there is a Noble present in the Palace."
+        },
+        {
+            "ID": 4226,
+            "value": "Increases tax revenues by better organizing government."
+        },
+        {
+            "ID": 4227,
+            "value": "Get better prices in trade with the League."
+        },
+        {
+            "ID": 4228,
+            "value": "The Church likes you better."
+        },
+        {
+            "ID": 4229,
+            "value": "The League likes you better."
+        },
+        {
+            "ID": 4230,
+            "value": "3 Advances in Bioengineering."
+        },
+        {
+            "ID": 4231,
+            "value": "3 Advances in Advanced Physics."
+        },
+        {
+            "ID": 4232,
+            "value": "3 Advances in Psychosocial Engineering."
+        },
+        {
+            "ID": 4233,
+            "value": "You are able to thwart rebellions."
+        },
+        {
+            "ID": 4234,
+            "value": "Armor bonus if a Noble is in your stack."
+        },
+        {
+            "ID": 4235,
+            "value": " "
+        },
+        {
+            "ID": 4250,
+            "value": "Despotism"
+        },
+        {
+            "ID": 4251,
+            "value": "Inbreeding"
+        },
+        {
+            "ID": 4252,
+            "value": "Insanity"
+        },
+        {
+            "ID": 4253,
+            "value": "Inept Military Training"
+        },
+        {
+            "ID": 4254,
+            "value": "Tyranny"
+        },
+        {
+            "ID": 4255,
+            "value": "Spendthrift"
+        },
+        {
+            "ID": 4256,
+            "value": "Anti-trade"
+        },
+        {
+            "ID": 4257,
+            "value": "Decadence"
+        },
+        {
+            "ID": 4258,
+            "value": "Disdains Trade"
+        },
+        {
+            "ID": 4259,
+            "value": "Enemy in Church"
+        },
+        {
+            "ID": 4260,
+            "value": "Enemy in League"
+        },
+        {
+            "ID": 4261,
+            "value": ""
+        },
+        {
+            "ID": 4262,
+            "value": ""
+        },
+        {
+            "ID": 4263,
+            "value": ""
+        },
+        {
+            "ID": 4264,
+            "value": ""
+        },
+        {
+            "ID": 4265,
+            "value": ""
+        },
+        {
+            "ID": 4270,
+            "value": "You discourage nay-saying, research yield is decreased."
+        },
+        {
+            "ID": 4271,
+            "value": "Inbreeding has caused your house to become ridiculed.  Rebellions are more frequent."
+        },
+        {
+            "ID": 4272,
+            "value": "Insanity runs in your genes.  Constantly changing your mind lowers production across the board."
+        },
+        {
+            "ID": 4273,
+            "value": "Inept military training results in a loss of accuracy during combat."
+        },
+        {
+            "ID": 4274,
+            "value": "Arbitrary use of law causes loyalty to decrease at the beginning of the game."
+        },
+        {
+            "ID": 4275,
+            "value": "Lose sales revenue with League due to spending on useless stuff."
+        },
+        {
+            "ID": 4276,
+            "value": "Causes black markets.  Loss of tax revenue."
+        },
+        {
+            "ID": 4277,
+            "value": "Frustrated consumers resort to black markets which causes your tax revenues to decrease."
+        },
+        {
+            "ID": 4278,
+            "value": "Receive worse prices when dealing with the League."
+        },
+        {
+            "ID": 4279,
+            "value": "The Church likes you less."
+        },
+        {
+            "ID": 4280,
+            "value": "The League likes you less."
+        },
+        {
+            "ID": 4281,
+            "value": " "
+        },
+        {
+            "ID": 4282,
+            "value": " "
+        },
+        {
+            "ID": 4283,
+            "value": " "
+        },
+        {
+            "ID": 4284,
+            "value": " "
+        },
+        {
+            "ID": 4285,
+            "value": " "
+        },
+        {
+            "ID": 4999,
+            "value": "None"
+        },
+        {
+            "ID": 5000,
+            "value": "Sect Name"
+        },
+        {
+            "ID": 5001,
+            "value": "Flock"
+        },
+        {
+            "ID": 6800,
+            "value": "Food"
+        },
+        {
+            "ID": 6801,
+            "value": "Energy"
+        },
+        {
+            "ID": 6802,
+            "value": "Metal"
+        },
+        {
+            "ID": 6803,
+            "value": "Rares"
+        },
+        {
+            "ID": 6804,
+            "value": "Exotica"
+        },
+        {
+            "ID": 6805,
+            "value": "Chemicals"
+        },
+        {
+            "ID": 6806,
+            "value": "Biochems"
+        },
+        {
+            "ID": 6807,
+            "value": "Electronics"
+        },
+        {
+            "ID": 6808,
+            "value": "Ceramsteel"
+        },
+        {
+            "ID": 6809,
+            "value": "Wetware"
+        },
+        {
+            "ID": 6810,
+            "value": "Fuel Cells"
+        },
+        {
+            "ID": 6811,
+            "value": "Gems"
+        },
+        {
+            "ID": 6812,
+            "value": "Jump Drives"
+        },
+        {
+            "ID": 6900,
+            "value": "Water"
+        },
+        {
+            "ID": 6901,
+            "value": "Indirect"
+        },
+        {
+            "ID": 6902,
+            "value": "Air"
+        },
+        {
+            "ID": 6903,
+            "value": "Hard"
+        },
+        {
+            "ID": 6904,
+            "value": "Soft"
+        },
+        {
+            "ID": 6905,
+            "value": "PSYCH"
+        },
+        {
+            "ID": 6906,
+            "value": "Ranged Space"
+        },
+        {
+            "ID": 6907,
+            "value": "Direct Space"
+        },
+        {
+            "ID": 6908,
+            "value": "Close Space"
+        },
+        {
+            "ID": 6909,
+            "value": "\nCan be hit by "
+        },
+        {
+            "ID": 6910,
+            "value": "\nImmune to "
+        },
+        {
+            "ID": 6911,
+            "value": ": Targets "
+        },
+        {
+            "ID": 6912,
+            "value": ": Can hit all but "
+        },
+        {
+            "ID": 6913,
+            "value": " weaponry."
+        },
+        {
+            "ID": 6914,
+            "value": " units."
+        },
+        {
+            "ID": 6915,
+            "value": "all"
+        },
+        {
+            "ID": 6916,
+            "value": " and"
+        },
+        {
+            "ID": 6917,
+            "value": "Round Order of Precedence = {}"
+        },
+        {
+            "ID": 6918,
+            "value": "To Hit Chances per Round = {}"
+        },
+        {
+            "ID": 6920,
+            "value": ""
+        },
+        {
+            "ID": 6921,
+            "value": ""
+        },
+        {
+            "ID": 6922,
+            "value": ""
+        },
+        {
+            "ID": 6923,
+            "value": ""
+        },
+        {
+            "ID": 6924,
+            "value": ""
+        },
+        {
+            "ID": 6925,
+            "value": "\nNote that this attack compares against the target's PsyDef when determining damage."
+        },
+        {
+            "ID": 6926,
+            "value": "\nNotes: 1) can bombard ground units when attacking from space and 2) if unit can move on the ground, retaliates against units that attack or land from space within a 5-hex radius."
+        },
+        {
+            "ID": 6927,
+            "value": "\nNote that weapon may have restrictions based on the unit's movement type. Check the unit's movement type for more information."
+        },
+        {
+            "ID": 6928,
+            "value": "\nNote that weapon may have restrictions based on the unit's movement type. Check the unit's movement type for more information."
+        },
+        {
+            "ID": 26555,
+            "value": "Research of %s\nhas been completed!"
+        },
+        {
+            "ID": 26900,
+            "value": "one time only"
+        },
+        {
+            "ID": 26901,
+            "value": "You receive a food bonus of %d points because of %s."
+        },
+        {
+            "ID": 26902,
+            "value": "You produced an extra %d research points because of %s."
+        },
+        {
+            "ID": 26903,
+            "value": "one time only"
+        },
+        {
+            "ID": 26904,
+            "value": "Your new units receive Expert training because of %s."
+        },
+        {
+            "ID": 26905,
+            "value": "one time only"
+        },
+        {
+            "ID": 26906,
+            "value": "You receive a %d Firebird tax bonus because of %s."
+        },
+        {
+            "ID": 26907,
+            "value": ""
+        },
+        {
+            "ID": 26908,
+            "value": "one time only"
+        },
+        {
+            "ID": 26909,
+            "value": "one time only"
+        },
+        {
+            "ID": 26910,
+            "value": "one time only"
+        },
+        {
+            "ID": 26911,
+            "value": "one time only"
+        },
+        {
+            "ID": 26912,
+            "value": "one time only"
+        },
+        {
+            "ID": 26913,
+            "value": "You were able to thwart a rebellion on %s because of %s."
+        },
+        {
+            "ID": 26914,
+            "value": "%s gets armor bonus!"
+        },
+        {
+            "ID": 26915,
+            "value": "empty"
+        },
+        {
+            "ID": 26950,
+            "value": "You lost %d research points because of %s."
+        },
+        {
+            "ID": 26951,
+            "value": "Your units rebelled anyway on %s because of %s."
+        },
+        {
+            "ID": 26952,
+            "value": "You lose %d points during production because of %s."
+        },
+        {
+            "ID": 26953,
+            "value": "-%d accuracy because of %s."
+        },
+        {
+            "ID": 26954,
+            "value": "one time only"
+        },
+        {
+            "ID": 26955,
+            "value": ""
+        },
+        {
+            "ID": 26956,
+            "value": "You lose %d tax revenue because of %s."
+        },
+        {
+            "ID": 26957,
+            "value": "You lose %d tax revenue because of %s."
+        },
+        {
+            "ID": 26958,
+            "value": ""
+        },
+        {
+            "ID": 26959,
+            "value": "one time only"
+        },
+        {
+            "ID": 26960,
+            "value": "one time only"
+        },
+        {
+            "ID": 26961,
+            "value": "empty"
+        },
+        {
+            "ID": 26962,
+            "value": "empty"
+        },
+        {
+            "ID": 26963,
+            "value": "empty"
+        },
+        {
+            "ID": 26964,
+            "value": "empty"
+        },
+        {
+            "ID": 26965,
+            "value": "empty"
+        },
+        {
+            "ID": 27000,
+            "value": "You just destroyed the city!"
+        },
+        {
+            "ID": 27001,
+            "value": "You just captured the city!"
+        },
+        {
+            "ID": 27002,
+            "value": "Attacker captures all defending units!"
+        },
+        {
+            "ID": 28976,
+            "value": "The"
+        },
+        {
+            "ID": 28977,
+            "value": "n/a"
+        },
+        {
+            "ID": 28978,
+            "value": "a"
+        },
+        {
+            "ID": 28979,
+            "value": "an"
+        },
+        {
+            "ID": 28980,
+            "value": "Consumes"
+        },
+        {
+            "ID": 28981,
+            "value": "and"
+        },
+        {
+            "ID": 28982,
+            "value": "Harvests"
+        },
+        {
+            "ID": 28983,
+            "value": "Attacker"
+        },
+        {
+            "ID": 28984,
+            "value": "Defender"
+        },
+        {
+            "ID": 28985,
+            "value": "%d FB"
+        },
+        {
+            "ID": 28986,
+            "value": "the"
+        },
+        {
+            "ID": 28987,
+            "value": "Road"
+        },
+        {
+            "ID": 28988,
+            "value": "Famine"
+        },
+        {
+            "ID": 28989,
+            "value": "Plague"
+        },
+        {
+            "ID": 28990,
+            "value": "House"
+        },
+        {
+            "ID": 28991,
+            "value": "Symbiot"
+        },
+        {
+            "ID": 28992,
+            "value": "Computer"
+        },
+        {
+            "ID": 28993,
+            "value": "%s Patriarch"
+        },
+        {
+            "ID": 28994,
+            "value": "The Leaguemeister"
+        },
+        {
+            "ID": 28995,
+            "value": "Vau"
+        },
+        {
+            "ID": 28996,
+            "value": "No one"
+        },
+        {
+            "ID": 28997,
+            "value": "None"
+        },
+        {
+            "ID": 28998,
+            "value": "me"
+        },
+        {
+            "ID": 28999,
+            "value": "you"
+        },
+        {
+            "ID": 29000,
+            "value": "Couldn't place the structure."
+        },
+        {
+            "ID": 29001,
+            "value": "Not enough Firebirds to build."
+        },
+        {
+            "ID": 29002,
+            "value": "Not enough resources to build."
+        },
+        {
+            "ID": 29003,
+            "value": "Already a structure here."
+        },
+        {
+            "ID": 29004,
+            "value": "Structure too close to another."
+        },
+        {
+            "ID": 29005,
+            "value": "Too many units in the destination area."
+        },
+        {
+            "ID": 29006,
+            "value": "Cannot land on water."
+        },
+        {
+            "ID": 29007,
+            "value": "You must land this unit before disbanding."
+        },
+        {
+            "ID": 29008,
+            "value": "Warning: you are changing the only lab researching this technology.  All research on the old technolgy will be lost."
+        },
+        {
+            "ID": 29009,
+            "value": "Already producing a unit...you'll have to wait."
+        },
+        {
+            "ID": 29010,
+            "value": "Already building a city here."
+        },
+        {
+            "ID": 29011,
+            "value": "You do not have all of the required resources to produce %s on %s."
+        },
+        {
+            "ID": 29012,
+            "value": "You do not have enough research points to pay for all of your technologies.  As a result you have lost"
+        },
+        {
+            "ID": 29013,
+            "value": "Cannot make the jump...you have selected units without jump capability."
+        },
+        {
+            "ID": 29014,
+            "value": "That unit cannot be loaded onto a transport."
+        },
+        {
+            "ID": 29015,
+            "value": "Some selected units cannot be loaded onto the transport."
+        },
+        {
+            "ID": 29016,
+            "value": "There is no transport at that location."
+        },
+        {
+            "ID": 29017,
+            "value": "You must target an enemy stack or city."
+        },
+        {
+            "ID": 29018,
+            "value": "Sorry, no messages..."
+        },
+        {
+            "ID": 29019,
+            "value": "Already a palace on this planet."
+        },
+        {
+            "ID": 29020,
+            "value": "Already a church on this planet."
+        },
+        {
+            "ID": 29021,
+            "value": "Already a shield generator on this planet."
+        },
+        {
+            "ID": 29022,
+            "value": "Cannot merge loaned unit stacks."
+        },
+        {
+            "ID": 29023,
+            "value": "You cannot afford that much."
+        },
+        {
+            "ID": 29024,
+            "value": "We cannot sell you %d of %s because there is nowhere to put it."
+        },
+        {
+            "ID": 29025,
+            "value": "This unit will be destroyed if disbanded.  Are you sure you want to continue?"
+        },
+        {
+            "ID": 29026,
+            "value": "Are you sure?"
+        },
+        {
+            "ID": 29027,
+            "value": "Only the Regent may assign offices!"
+        },
+        {
+            "ID": 29029,
+            "value": "You may only assign offices on your first turn as Regent."
+        },
+        {
+            "ID": 29200,
+            "value": "Feature not implemented yet."
+        },
+        {
+            "ID": 29201,
+            "value": "Didn't have enough resources to deduct.  Error!"
+        },
+        {
+            "ID": 29202,
+            "value": "No unit to reset.  Error!"
+        },
+        {
+            "ID": 29203,
+            "value": "StarDialog -> Stack is empty on create"
+        },
+        {
+            "ID": 29205,
+            "value": "Calculating target ratio - defense 0\nTable needs to be fixed"
+        },
+        {
+            "ID": 29206,
+            "value": "Calculating target ratio - strength 0\nTable needs to be fixed"
+        },
+        {
+            "ID": 29500,
+            "value": "Now producing a %s."
+        },
+        {
+            "ID": 29501,
+            "value": "Are you sure you want to disband this unit?"
+        },
+        {
+            "ID": 29502,
+            "value": "Are you sure you want to strike this technology?"
+        },
+        {
+            "ID": 29503,
+            "value": "Structure has %d turns left before it is finished."
+        },
+        {
+            "ID": 29504,
+            "value": "Click on the hex to land."
+        },
+        {
+            "ID": 29505,
+            "value": "Are you sure you want to quit?"
+        },
+        {
+            "ID": 29506,
+            "value": "%s has finished building on planet %s."
+        },
+        {
+            "ID": 29507,
+            "value": "Your %s has finished producing %s %s on %s."
+        },
+        {
+            "ID": 29508,
+            "value": "Transfer Cargo"
+        },
+        {
+            "ID": 29509,
+            "value": "Split Cargo"
+        },
+        {
+            "ID": 29510,
+            "value": "Done researching %s on %s."
+        },
+        {
+            "ID": 29511,
+            "value": "%s's Turn"
+        },
+        {
+            "ID": 29512,
+            "value": "A.D. %d"
+        },
+        {
+            "ID": 29513,
+            "value": "Retreat cut off!"
+        },
+        {
+            "ID": 29514,
+            "value": "Do you want to attack your ally?"
+        },
+        {
+            "ID": 29515,
+            "value": "My Lord, we are not at war with %s %s.\nShall we attack anyway?"
+        },
+        {
+            "ID": 29516,
+            "value": "Ambush!"
+        },
+        {
+            "ID": 29517,
+            "value": "Who do you want to attack?"
+        },
+        {
+            "ID": 29518,
+            "value": "Who do you want to look at?"
+        },
+        {
+            "ID": 29519,
+            "value": "You must assign someone to every office"
+        },
+        {
+            "ID": 29520,
+            "value": "You have %d votes to cast"
+        },
+        {
+            "ID": 29521,
+            "value": "You have 1 vote to cast"
+        },
+        {
+            "ID": 29522,
+            "value": "%s, click on house icon to cast your votes for Regent."
+        },
+        {
+            "ID": 29523,
+            "value": "You have selected space ships that have no more move points left."
+        },
+        {
+            "ID": 29524,
+            "value": "Attacker (%s)"
+        },
+        {
+            "ID": 29525,
+            "value": "Defender (%s)"
+        },
+        {
+            "ID": 29526,
+            "value": "Weapon Phase: %s"
+        },
+        {
+            "ID": 29527,
+            "value": "Dead"
+        },
+        {
+            "ID": 29528,
+            "value": "Routed"
+        },
+        {
+            "ID": 29529,
+            "value": "Choose hex to bombard."
+        },
+        {
+            "ID": 29530,
+            "value": "Loading galaxy, please wait..."
+        },
+        {
+            "ID": 29531,
+            "value": "Loading save game, please wait..."
+        },
+        {
+            "ID": 29532,
+            "value": "Prod:  %d%%"
+        },
+        {
+            "ID": 29533,
+            "value": "{} of House {} has been declared the new Regent."
+        },
+        {
+            "ID": 29534,
+            "value": " is now the Stigmata Garrison Commander."
+        },
+        {
+            "ID": 29535,
+            "value": " is now the Minister of the Imperial Eye."
+        },
+        {
+            "ID": 29536,
+            "value": " is now the Imperial Fleet Commander."
+        },
+        {
+            "ID": 29537,
+            "value": " has been eliminated from the game."
+        },
+        {
+            "ID": 29538,
+            "value": "All messages must be responded to before ending your turn.  Do you wish to read them now?"
+        },
+        {
+            "ID": 29539,
+            "value": "My Lord, the League demands %d Imperial Firebirds.  Will you pay?"
+        },
+        {
+            "ID": 29540,
+            "value": "My Lord, we are in debt!!! For each %d Firebirds of debt we will lose %d loyalty for a total loyalty loss of %d over the next few years increasing the chance of Rebellion! Are you sure you want to end your turn?"
+        },
+        {
+            "ID": 29541,
+            "value": "My Lord, House %s is our ally!\nShall we attack anyway?"
+        },
+        {
+            "ID": 29542,
+            "value": "Too many units to fit on transport."
+        },
+        {
+            "ID": 29543,
+            "value": "Garrison Commander"
+        },
+        {
+            "ID": 29544,
+            "value": "Imperial Eye"
+        },
+        {
+            "ID": 29545,
+            "value": "Fleet Commander"
+        },
+        {
+            "ID": 29546,
+            "value": "You have no more labs and therefore cannot afford to maintain any of your technologies.  You have lost all of your technologies."
+        },
+        {
+            "ID": 29547,
+            "value": "%s and %s."
+        },
+        {
+            "ID": 29548,
+            "value": "Harvested in %ss and %ss."
+        },
+        {
+            "ID": 29549,
+            "value": "Harvested in %ss."
+        },
+        {
+            "ID": 29550,
+            "value": "Produces %d %s"
+        },
+        {
+            "ID": 29551,
+            "value": "Are you sure you wish to build nothing?"
+        },
+        {
+            "ID": 29552,
+            "value": "You haven't selected anything to build.  Do you still wish to exit?"
+        },
+        {
+            "ID": 29553,
+            "value": "You have been eliminated from the game"
+        },
+        {
+            "ID": 29554,
+            "value": "Do you wish to sell cargo or attack?"
+        },
+        {
+            "ID": 29556,
+            "value": "%s signed the Holy Writ"
+        },
+        {
+            "ID": 29557,
+            "value": "You promised that office already!"
+        },
+        {
+            "ID": 29558,
+            "value": "Famine on planet %s!"
+        },
+        {
+            "ID": 29559,
+            "value": "%s %s and %s %s\nare now at war."
+        },
+        {
+            "ID": 29560,
+            "value": "%s %s and %s %s\nhave made an alliance."
+        },
+        {
+            "ID": 29561,
+            "value": "Both parties are non-combat units, so no combat occurs."
+        },
+        {
+            "ID": 29562,
+            "value": "Air units cannot capture cities or units."
+        },
+        {
+            "ID": 29563,
+            "value": "Not all of your units have been moved.  Are you sure you want to end your turn?"
+        },
+        {
+            "ID": 29564,
+            "value": "Unspotted units from %s %s are here.  We are not at war with them.  Shall we attack anyway?"
+        },
+        {
+            "ID": 29565,
+            "value": "Unspotted units from %s %s are here.  We are allied with them.  Shall we attack anyway?"
+        },
+        {
+            "ID": 29566,
+            "value": "You failed to make your last loan payment.  If you do not pay now, we will have to seize all of your assets.\nYou owe %d Imperial Firebirds."
+        },
+        {
+            "ID": 29567,
+            "value": "The Patriarch has died."
+        },
+        {
+            "ID": 29568,
+            "value": "Your air units ran out of fuel!"
+        },
+        {
+            "ID": 29569,
+            "value": "The League has declared a trade embargo on you."
+        },
+        {
+            "ID": 29570,
+            "value": "The new Patriarch is %s!"
+        },
+        {
+            "ID": 29571,
+            "value": "The Patriarch has deemed %s\nodious to humanity."
+        },
+        {
+            "ID": 29572,
+            "value": " Wins!"
+        },
+        {
+            "ID": 29573,
+            "value": "You have been excommunicated!"
+        },
+        {
+            "ID": 29574,
+            "value": "Excommunication has been lifted."
+        },
+        {
+            "ID": 29575,
+            "value": "Someone in your group cannot bombard"
+        },
+        {
+            "ID": 29576,
+            "value": "I am no longer allied to you."
+        },
+        {
+            "ID": 29577,
+            "value": "I will kill you!"
+        },
+        {
+            "ID": 29578,
+            "value": "Our feud has ended...for now."
+        },
+        {
+            "ID": 29579,
+            "value": "You have enraged me!  Feel the wrath of my plague bomb!"
+        },
+        {
+            "ID": 29580,
+            "value": "You have found the ancient knowledge of %s!"
+        },
+        {
+            "ID": 29581,
+            "value": "Plague on %s."
+        },
+        {
+            "ID": 29583,
+            "value": "%d lost %s have pledged fealty to your noble house!"
+        },
+        {
+            "ID": 29584,
+            "value": "Your archeologist has found %d points of %s\nburied beneath the ruins."
+        },
+        {
+            "ID": 29585,
+            "value": "You cannot land on another's units"
+        },
+        {
+            "ID": 29586,
+            "value": "Your archeologist has found the holy relic of %s!"
+        },
+        {
+            "ID": 29587,
+            "value": "%d lost %s has pledged fealty to your noble house!"
+        },
+        {
+            "ID": 29588,
+            "value": "Cannot find the file %s!"
+        },
+        {
+            "ID": 29589,
+            "value": "An error occurred saving the game!"
+        },
+        {
+            "ID": 29590,
+            "value": "That was an unprovoked attack, we are now at war!"
+        },
+        {
+            "ID": 29591,
+            "value": "Save Game Version %d is no longer valid and cannot be converted."
+        },
+        {
+            "ID": 29592,
+            "value": "The city does not have enough people manning it to produce anything."
+        },
+        {
+            "ID": 29593,
+            "value": "You do not have the required unit to produce this unit."
+        },
+        {
+            "ID": 29594,
+            "value": "You cannot unload cargo in space!"
+        },
+        {
+            "ID": 29595,
+            "value": "You cannot build a city on top of another city."
+        },
+        {
+            "ID": 29596,
+            "value": "You cannot build a city in space."
+        },
+        {
+            "ID": 29597,
+            "value": "You cannot unload cargo on the ocean!"
+        },
+        {
+            "ID": 29598,
+            "value": "To move land units onto a naval transport, you must move to an adjacent hex first."
+        },
+        {
+            "ID": 29599,
+            "value": "No place to unload cargo!"
+        },
+        {
+            "ID": 29600,
+            "value": "My Lord, we cannot bombard our own subjects!"
+        },
+        {
+            "ID": 29601,
+            "value": "Shield generator prevents bombardment!"
+        },
+        {
+            "ID": 29602,
+            "value": "Attacker has hidden units!"
+        },
+        {
+            "ID": 29603,
+            "value": "Defender has hidden units!"
+        },
+        {
+            "ID": 29604,
+            "value": "Your units have rallied!"
+        },
+        {
+            "ID": 29605,
+            "value": "Their units have rallied!"
+        },
+        {
+            "ID": 29606,
+            "value": "You have moved all of your units.\nDo you wish to end your turn now?"
+        },
+        {
+            "ID": 29607,
+            "value": "There are no units here to build anything"
+        },
+        {
+            "ID": 29608,
+            "value": "You cannot move a group that is sentried!"
+        },
+        {
+            "ID": 29609,
+            "value": "Your group has some non-space units."
+        },
+        {
+            "ID": 29610,
+            "value": "We lost our map of this planet long ago. We must send a ship there or buy the information from another party."
+        },
+        {
+            "ID": 29611,
+            "value": "You are not allowed to make any office changes once you quit.  Are you sure you want to leave?"
+        },
+        {
+            "ID": 29612,
+            "value": "Transport is full."
+        },
+        {
+            "ID": 29613,
+            "value": "You have chosen a location without a city.  Your ships will take damage if they do not have landing capabilities.  Do you still wish to land?"
+        },
+        {
+            "ID": 29614,
+            "value": "Loading support files..."
+        },
+        {
+            "ID": 29615,
+            "value": "The Merchant League is currently paying %d per point."
+        },
+        {
+            "ID": 29616,
+            "value": "Are you sure you want to cancel production and start building a\n%s?"
+        },
+        {
+            "ID": 29617,
+            "value": "Razing a city is irreversible.  Are you sure you want to do this?"
+        },
+        {
+            "ID": 29618,
+            "value": "Do you want to unload cargo?"
+        },
+        {
+            "ID": 29619,
+            "value": "Rebellion on %s!"
+        },
+        {
+            "ID": 29620,
+            "value": "Rebel units have dispersed to the countryside."
+        },
+        {
+            "ID": 29621,
+            "value": "The Patriarch has deemed %s\nodious to humanity.\n\nDo you wish to research it anyway?"
+        },
+        {
+            "ID": 29622,
+            "value": "Are you sure you wish to research nothing?"
+        },
+        {
+            "ID": 29623,
+            "value": "This category's opening technology is already known."
+        },
+        {
+            "ID": 29624,
+            "value": "Category opening technology not researched yet."
+        },
+        {
+            "ID": 29625,
+            "value": "Lab researches %d points/turn."
+        },
+        {
+            "ID": 29626,
+            "value": "Are you sure you want to research %s?"
+        },
+        {
+            "ID": 29627,
+            "value": "Are you sure you want to produce %s %s?"
+        },
+        {
+            "ID": 29628,
+            "value": "SCORE"
+        },
+        {
+            "ID": 29629,
+            "value": "Turn %d"
+        },
+        {
+            "ID": 29630,
+            "value": "Are you sure you want to cancel production and build nothing?"
+        },
+        {
+            "ID": 29631,
+            "value": "A concerned warlock gives you 3 technologies to even your odds against the other houses, and disappears into the wilderness.  Of course, he may have a favor to ask you in the future..."
+        },
+        {
+            "ID": 29632,
+            "value": "(Currently producing %s %s.)"
+        },
+        {
+            "ID": 29633,
+            "value": "You can only load transports by dragging the cargo onto the transport"
+        },
+        {
+            "ID": 29634,
+            "value": "You do not have the required resources to start producing %s\n%s.  Normally you could purchase those resources from the League, but they have imposed a trade embargo on you."
+        },
+        {
+            "ID": 29635,
+            "value": "You do not have the required resources to start producing %s\n%s.  Normally you could purchase those resources from the League, but you have either not found the Leaguehall or there isn't one on this planet."
+        },
+        {
+            "ID": 29636,
+            "value": "You do not have the required resources to start"
+        },
+        {
+            "ID": 29637,
+            "value": "producing %s %s."
+        },
+        {
+            "ID": 29638,
+            "value": "The League doesn't have enough of the resources to sell to you."
+        },
+        {
+            "ID": 29639,
+            "value": "You don't have enough Firebirds to purchase the resources."
+        },
+        {
+            "ID": 29640,
+            "value": "Do you wish to purchase these resources and start producing?"
+        },
+        {
+            "ID": 29641,
+            "value": "You have %d Firebirds and you need:"
+        },
+        {
+            "ID": 29642,
+            "value": "You cannot land on %s %s."
+        },
+        {
+            "ID": 29643,
+            "value": "Regent elections will happen next turn."
+        },
+        {
+            "ID": 29644,
+            "value": "%s of House %s"
+        },
+        {
+            "ID": 29645,
+            "value": "Missing required tech"
+        },
+        {
+            "ID": 29646,
+            "value": " out of a max of"
+        },
+        {
+            "ID": 29647,
+            "value": "Loyalty: %d%%"
+        },
+        {
+            "ID": 29648,
+            "value": "The Symbiots have captured a city on %s!"
+        },
+        {
+            "ID": 29649,
+            "value": "We come with fire to destroy your heretical labs.  Remove your garrisons lest you anger us more!"
+        },
+        {
+            "ID": 29650,
+            "value": "The Merchant League has declared the Third Republic, declaring war on all Houses!"
+        },
+        {
+            "ID": 29651,
+            "value": "Humans of planet x, prepare to embrace the hive mind..."
+        },
+        {
+            "ID": 29652,
+            "value": "The Inquisition burned a lab on %s belonging to %s %s!"
+        },
+        {
+            "ID": 29653,
+            "value": "A noble from %s %s has been assassinated!"
+        },
+        {
+            "ID": 29654,
+            "value": "Your forces on %s have contracted the great plague!"
+        },
+        {
+            "ID": 29655,
+            "value": "Rumor has it that forces from %s %s have contracted the plague on %s!"
+        },
+        {
+            "ID": 29666,
+            "value": "You have already assigned Minitries this term."
+        },
+        {
+            "ID": 29667,
+            "value": " has laid claim to the emperor's crown.  New elections must take place next turn to decide the legitimacy of this claim."
+        },
+        {
+            "ID": 29668,
+            "value": "{} of House {} has gathered the support necessary to become emperor. Other houses have 10 turns before the rest of humanity recognizes this claim."
+        },
+        {
+            "ID": 29669,
+            "value": "{} of House {} has become Emperor of the Fading Suns!"
+        },
+        {
+            "ID": 29670,
+            "value": "You cannot land on a city that is not owned by you."
+        },
+        {
+            "ID": 29671,
+            "value": "You are at war with the League and cannot trade!"
+        },
+        {
+            "ID": 29672,
+            "value": "Are you sure you want to return to the main menu? Any unsaved progress will be lost."
+        },
+        {
+            "ID": 29673,
+            "value": "%d %s at"
+        },
+        {
+            "ID": 29674,
+            "value": "%d Firebirds"
+        },
+        {
+            "ID": 29675,
+            "value": "For a total production cost of %d Firebirds"
+        },
+        {
+            "ID": 29676,
+            "value": "A noble from %s %s has been killed!"
+        },
+        {
+            "ID": 29677,
+            "value": "You cannot vote this turn because you have no nobles on Byzantium II."
+        },
+        {
+            "ID": 29678,
+            "value": "Setting the spotting flags for units and cities..."
+        },
+        {
+            "ID": 29679,
+            "value": "Limited Engagement!"
+        },
+        {
+            "ID": 29680,
+            "value": ", all of your nobles have been eliminated!  You lose!"
+        },
+        {
+            "ID": 29681,
+            "value": "Bonuses/Minuses"
+        },
+        {
+            "ID": 29682,
+            "value": "Combat is restriced on Byzantium II until someone has made a claim to the emperor's crown.  Until that time, only spies, submarines, and stealth ships are permitted to engage in combat."
+        },
+        {
+            "ID": 29683,
+            "value": "You can only load an air unit onto a naval carrier or space transport."
+        },
+        {
+            "ID": 29684,
+            "value": "Saving game..."
+        },
+        {
+            "ID": 29685,
+            "value": "A space ship may only make one jump per turn."
+        },
+        {
+            "ID": 29686,
+            "value": "Are you sure you want to cast your votes for %s of House %s?"
+        },
+        {
+            "ID": 29687,
+            "value": "{} of House {} has failed to gather the support necessary to become emperor."
+        },
+        {
+            "ID": 29688,
+            "value": "Your subjects will lose 20 loyalty on this planet because you moved all of your nobles out of the palace."
+        },
+        {
+            "ID": 29689,
+            "value": "Your subjects will gain 20 loyalty on this planet because you moved some nobles into the palace."
+        },
+        {
+            "ID": 29690,
+            "value": "You cannot raze a city in the ocean."
+        },
+        {
+            "ID": 29691,
+            "value": "You must unload cargo before disbanding them."
+        },
+        {
+            "ID": 29692,
+            "value": "You must be in a city before disbanding naval units."
+        },
+        {
+            "ID": 29693,
+            "value": "You must unload a transport before disbanding it."
+        },
+        {
+            "ID": 29694,
+            "value": "You are not permitted to build cities on Byzantium II."
+        },
+        {
+            "ID": 29695,
+            "value": "Are you sure you want to lay a claim to the emperor's crown?"
+        },
+        {
+            "ID": 29696,
+            "value": "No one had a majority of votes, so the Regent remains the same."
+        },
+        {
+            "ID": 29697,
+            "value": "{} of House {} won the election, but cannot preside as Regent because {} has no nobles on Byzantium II."
+        },
+        {
+            "ID": 29698,
+            "value": "\n\nHowever, you do not have anywhere to put your new unit.  Move some units out of this location and the unit will produce next turn."
+        },
+        {
+            "ID": 29699,
+            "value": "This technology is known."
+        },
+        {
+            "ID": 29700,
+            "value": "We are currently researching this technology."
+        },
+        {
+            "ID": 29701,
+            "value": "We can research this technology."
+        },
+        {
+            "ID": 29702,
+            "value": "Researching "
+        },
+        {
+            "ID": 29703,
+            "value": " will get us closer to this technology."
+        },
+        {
+            "ID": 29704,
+            "value": "This lab was also reasearching %s.\nChoose another technology."
+        },
+        {
+            "ID": 29705,
+            "value": "You have %d research points available."
+        },
+        {
+            "ID": 29706,
+            "value": "Allows:"
+        },
+        {
+            "ID": 29707,
+            "value": "Requires: Nothing"
+        },
+        {
+            "ID": 29708,
+            "value": "Requires:"
+        },
+        {
+            "ID": 29709,
+            "value": "You have successfully researched all technologies."
+        },
+        {
+            "ID": 29710,
+            "value": "You cannot enter an amount less than or equal to 0."
+        },
+        {
+            "ID": 29711,
+            "value": "You have lowered unit pay such that your units will lose %d loyalty.  This will increase the chance of a rebellion.  Are you sure you want to do this?"
+        },
+        {
+            "ID": 29712,
+            "value": "You cannot secure a loan when you are at war with the League."
+        },
+        {
+            "ID": 29713,
+            "value": "You have already secured a loan with the League."
+        },
+        {
+            "ID": 29714,
+            "value": "You must assign all of the offices!"
+        },
+        {
+            "ID": 29715,
+            "value": "Please wait while I create the world."
+        },
+        {
+            "ID": 29716,
+            "value": "%s cheated!"
+        },
+        {
+            "ID": 29717,
+            "value": "Noble retreat bonus"
+        },
+        {
+            "ID": 29718,
+            "value": "Officer retreat bonus"
+        },
+        {
+            "ID": 29719,
+            "value": "Battlemaster bonus"
+        },
+        {
+            "ID": 29720,
+            "value": "Inept Military Training"
+        },
+        {
+            "ID": 29721,
+            "value": "%s bonus"
+        },
+        {
+            "ID": 29722,
+            "value": "Saving planet %s to %s..."
+        },
+        {
+            "ID": 29723,
+            "value": "%d turn left"
+        },
+        {
+            "ID": 29724,
+            "value": "%d turns left"
+        },
+        {
+            "ID": 29725,
+            "value": "Requires %d Firebirds per turn."
+        },
+        {
+            "ID": 29726,
+            "value": "You do not have enough Firebirds to fund research at all your labs."
+        },
+        {
+            "ID": 29727,
+            "value": "You have raised your taxes such that your cities will lose %d loyalty.  This will increase the chance of a rebellion.  Are you sure you want to do this?"
+        },
+        {
+            "ID": 29728,
+            "value": "Can't write to file %s!"
+        },
+        {
+            "ID": 29729,
+            "value": "Vau Psychology bonus"
+        },
+        {
+            "ID": 29730,
+            "value": "Symbiot Psychology bonus"
+        },
+        {
+            "ID": 29731,
+            "value": "Version %d.%d %s"
+        },
+        {
+            "ID": 29732,
+            "value": "Game data CRC failure by player %d, %s. (This player OR the previous player may be cheating.)"
+        },
+        {
+            "ID": 29733,
+            "value": "Your game data CRC does not match the previous player's. One or both of you modified the game tables."
+        },
+        {
+            "ID": 29734,
+            "value": "PBEM Security requires version 1.3. Player %d, %s used an older version and security was NOT checked!"
+        },
+        {
+            "ID": 29735,
+            "value": "May not save mid-turn in secure PBEM games."
+        },
+        {
+            "ID": 29736,
+            "value": "The PBEM security features were disabled."
+        },
+        {
+            "ID": 29737,
+            "value": "The PBEM security features were enabled."
+        },
+        {
+            "ID": 29738,
+            "value": "Password typed incorrectly, first does not match second. Passwords are case sensitive."
+        },
+        {
+            "ID": 29739,
+            "value": "Incorrect password!"
+        },
+        {
+            "ID": 29740,
+            "value": "Beta version"
+        },
+        {
+            "ID": 29741,
+            "value": "Final"
+        },
+        {
+            "ID": 29742,
+            "value": "This unit cannot be disbanded!"
+        },
+        {
+            "ID": 29743,
+            "value": "Noble + Officer retreat bonus"
+        },
+        {
+            "ID": 29744,
+            "value": "Noble + Officer accuracy bonus"
+        },
+        {
+            "ID": 29745,
+            "value": "Noble accuracy bonus"
+        },
+        {
+            "ID": 29746,
+            "value": "Officer accuracy bonus"
+        },
+        {
+            "ID": 29747,
+            "value": "Noble + Officer agility bonus"
+        },
+        {
+            "ID": 29748,
+            "value": "Noble agility bonus"
+        },
+        {
+            "ID": 29749,
+            "value": "Officer agility bonus"
+        },
+        {
+            "ID": 29750,
+            "value": "Loyalty: %d%% (Now) -> %d%% (Will Be)"
+        },
+        {
+            "ID": 29751,
+            "value": "Adding Fleets to Designated Planets..."
+        },
+        {
+            "ID": 29752,
+            "value": "Removing Fleets from Designated Planets..."
+        },
+        {
+            "ID": 29753,
+            "value": "Are you sure you wish to procedurally add designated fleets to all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29754,
+            "value": "Are you sure you wish to procedurally remove designated fleets from all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29755,
+            "value": "Please save your galaxy first!"
+        },
+        {
+            "ID": 29756,
+            "value": "Please add at least 1 planet (and name it)!"
+        },
+        {
+            "ID": 29757,
+            "value": "Please add at least 1 jumpgate!"
+        },
+        {
+            "ID": 29758,
+            "value": "Adding Structures to Designated Planets..."
+        },
+        {
+            "ID": 29759,
+            "value": "Removing Structures from Designated Planets..."
+        },
+        {
+            "ID": 29760,
+            "value": "Are you sure you wish to procedurally add designated structures to all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29761,
+            "value": "Are you sure you wish to procedurally remove designated structures from all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29762,
+            "value": "Adding Units to Designated Planets..."
+        },
+        {
+            "ID": 29763,
+            "value": "Removing Units from Designated Planets..."
+        },
+        {
+            "ID": 29764,
+            "value": "Are you sure you wish to procedurally add designated units to all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29765,
+            "value": "Are you sure you wish to procedurally remove designated units from all matching planets via the INI file settings?"
+        },
+        {
+            "ID": 29766,
+            "value": "Can't unload units onto terrain that they can't move on!"
+        },
+        {
+            "ID": 29767,
+            "value": "For PBEM Games You Must Save Your Game!!!\n%s is not a valid file name..."
+        },
+        {
+            "ID": 29768,
+            "value": "The Patriarch has decided that %s is no longer odious to humanity and may be freely researched again... For now..."
+        },
+        {
+            "ID": 29769,
+            "value": "%dK FB"
+        },
+        {
+            "ID": 29770,
+            "value": "You do not have enough Firebirds to build the unit."
+        },
+        {
+            "ID": 29771,
+            "value": "Insufficient Firebirds to buy resources and pay unit cost to build!"
+        },
+        {
+            "ID": 29772,
+            "value": "Even though this air unit ran out of fuel you can recover and refuel it with a transport!\nNote: It is stranded until you do this and vulnerable to capture!"
+        },
+        {
+            "ID": 29773,
+            "value": "Please name your planet first!"
+        },
+        {
+            "ID": 29774,
+            "value": "Would you like to move your transport into the city?"
+        },
+        {
+            "ID": 29775,
+            "value": "Planetary Flock: %s - %d"
+        },
+        {
+            "ID": 29776,
+            "value": "{} received {} votes.\n"
+        },
+        {
+            "ID": 29777,
+            "value": "The map has been saved as {}.\n"
+        },
+        {
+            "ID": 29780,
+            "value": "You receive %d more in taxes \nbecause of %s!"
+        },
+        {
+            "ID": 29781,
+            "value": " "
+        },
+        {
+            "ID": 29782,
+            "value": "You receive a food bonus of %d\non planet %s because of\n%s!"
+        },
+        {
+            "ID": 29783,
+            "value": "You avoid the plague on %s because of %s!"
+        },
+        {
+            "ID": 29784,
+            "value": " "
+        },
+        {
+            "ID": 29785,
+            "value": " "
+        },
+        {
+            "ID": 29786,
+            "value": " "
+        },
+        {
+            "ID": 29787,
+            "value": "You receive a research bonus of %d\nin your lab on %s\nbecause of %s!"
+        },
+        {
+            "ID": 29788,
+            "value": "You receive a production bonus\nin your %s on %s\nbecause of %s!"
+        },
+        {
+            "ID": 29789,
+            "value": " "
+        },
+        {
+            "ID": 29790,
+            "value": "You avoid the plague on %s because of %s!"
+        },
+        {
+            "ID": 29794,
+            "value": "Your Unit Pay is Reduced %d%% because of %s!"
+        },
+        {
+            "ID": 29795,
+            "value": "Your Tithe Collection is Increased +%d%% because of %s!"
+        },
+        {
+            "ID": 29797,
+            "value": "You receive a healing bonus of %d\non planet %s because of\n%s!"
+        },
+        {
+            "ID": 29800,
+            "value": "Skips current units. They will not ask to be moved again."
+        },
+        {
+            "ID": 29801,
+            "value": "Current units will wait to move until other units have moved."
+        },
+        {
+            "ID": 29802,
+            "value": "Sentry all selected units."
+        },
+        {
+            "ID": 29803,
+            "value": "Tells units to move along their move-to orders if they have them."
+        },
+        {
+            "ID": 29804,
+            "value": "Group all."
+        },
+        {
+            "ID": 29805,
+            "value": "View stack."
+        },
+        {
+            "ID": 29806,
+            "value": "Go to starmap."
+        },
+        {
+            "ID": 29807,
+            "value": "Launch ships into orbit."
+        },
+        {
+            "ID": 29808,
+            "value": "{} of House {} has been declared the new Regent and has assumed control of the Imperial Guard."
+        },
+        {
+            "ID": 29809,
+            "value": "%d t"
+        },
+        {
+            "ID": 29850,
+            "value": "Consuming %d points on this planet."
+        },
+        {
+            "ID": 29851,
+            "value": "Consuming %d points galaxywide."
+        },
+        {
+            "ID": 29852,
+            "value": "Harvesting %d points on this planet."
+        },
+        {
+            "ID": 29853,
+            "value": "Harvesting %d points galaxywide."
+        },
+        {
+            "ID": 29854,
+            "value": "Producing %d points on this planet."
+        },
+        {
+            "ID": 29855,
+            "value": "Producing %d points galaxywide."
+        },
+        {
+            "ID": 29856,
+            "value": "Eating %d points on this planet."
+        },
+        {
+            "ID": 29857,
+            "value": "Eating %d points galaxywide."
+        },
+        {
+            "ID": 29858,
+            "value": "Total Income: %d"
+        },
+        {
+            "ID": 29859,
+            "value": "Total Expenses: %d"
+        },
+        {
+            "ID": 29860,
+            "value": "Loan"
+        },
+        {
+            "ID": 29861,
+            "value": "Tithe Skim"
+        },
+        {
+            "ID": 29974,
+            "value": "On"
+        },
+        {
+            "ID": 29975,
+            "value": "Off"
+        },
+        {
+            "ID": 30000,
+            "value": "Thank you for playing the Emperor of the Fading Suns demo!"
+        },
+        {
+            "ID": 30001,
+            "value": "Monkey says, \"You haven't found all of the demo checks!  If you like this game so much, why don't you buy it?\""
+        },
+        {
+            "ID": 30002,
+            "value": "Thank you for playing!\n\nPlease wishlist Emperor of the Fading Suns to:\n\nBattle through custom and random interstellar maps\n\nEnjoy unlimited game play with unique and innovative mods\n\nExplore the full tech tree, build advanced units, and become Emperor\n\nYour quest has just begun!"
+        },
+        {
+            "ID": 30003,
+            "value": "Not available in demo."
+        },
+        {
+            "ID": 31000,
+            "value": "Infinite loop in combat"
+        },
+        {
+            "ID": 31100,
+            "value": "Sorry, no unresolved contracts."
+        },
+        {
+            "ID": 31200,
+            "value": "Would you like to board your Transport(s)?"
+        },
+        {
+            "ID": 31201,
+            "value": "Would you like to unload all of\nyour transport group's cargo?"
+        },
+        {
+            "ID": 31202,
+            "value": "Your transport group is out of movement points\nWould you like to go to next group?"
+        },
+        {
+            "ID": 31203,
+            "value": "Bombarding Empty Hexes Costs 1 Movement Point!"
+        },
+        {
+            "ID": 31204,
+            "value": "One or More Units Out of Movement Points!"
+        },
+        {
+            "ID": 31300,
+            "value": "You have increased your Tithe Skim such that your City & Unit Maximum Loyalty will be reduced. This will limit the Maximum Loyalty of your cities & units to %d loyalty. Are you sure you want to do this?"
+        },
+        {
+            "ID": 31400,
+            "value": "You need this technology for current research. All progress will be lost. Are you sure you want to strike it?"
+        },
+        {
+            "ID": 31401,
+            "value": "%s cannot be built because it required tech %s."
+        },
+        {
+            "ID": 31500,
+            "value": "Religious %s"
+        },
+        {
+            "ID": 31501,
+            "value": "Rebellion Theft!\n\nDuring the rebellion, the rebels stole some of your resources to build rebel units!"
+        },
+        {
+            "ID": 31600,
+            "value": "The zealousness of your Sect has born fruit!\nYou have discovered another Ruin Gift!"
+        },
+        {
+            "ID": 31601,
+            "value": "%s (%d%% by %d) -> Planet Sect: %s"
+        },
+        {
+            "ID": 31602,
+            "value": "%s %d%% -> Planet Sect: %s"
+        },
+        {
+            "ID": 31603,
+            "value": "%s (%d%% by %d) -> Patriarch Sect: %s"
+        },
+        {
+            "ID": 31604,
+            "value": "%s %d%% -> Patriarch Sect: %s"
+        },
+        {
+            "ID": 31605,
+            "value": " - Healing Rate: %d%%/turn"
+        },
+        {
+            "ID": 31606,
+            "value": "%s/Unit Healing Rate: %d%%/turn"
+        },
+        {
+            "ID": 31607,
+            "value": "Research: +%d%%"
+        },
+        {
+            "ID": 31608,
+            "value": "Research: %d%%"
+        },
+        {
+            "ID": 31609,
+            "value": " ($%d/turn)"
+        },
+        {
+            "ID": 31610,
+            "value": " None"
+        },
+        {
+            "ID": 31611,
+            "value": "You can only change Sects on this planet every %d years.\nYou must wait %d more year before you can change Sects on this planet!"
+        },
+        {
+            "ID": 31612,
+            "value": "You can only change Sects on this planet every %d years.\nYou must wait %d years before you can change Sects on this planet!"
+        },
+        {
+            "ID": 31613,
+            "value": "City Sect: "
+        },
+        {
+            "ID": 31614,
+            "value": "Health: %d%%"
+        },
+        {
+            "ID": 31615,
+            "value": "Maint: "
+        },
+        {
+            "ID": 31616,
+            "value": "Units Built Here Healing Rate: +%d%%/turn"
+        },
+        {
+            "ID": 31617,
+            "value": "Foot & Units Built Here Healing Rate: +%d%%/turn"
+        },
+        {
+            "ID": 31618,
+            "value": "Non-space Mechanical & Units Built Here Healing Rate: +%d%%/turn"
+        },
+        {
+            "ID": 31619,
+            "value": "Space Units & Units Built Here Healing Rate: +%d%%/turn"
+        },
+        {
+            "ID": 31620,
+            "value": "Naval / Underwater & Units Built Here Healing Rate: +%d%%/turn"
+        },
+        {
+            "ID": 31621,
+            "value": "Structure Agility: %d / Armor: %d / Unit Armor Factor: %3.2f"
+        },
+        {
+            "ID": 31700,
+            "value": "There seems to be no church on Holy Terra.  You can still play the game, but it won't be very much fun."
+        },
+        {
+            "ID": 31701,
+            "value": "There seems to be no Patriarch on Holy Terra.  You can still play the game, but it won't be very much fun."
+        },
+        {
+            "ID": 32000,
+            "value": "Select Planet Type"
+        },
+        {
+            "ID": 32001,
+            "value": "Unit must be placed on a planet."
+        },
+        {
+            "ID": 32002,
+            "value": "You cannot have two planets that close."
+        },
+        {
+            "ID": 32003,
+            "value": "You have reached the planet limit."
+        },
+        {
+            "ID": 32004,
+            "value": "Planet too close to edge of galaxy."
+        },
+        {
+            "ID": 32005,
+            "value": "Are you sure you want to delete all units (%s) owned by %s?"
+        },
+        {
+            "ID": 32006,
+            "value": "Are you sure you want to delete all the units (%s) on this planet?"
+        },
+        {
+            "ID": 32007,
+            "value": "Are you sure you want to delete all structures owned by %s?"
+        },
+        {
+            "ID": 32008,
+            "value": "Are you sure you want to delete all the structures (includes roads) on this planet?"
+        },
+        {
+            "ID": 32009,
+            "value": "Are you sure you want to add units (%s) owned by %s?"
+        },
+        {
+            "ID": 32010,
+            "value": "Are you sure you want to add all the units (%s) for all players on this planet?"
+        },
+        {
+            "ID": 32011,
+            "value": "Are you sure you want to add structures owned by %s?"
+        },
+        {
+            "ID": 32012,
+            "value": "Are you sure you want to add all the structures for all players on this planet?"
+        },
+        {
+            "ID": 32013,
+            "value": "Include Orbiting Units?"
+        },
+        {
+            "ID": 32014,
+            "value": "You cannot add any more Relics! Please Select Cancel!"
+        },
+        {
+            "ID": 32015,
+            "value": "Are you sure you want to add fleets (%s) owned by %s?"
+        },
+        {
+            "ID": 32016,
+            "value": "Are you sure you want to add all the fleets for all players on this planet?"
+        },
+        {
+            "ID": 32017,
+            "value": "Are you sure you want to remove fleets (%s) owned by %s?"
+        },
+        {
+            "ID": 32018,
+            "value": "Are you sure you want to remove all the fleets for all players on this planet?"
+        },
+        {
+            "ID": 32019,
+            "value": "The Home World for %s is %s.\nDo you want to change it to %s?"
+        },
+        {
+            "ID": 32020,
+            "value": "%s is already the Home World of %s."
+        },
+        {
+            "ID": 32021,
+            "value": "%s is already the Home World of %s.\n\nWould you like to reset the Home World for %s to %s and then change the Home World of %s from %s to %s?"
+        },
+        {
+            "ID": 32022,
+            "value": "Export Unit Data?"
+        },
+        {
+            "ID": 32023,
+            "value": "Export City Data?"
+        },
+        {
+            "ID": 32024,
+            "value": "Nothing Selected - nothing to do!\n\nPlease select at least Units or Cities (or both)!"
+        },
+        {
+            "ID": 32025,
+            "value": "Are you sure you want to export data for %s?"
+        },
+        {
+            "ID": 32026,
+            "value": "Are you sure you want to export all data for all players?"
+        },
+        {
+            "ID": 32027,
+            "value": "Are you sure you want to delete all units (%s) owned by %s for all planets?"
+        },
+        {
+            "ID": 32028,
+            "value": "Are you sure you want to delete all the units (%s) on all planets?"
+        },
+        {
+            "ID": 32029,
+            "value": "Are you sure you want to delete all structures owned by %s for all planets?"
+        },
+        {
+            "ID": 32030,
+            "value": "Are you sure you want to delete all the structures (includes roads) on all planets?"
+        },
+        {
+            "ID": 32031,
+            "value": "ground units only"
+        },
+        {
+            "ID": 32032,
+            "value": "includes units in orbit"
+        },
+        {
+            "ID": 32033,
+            "value": "units in orbit only"
+        },
+        {
+            "ID": 32034,
+            "value": "Are you sure you want to create a new Galaxy?\n\nYour current work will be lost!!!\n\nEnsure you have saved your work before clicking 'Yes'!!!"
+        },
+        {
+            "ID": 32035,
+            "value": "Are you sure you want to delete the current planet?\n\nAll data for this planet will be deleted!!!\n\nThis cannot be undone!!!"
+        },
+        {
+            "ID": 32036,
+            "value": "Exported Units = %d"
+        },
+        {
+            "ID": 32037,
+            "value": "Exported Structures = %d"
+        },
+        {
+            "ID": 32038,
+            "value": "Imported Units = %d"
+        },
+        {
+            "ID": 32039,
+            "value": "Imported Structures = %d"
+        },
+        {
+            "ID": 32040,
+            "value": "Skipped Units = %d"
+        },
+        {
+            "ID": 32041,
+            "value": "Skipped Structures = %d"
+        },
+        {
+            "ID": 32042,
+            "value": "Bad Planet Index = %d"
+        },
+        {
+            "ID": 32043,
+            "value": "Bad X Coodinate = %d"
+        },
+        {
+            "ID": 32044,
+            "value": "Bad Y Coodinate = %d"
+        },
+        {
+            "ID": 32045,
+            "value": "Bad X, Y Coodinate Pair = %d"
+        },
+        {
+            "ID": 32046,
+            "value": "Bad Owner = %d"
+        },
+        {
+            "ID": 32047,
+            "value": "Bad Unit or Structure Type = %d"
+        },
+        {
+            "ID": 32048,
+            "value": "Bad Unit Tech Level = %d"
+        },
+        {
+            "ID": 32049,
+            "value": "Bad Unit Type and Tech Level = %d"
+        },
+        {
+            "ID": 32050,
+            "value": "Bad Unit Number = %d"
+        },
+        {
+            "ID": 32051,
+            "value": "Skipped Planets = %d"
+        },
+        {
+            "ID": 32052,
+            "value": "Someone already there = %d"
+        },
+        {
+            "ID": 32053,
+            "value": "Replaced Units = %d"
+        },
+        {
+            "ID": 32054,
+            "value": "Replaced Structures = %d"
+        },
+        {
+            "ID": 32055,
+            "value": "Altered City Sect = %d"
+        },
+        {
+            "ID": 32056,
+            "value": "Altered City Loyalty = %d"
+        },
+        {
+            "ID": 32057,
+            "value": "Altered Unit Sect = %d"
+        },
+        {
+            "ID": 32058,
+            "value": "Altered Unit Loyalty = %d"
+        },
+        {
+            "ID": 32059,
+            "value": "Altered Unit Experience = %d"
+        },
+        {
+            "ID": 32060,
+            "value": "INI File has made the following alterations to the base galaxy data:\n\n"
+        },
+        {
+            "ID": 32061,
+            "value": "\n\nSave this galaxy as a new galaxy if you do not want these changes to become permanent to your current Galaxy File. See the INI file for this Galaxy on how to disable the INI parameters if you no longer wish for overrides to be used."
+        },
+        {
+            "ID": 32062,
+            "value": "Are you sure you want to save all planet maps to PNG files (this might take a while)?"
+        },
+        {
+            "ID": 32063,
+            "value": "Are you sure you want to add all units (%s) owned by %s for all planets?"
+        },
+        {
+            "ID": 32064,
+            "value": "Are you sure you want to add all the units (%s) on all planets?"
+        },
+        {
+            "ID": 32065,
+            "value": "Are you sure you want to add all structures owned by %s for all planets?"
+        },
+        {
+            "ID": 32066,
+            "value": "Are you sure you want to add all the structures on all planets?"
+        },
+        {
+            "ID": 32067,
+            "value": "Only If Owner Controls Palace?"
+        },
+        {
+            "ID": 32068,
+            "value": "\n\n(But only where owner controls the Palace)."
+        },
+        {
+            "ID": 32069,
+            "value": "Saving all planet maps to PNG files..."
+        },
+        {
+            "ID": 32070,
+            "value": "Replace - No Matching Records Found!"
+        },
+        {
+            "ID": 32100,
+            "value": "Does not participate in combat"
+        },
+        {
+            "ID": 32101,
+            "value": "Duels High-Ranking (>=%d) Units During Combat"
+        },
+        {
+            "ID": 32102,
+            "value": "Can attack on Byzantium Secundus"
+        },
+        {
+            "ID": 32103,
+            "value": "Noble - Provides stack combat and other bonuses"
+        },
+        {
+            "ID": 32104,
+            "value": "Officer - Provides stack combat bonuses"
+        },
+        {
+            "ID": 32105,
+            "value": "Builds Cities and Roads"
+        },
+        {
+            "ID": 32106,
+            "value": "Clergy - Increases Tithe Skim and Converts Sects"
+        },
+        {
+            "ID": 32107,
+            "value": "Inquisitor"
+        },
+        {
+            "ID": 32108,
+            "value": "Builds Hives"
+        },
+        {
+            "ID": 32109,
+            "value": "Builds Vau Cities"
+        },
+        {
+            "ID": 32110,
+            "value": "Grants 1 Vote"
+        },
+        {
+            "ID": 32111,
+            "value": "{} Relic - Bonus: +{}"
+        },
+        {
+            "ID": 32112,
+            "value": "Naval Carrier - Transports and Refuels (at end of turn) all Air Units"
+        },
+        {
+            "ID": 32113,
+            "value": "Naval Transport - Amphibious loading / unloading of cargo"
+        },
+        {
+            "ID": 32114,
+            "value": "Deploys space units during space attacks"
+        },
+        {
+            "ID": 32115,
+            "value": ""
+        },
+        {
+            "ID": 32116,
+            "value": ""
+        },
+        {
+            "ID": 32117,
+            "value": "V/STOL - Refuels on Naval Destroyers (and Carriers)"
+        },
+        {
+            "ID": 32118,
+            "value": "Refuels V/STOL only (at end of turn)"
+        },
+        {
+            "ID": 32119,
+            "value": "Never needs refueling"
+        },
+        {
+            "ID": 32120,
+            "value": "Safely lands when running out of fuel (cannot move until recovered by a transport)"
+        },
+        {
+            "ID": 32121,
+            "value": "Can be towed"
+        },
+        {
+            "ID": 32122,
+            "value": "Can tow units that can be towed"
+        },
+        {
+            "ID": 32123,
+            "value": "May lose health or experience after combat"
+        },
+        {
+            "ID": 32124,
+            "value": "Heals units of same movement type"
+        },
+        {
+            "ID": 32125,
+            "value": "Never Rebels"
+        },
+        {
+            "ID": 32126,
+            "value": "Never Retreats"
+        },
+        {
+            "ID": 32127,
+            "value": "Immune to Plague"
+        },
+        {
+            "ID": 32128,
+            "value": "Causes Tactical Plague"
+        },
+        {
+            "ID": 32129,
+            "value": "Causes Plague"
+        },
+        {
+            "ID": 32130,
+            "value": "Destroyed after combat"
+        },
+        {
+            "ID": 32131,
+            "value": "Does not participate in ground combat and can be captured if undefended when on the ground"
+        },
+        {
+            "ID": 32132,
+            "value": "Can be loaded onto a transport"
+        },
+        {
+            "ID": 32133,
+            "value": "Transport - immediately refuels Air units if loaded aboard as cargo"
+        },
+        {
+            "ID": 32140,
+            "value": "In Flight - dies if not refueled by turn's end (regardless of remaining movement)"
+        },
+        {
+            "ID": 32141,
+            "value": "In Flight - safely lands (can't move) if not refueled by turn's end (regardless of remaining movement)"
+        },
+        {
+            "ID": 32142,
+            "value": "In Flight - refueled if unit remains here (or with this group) at turn's end"
+        },
+        {
+            "ID": 32143,
+            "value": "Out of fuel - refueled if unit remains here (or with this group) at turn's end"
+        },
+        {
+            "ID": 32145,
+            "value": "O = Refuels all Air units"
+        },
+        {
+            "ID": 32146,
+            "value": "V = Refuels V/STOL Air units only"
+        },
+        {
+            "ID": 32147,
+            "value": "0 = Must refuel on O (or in city)!"
+        },
+        {
+            "ID": 32148,
+            "value": "v = Must refuel on V (O or in city)!"
+        },
+        {
+            "ID": 32151,
+            "value": "Unit has already used the jump gate"
+        },
+        {
+            "ID": 32152,
+            "value": "Retreated - unit can be captured"
+        },
+        {
+            "ID": 32153,
+            "value": "Sentried - click on unit to activate"
+        },
+        {
+            "ID": 32154,
+            "value": "Unit is being transported as cargo"
+        },
+        {
+            "ID": 32155,
+            "value": "Out of fuel - can't move: use transport or refueler to recover"
+        },
+        {
+            "ID": 32156,
+            "value": "Galaxy"
+        },
+        {
+            "ID": 32157,
+            "value": "Planetary"
+        },
+        {
+            "ID": 32158,
+            "value": "Stack"
+        },
+        {
+            "ID": 32159,
+            "value": "%"
+        },
+        {
+            "ID": 32275,
+            "value": "High-Ranking: prioritized by duelers"
+        },
+        {
+            "ID": 32280,
+            "value": "Base Value = {}"
+        },
+        {
+            "ID": 32281,
+            "value": "Accuracy Base Value = {}"
+        },
+        {
+            "ID": 32282,
+            "value": "Strength Base Value = {}"
+        },
+        {
+            "ID": 32290,
+            "value": "Unit Pay: {:+}%"
+        },
+        {
+            "ID": 32300,
+            "value": "Relic Upkeep Bonus: {:+}%"
+        },
+        {
+            "ID": 32301,
+            "value": "Cathedral Upkeep: {:+}%"
+        },
+        {
+            "ID": 32302,
+            "value": "Sect Unit Upkeep: {:+}%"
+        },
+        {
+            "ID": 32303,
+            "value": "Relic Movement Bonus: {:+}%"
+        },
+        {
+            "ID": 32304,
+            "value": "Sect Movement: {:+}%"
+        },
+        {
+            "ID": 32305,
+            "value": "Damage Movement Penalty: {:+}%"
+        },
+        {
+            "ID": 32306,
+            "value": "Relic Spot Bonus: {:+}"
+        },
+        {
+            "ID": 32307,
+            "value": "Sect Spot: {:+}"
+        },
+        {
+            "ID": 32308,
+            "value": "Relic Camouflage Bonus: {:+}"
+        },
+        {
+            "ID": 32309,
+            "value": "Sect Camouflage: {:+}"
+        },
+        {
+            "ID": 32310,
+            "value": "Random Modifier: {:+}"
+        },
+        {
+            "ID": 32311,
+            "value": "Terrain Modifier: {:+}"
+        },
+        {
+            "ID": 32312,
+            "value": "Relic Agility Bonus: {:+}"
+        },
+        {
+            "ID": 32313,
+            "value": "Sect Agility: {:+}"
+        },
+        {
+            "ID": 32314,
+            "value": "Terrain Agility: {:+}"
+        },
+        {
+            "ID": 32315,
+            "value": "Frozen Tech: {:+}"
+        },
+        {
+            "ID": 32316,
+            "value": "Jungle Tech: {:+}"
+        },
+        {
+            "ID": 32317,
+            "value": "Barren Tech: {:+}"
+        },
+        {
+            "ID": 32318,
+            "value": "Relic Armor Bonus: {:+}%"
+        },
+        {
+            "ID": 32319,
+            "value": "Sect Armor: {:+}%"
+        },
+        {
+            "ID": 32320,
+            "value": "City Armor Factor: {}"
+        },
+        {
+            "ID": 32321,
+            "value": "Relic Psy Defense Bonus: {:+}%"
+        },
+        {
+            "ID": 32322,
+            "value": "Sect Psy Defense: {:+}%"
+        },
+        {
+            "ID": 32323,
+            "value": "Relic Accuracy Bonus: {:+}"
+        },
+        {
+            "ID": 32324,
+            "value": "Sect Accuracy: {:+}"
+        },
+        {
+            "ID": 32325,
+            "value": "Relic Strength Bonus: {:+}%"
+        },
+        {
+            "ID": 32326,
+            "value": "Sect Strength: {:+}%"
+        },
+        {
+            "ID": 32327,
+            "value": "Experience Green: {:+}%"
+        },
+        {
+            "ID": 32328,
+            "value": "Experience Elite: {:+}%"
+        },
+        {
+            "ID": 32329,
+            "value": "Noble Accuracy Bonus: {:+}"
+        },
+        {
+            "ID": 32330,
+            "value": "Officer Accuracy Bonus: {:+}"
+        },
+        {
+            "ID": 32331,
+            "value": "Noble Agility Bonus: {:+}"
+        },
+        {
+            "ID": 32332,
+            "value": "Officer Agility Bonus: {:+}"
+        }
+    ]
+},
+"glButtons": {
+    "strings": [
+        {
+            "ID": 1,
+            "value": "Pay Now"
+        },
+        {
+            "ID": 100,
+            "value": "~Cancel"
+        },
+        {
+            "ID": 400,
+            "value": "Beginner"
+        },
+        {
+            "ID": 401,
+            "value": "Easy"
+        },
+        {
+            "ID": 402,
+            "value": "Average"
+        },
+        {
+            "ID": 403,
+            "value": "Difficult"
+        },
+        {
+            "ID": 404,
+            "value": "Ridiculous"
+        },
+        {
+            "ID": 1396,
+            "value": "Build"
+        },
+        {
+            "ID": 1397,
+            "value": "Trade"
+        },
+        {
+            "ID": 1398,
+            "value": "Tech"
+        },
+        {
+            "ID": 1399,
+            "value": "Sect"
+        }
+    ]
+}

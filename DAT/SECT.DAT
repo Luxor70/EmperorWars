@@ -1,0 +1,187 @@
+// Sect Bonus Information - SECT.DAT
+//
+// Game Sects:
+//   Ort = Orthodox
+//   SAe = Sanctuary Aeon (Amaltheans)
+//   Esk = Eskatonic
+//   Inc = Incarnates
+//   Ave = Avestites
+//   Bro - Brother Battle
+//   Men - Mendicant Monks (Hesychasts)
+//   Sym = Symbiots, all Symbiot units are this sect
+//   Vau = Vau, all Vau units are this sect
+//
+// This file is divided into Sect Galaxy, Planetary, and Individual Bonuses.
+//
+// The Sect of the Church on Holy Terra will have a Galaxy-wide bonus that is
+// applied to all planets, structures, and units in the game.
+//
+// If the planet has a Church, then it will apply a Planetary Sect bonus
+// to the planet.
+//
+// Each unit also has a Sect and they will receive a bonus from their
+// individual Sect bonuses.
+//
+// + in front of a bonus description means it is additive
+// * in front of a bonus description means it is that percentage increase
+//
+// Section G1 - Sect Galaxy Bonuses
+//=============================================================================
+//                                           SECT
+//=============================================================================
+//                           O     S     E     I     A     B     M     S     V 
+//                           r     A     s     n     v     r     e     y     a 
+//                           t     e     k     c     e     o     n     m     u 
+//-----------------------------------------------------------------------------
+{ "G1"                                                                        
+"+City Healing Rate"        "0    10     0     0     0     5     5    20    15"
+"+Unit Healing Rate"        "0     4     0     0     0     2     2     8     6"
+"+Plague"                   "0   -10     0     0     0     0    -5   -50   -25"
+"*Production Rate"          "0     0     0     5     0   -10    10    25    25"
+"*Research Rate"            "0     0     5    10   -10    -5     5     0    25"
+"*Technology Maintenance"   "50    0   -50  -100   100    50   -50     0  -250"
+"*Proscribed Maintenance"   "50    0     0     0   150   100   -50     0  -250"  // Cumulative with above
+"*Lab Maintenance"          "5     0    -5   -10    10     5    -5     0   -25"
+"+Heretical"                "1     0    -1    -2     3     2    -3    -6    -5"  // The difference here between Sect A and B is used to determine likelihood of changing Sects
+}
+//
+// Section P1 - Sect Planetary Production Bonuses
+//
+// The Sect Planetary Production Bonuses harvest or produce the additional
+// amount of that specific recource per turn. For example, if Or(thodox)
+// has a value of 1 in the Food row, then each Food harvesting structure
+// will collect an additional 1% Food per turn.
+//
+//======================================================================
+//                                    SECT
+//======================================================================
+//                    O     S     E     I     A     B     M     S     V 
+//                    r     A     s     n     v     r     e     y     a 
+//                    t     e     k     c     e     o     n     m     u 
+//----------------------------------------------------------------------
+{ "P1"                                                                 
+"*Food"              "10     5     0     0    20    10     5     0     0"
+"*Energy"            "10     5     0     0     0     0     5     0     0"
+"*Metal"             "10     5     0     0     0     0     5     0     0"
+"*Trace"             "10     5     0     0     0     0     5     0     0"
+"*Exotica"           " 0     5     5     0   -10    -5     5    25     0"
+"*Chemicals"         " 0     0     0     5     0     0     0     0     0"
+"*Biochems"          " 0     0     5     0   -10    -5     0    25     0"
+"*Electronics"       " 0     0     0     5     0     0     0     0     0"
+"*Ceramsteel"        " 0     0     0     5     0     0     0     0    25"
+"*Wetware"           " 0     0     5     0   -10    -5     0     0    25"
+"*Monopols"          " 0     0     0     5     0     0     0     0    25"
+"*Gems"              " 0     5     5    10     0     0     5     0     0"
+"*Singularities"     " 0     0     0     5     0     0     0     0    25"
+}
+//
+// Section P2 - Sect Planetary Structure and Research Bonuses
+//
+// The Sect Planetary Structure and Research Bonuses affect various
+// structure abilities.
+//=============================================================================
+//                                           SECT
+//=============================================================================
+//                           O     S     E     I     A     B     M     S     V 
+//                           r     A     s     n     v     r     e     y     a 
+//                           t     e     k     c     e     o     n     m     u 
+//-----------------------------------------------------------------------------
+{ "P2"                                                                        
+"+Loyalty"                 " 5     0     0     0    10    15     0     0     0"
+"+Healing Rate"            " 0    10     0     0     0     5     5    20    15"
+"+Plague"                  " 0   -10     0     0     0    -5    -5   -50   -25"
+"*Tax Rate"                "10     0     0     5     0     0     0     0     0"
+"*Production Rate"         " 0     0     0     5     0     0     5    25     0"
+"*Research Rate"           "-5     0     5    10   -10    -5     5     0    25"
+"*Lab Maintenance"         " 5     0    -5   -10    10     5    -5     0   -25"
+"+Change Sect"             "55    60    55    55    50    75    40     0     0"
+}
+//
+// Section P3 - Sect Planetary Unit Bonuses
+//
+// The Sect Planetary Miscellaneous Bonuses apply to all units on a
+// planet with a Church of this Sect.
+//======================================================================
+//                                    SECT
+//======================================================================
+//                    O     S     E     I     A     B     M     S     V 
+//                    r     A     s     n     v     r     e     y     a 
+//                    t     e     k     c     e     o     n     m     u 
+//----------------------------------------------------------------------
+{ "P3"                                                                 
+"+Healing Rate"      "0     4     0     0     0     2     2     8     6"
+"+Plague"            "0   -10     0     0     0    -5    -5   -50   -25"
+"+Experience"        "0     0     0     0    10    15     0     0     0"
+"+Routing"           "0     0     0     0    20    10     0     0     0"
+"+Rebellion"         "0     0     0     0    20    10     0     0     0"
+"+Loyalty"           "5     0     0     0    10    15     0     0     0"
+"+Ruin"              "0     0     0     0     0     0     0     0     0"
+"*Upkeep"            "0     0     0    -5     0    25   -10     0     0"
+}
+//
+// Section I1 - Sect Individual Statistic Bonuses
+//
+// The Sect Individual Statistic Bonuses affect a unit's base statistics
+//======================================================================
+//                                    SECT
+//======================================================================
+//                    O     S     E     I     A     B     M     S     V 
+//                    r     A     s     n     v     r     e     y     a 
+//                    t     e     k     c     e     o     n     m     u 
+//----------------------------------------------------------------------
+{ "I1"                                                                 
+"*Move Points"       "0     0     5    10    10     5    15     0     0"
+"+Spotting"          "1     0     1     1     2     1     0     0     0"
+"+Camouflage"        "0     1     2     1     2     0     3     0     0"
+"+Agility"           "0     0     2     1     1     1     0     2     0"
+"*Armor"             "5    20     5     0    10     5     0     0    25"
+"*Psy Defense"       "5    10    50     0    25     0     0     0    25"
+"+Accuracy"          "0     0     0     0     0     1     0     1     2"
+"*Attack Strength"   "0     0     0     0     0     5     0    10    25"
+}
+// Section I2 - Sect Individual Combat Weaponry Bonuses
+//
+// The Sect Individual Combat Weaponry Bonuses affect a unit's combat weaponry
+//===================================================================================================================
+//                                                     SECT                                                  
+//===================================================================================================================
+//                      O          S          E          I          A          B          M           S          V
+//                      r          A          s          n          v          r          e           y          a
+//                      t          e          k          c          e          o          n           m          u
+//-------------------------------------------------------------------------------------------------------------------
+//                 +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS  +Acc  *AS 
+//-------------------------------------------------------------------------------------------------------------------
+{ "I2"                                                                                       
+"Water"             "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0"
+"Indirect"          "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+"Air"               "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+"Direct"            "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+"Close"             "0    0     0    0     0    0     0    0     1   10     2   25     0    0     0    0     0    0" 
+"Psy"               "1   10     0    0     2   25     1   15     2   25     0    0     0    0     0    0     0    0" 
+"Ranged Space"      "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+"Direct Space"      "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+"Close Space"       "0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0     0    0" 
+}
+//
+// Section I3 - Sect Individual Miscellaneous Bonuses
+//
+// The Sect Individual Miscellaneous Bonuses affect various unit abilities
+// not covered under the previous Individual Sect Bonus sections
+//======================================================================
+//                                    SECT
+//======================================================================
+//                    O     S     E     I     A     B     M     S     V 
+//                    r     A     s     n     v     r     e     y     a 
+//                    t     e     k     c     e     o     n     m     u 
+//----------------------------------------------------------------------
+{ "I3"                                                                 
+"+Healing Rate"      "0     4     0     0     0     2     2     8     6"
+"+Plague"            "0   -10     0     0     0    -5    -5   -50   -25"
+"+Experience"        "0     0     0     0    10    15     0     0     0"
+"+Routing"           "0     0     0     0    20    10     0     0     0"
+"+Rebellion"         "0     0     0     0    20    10     0     0     0"
+"+Loyalty"           "5     0     0     5    10    15     0     0     0"
+"+Ruin"              "0     0     0     0     0     0     0     0     0"
+"*Upkeep"            "0     0     0    -5     0    25   -10     0     0"
+"+Change Sect"       "5    15    10    10     5    25     5     0     0"
+}

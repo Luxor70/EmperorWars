@@ -1,0 +1,3 @@
+Plasma Cannon
+
+A weapon that fires concentrated plasma bolts.

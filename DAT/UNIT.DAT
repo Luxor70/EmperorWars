@@ -1,0 +1,865 @@
+//Crawler is now amphibious (foot+naval)																																																																										
+//														Combat																				Costs			Resources Required to Build													Build Needs					Tech Requirements																			
+//	Name			Nickname		Move Type	Kind	Move	Spot	Camo	Agility	Armor	PsyDef	Water		Indirect		Air		Direct		Close		Psy		RangedSp		DirectSp		CloseSp		Cargo	CanBCargo	Unit Function	Crd/Trn	Cred	Food	Energy	Metal	Trace	Exotica	Chemicals	Biochems	Electronics	Ceramsteel	Wetware	Monopols	Gems	Singularities	Unit	tLvl	Bldgs	Owner	Turns	0	1	2	3	4	5	6	7	8	9	Tax	Flock	Range	Eat	Rank	RoP	Disband			
+{0																																																																										
+"name"	"Symbiot Grappler"	"1"	"abbrev"	"Grappler"	"stats"	"gate	0	3	5	6	4	100	60	0	0	0	0	13	20	0	0	15	50	0	0	0	0	0	0	13	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	7	7	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"grap.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{1	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Blow Ship"	"1"	"abbrev"	"Blow Ship"	"stats"	"gate	1	3	7	6	2	150	60	0	0	0	0	12	20	9	20	12	20	0	0	5	130	7	130	9	130	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	7	7	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"puff2.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{2	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Spore Ship"	"1"	"abbrev"	"Spore"	"stats"	"gate	2	3	5	6	3	130	60	0	0	0	0	12	20	19	20	15	20	0	0	0	0	9	40	11	180	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	7	7	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"pdshp.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{3	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Pod Ship"	"1"	"abbrev"	"Pod Ship"	"stats"	"lander	16	3	1	6	3	80	60	0	0	0	0	12	20	0	0	10	20	0	0	0	0	0	0	10	30	4	0	16400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	7	7	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"sprshp.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{4	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Dreadnought"	"1"	"abbrev"	"Shroud Weaver"	"stats"	"gate	12	3	8	1	6	300	100	0	0	0	0	14	20	12	15	10	40	0	0	12	400	10	270	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	-1	-1	10	8	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"vau_dread.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{5	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Cruiser"	"1"	"abbrev"	"Veil Seeker"	"stats"	"gate	13	3	6	2	10	160	100	0	0	0	0	16	20	14	15	12	40	0	0	10	220	11	160	12	110	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	-1	-1	10	8	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"vau_cruiser.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{6	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Destroyer"	"1"	"abbrev"	"Destroyer"	"stats"	"gate	14	3	9	3	12	110	100	0	0	0	0	18	15	16	20	14	40	0	0	13	150	14	110	15	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	10	8	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"vau_destroyer.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{7	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Frigate"	"1"	"abbrev"	"Quick Mercy"	"stats"	"gate	15	3	7	4	13	70	100	0	0	0	0	20	15	18	20	15	40	0	0	0	0	19	40	21	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	10	8	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"vau_frigate.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{8	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Interceptor"	"1"	"abbrev"	"Deathmate"	"stats"	"gate	17	3	5	5	16	20	100	0	0	0	0	12	5	23	45	12	5	0	0	0	0	21	50	23	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	10	8	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"vau_intrceptor.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{9	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Carrier"	"1"	"abbrev"	"Carrier"	"stats"	"lander	16	3	6	1	7	160	100	0	0	6	30	17	15	15	5	8	40	0	0	14	20	12	20	0	0	4	0	16400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"vau_carrier.jpeg"	"efsunit.bin"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{10	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Transport"	"1"	"abbrev"	"Transport"	"stats"	"lander	21	3	3	2	4	70	100	0	0	10	30	8	10	0	0	0	0	0	0	0	0	15	20	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"vau_transport.jpeg"	"efsunit.bin"
+"name"	"Obun Diplomatic Vessel"	"1"	"abbrev"	"Tranquillity"	"stats"	"lander	21	3	3	2	4	70	100	0	0	10	30	8	10	0	0	0	0	0	0	0	0	15	20	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"otrans.jpeg"	"same"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{11	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Imperial Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	-1	9	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship.jpeg"	"efsunit.bin"
+"name"	"Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	1	1"	"art"	"stealth_ship.jpeg"	"same"
+"name"	"Li Halan Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	110	14	20	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	0	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_lihalan.jpeg"	"stealth_ship_lihalan.bmp"
+"name"	"Hazat Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	15	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	1	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_hazat.jpeg"	"stealth_ship_hazat.bmp"
+"name"	"Decados Cloaking Corvette"	"1"	"abbrev"	"Nightwing"	"stats"	"jump	11	3	5	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	2	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_decados.jpeg"	"stealth_ship_decados.bmp"
+"name"	"Hawkwood Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	3	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_hawkwood.jpeg"	"stealth_ship_hawkwood.bmp"
+"name"	"al-Malik Cloaking Corvette"	"1"	"abbrev"	"Matachin"	"stats"	"jump	11	3	4	16	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	4	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_almalik.jpeg"	"stealth_ship_almalik.bmp"
+"name"	"League Cloaking Corvette"	"1"	"abbrev"	"Shroud"	"stats"	"jump	11	3	5	16	9	70	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	110	15	30	0	0	4	0	0	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_league.jpeg"	"stealth_ship_league.bmp"
+"name"	"Church Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	14	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_church.jpeg"	"stealth_ship_church.bmp"
+"name"	"Imperial Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	-1	10	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship.jpeg"	"same"
+"name"	"Imperial Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	15	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	-1	11	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship.jpeg"	"same"
+"name"	"Imperial Eye Cloaking Corvette"	"1"	"abbrev"	"Raider"	"stats"	"jump	11	3	4	18	9	50	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	90	14	10	0	0	4	75	750	0	0	50	0	0	5	0	50	50	0	20	0	2	-1	-1	-1	12	3	277	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"stealth_ship_eye.jpeg"	"stealth_ship_eye.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{12	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Dreadnought"	"1"	"abbrev"	"Dreadnought"	"stats"	"jump	12	3	5	1	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	6	130	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	-1	13	5	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"dreadnought.jpeg"	"efsunit.bin"
+"name"	"League Dreadnought"	"1"	"abbrev"	"Repossessor"	"stats"	"jump	12	3	6	2	2	200	60	0	0	0	0	0	0	0	0	0	0	0	0	10	240	8	170	0	0	0	0	8	0	0	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_league.jpeg"	"DN-L.bmp"
+"name"	"Imperial Dreadnought"	"1"	"abbrev"	"Dreadnought"	"stats"	"jump	12	3	5	1	3	180	40	0	0	0	0	0	0	0	0	0	0	0	0	9	220	7	150	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	-1	44	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_imperial.jpeg"	"DN-L.bmp"
+"name"	"Church Dreadnought"	"1"	"abbrev"	"Phlogiston V"	"stats"	"jump	12	3	5	1	3	180	100	0	0	0	0	0	0	0	0	0	0	0	0	9	220	7	150	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	6	5	0	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_church.jpeg"	"DN-C.bmp"
+"name"	"al-Malik Dreadnought"	"1"	"abbrev"	"Theodisia"	"stats"	"jump	12	3	5	2	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	6	130	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	4	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_almalik.jpeg"	"DN-M.bmp"
+"name"	"Hawkwood Dreadnought"	"1"	"abbrev"	"Maestekulos"	"stats"	"jump	12	3	5	1	2	170	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	6	130	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	3	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_hawkwood.jpeg"	"DN-HW.bmp"
+"name"	"Decados Dreadnought"	"1"	"abbrev"	"Anikrunta"	"stats"	"jump	12	3	6	1	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	6	130	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	2	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_decados.jpeg"	"same"
+"name"	"Hazat Dreadnought"	"1"	"abbrev"	"Adonais"	"stats"	"jump	12	3	5	1	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	9	200	7	130	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	1	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_hazat.jpeg"	"DN-HZ.bmp"
+"name"	"Li Halan Dreadnought"	"1"	"abbrev"	"Dreadnought"	"stats"	"jump	12	3	5	1	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	8	220	6	150	0	0	0	0	8	100	1000	0	0	200	0	0	4	0	30	100	0	20	0	4	-1	-1	14	0	5	289	0	0	0	0	0	0	0	0	0	0	1	0	0	6	1	1"	"art"	"dreadnought_lihalan.jpeg"	"DN-LH.bmp"
+"name"	"Titan"	"1"	"abbrev"	"Titan"	"stats"	"jump	12	3	7	1	3	300	40	0	0	0	0	0	0	0	0	0	0	0	0	11	300	9	200	6	100	0	0	24	1000	10000	0	0	400	0	0	100	0	400	500	100	150	0	10	-1	-1	14	55	10	360	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"titan.jpeg"	"titan.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{13	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Cruiser"	"1"	"abbrev"	"Cruiser"	"stats"	"jump	13	3	8	2	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	6	120	7	90	8	60	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	-1	13	4	0	0	0	0	0	0	0	0	0	0	0	1	2	0	5	1	1"	"art"	"cruiser.jpeg"	"efsunit.bin"
+"name"	"League Cruiser"	"1"	"abbrev"	"Investor"	"stats"	"jump	13	3	9	3	7	120	60	0	0	0	0	0	0	0	0	0	0	0	0	8	160	9	130	10	100	0	0	0	0	0	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_league.jpeg"	"same"
+"name"	"al-Malik Cruiser"	"1"	"abbrev"	"Moriah"	"stats"	"jump	13	3	8	3	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	6	120	7	90	8	60	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	4	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_almalik.jpeg"	"same"
+"name"	"Hawkwood Cruiser"	"1"	"abbrev"	"Vladimir"	"stats"	"jump	13	3	8	2	6	110	40	0	0	0	0	0	0	0	0	0	0	0	0	6	120	7	90	8	60	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	3	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_hawkwood.jpeg"	"same"
+"name"	"Li Halan Cruiser"	"1"	"abbrev"	"Maru"	"stats"	"jump	13	3	8	2	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	6	140	7	110	8	80	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	0	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_lihalan.jpeg"	"same"
+"name"	"Decados Cruiser"	"1"	"abbrev"	"Grigori"	"stats"	"jump	13	3	9	2	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	6	120	7	90	8	60	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	2	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_decados.jpeg"	"same"
+"name"	"Hazat Cruiser"	"1"	"abbrev"	"Canai"	"stats"	"jump	13	3	8	2	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	7	120	8	90	9	60	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	1	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_hazat.jpeg"	"same"
+"name"	"Church Cruiser"	"1"	"abbrev"	"Cruiser"	"stats"	"jump	13	3	8	2	7	100	100	0	0	0	0	0	0	0	0	0	0	0	0	7	140	8	110	9	80	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	14	6	4	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_church.jpeg"	"same"
+"name"	"Imperial Cruiser"	"1"	"abbrev"	"Cruiser"	"stats"	"jump	13	3	8	2	7	100	40	0	0	0	0	0	0	0	0	0	0	0	0	7	140	8	110	9	80	0	0	0	75	750	0	0	180	0	0	3	0	50	70	0	20	0	3	-1	-1	-1	44	4	278	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"cruiser_imperial.jpeg"	"same"
+}	 	 	 	 	 	 																																																																	 	 	 	
+{14	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Destroyer"	"1"	"abbrev"	"Crescent"	"stats"	"jump	14	3	4	3	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	8	60	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	13	30	0	0	0	0	0	0	0	0	0	0	0	1	3	0	4	1	1"	"art"	"destroyer.jpeg"	"efsunit.bin"
+"name"	"League Destroyer"	"1"	"abbrev"	"Collector"	"stats"	"jump	14	3	5	4	9	100	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	130	10	100	0	0	0	0	0	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_league.jpeg"	"same"
+"name"	"al-Malik Destroyer"	"1"	"abbrev"	"Efreet"	"stats"	"jump	14	3	4	4	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	8	60	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	4	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_almalik.jpeg"	"same"
+"name"	"Hawkwood Destroyer"	"1"	"abbrev"	"Griffin"	"stats"	"jump	14	3	4	3	8	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	8	60	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	3	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_hawkwood.jpeg"	"same"
+"name"	"Hazat Destroyer"	"1"	"abbrev"	"Manticore"	"stats"	"jump	14	3	4	3	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	90	9	60	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	1	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_hazat.jpeg"	"same"
+"name"	"Li Halan Destroyer"	"1"	"abbrev"	"Dragon"	"stats"	"jump	14	3	4	3	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	110	8	80	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	0	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_lihalan.jpeg"	"same"
+"name"	"Decados Destroyer"	"1"	"abbrev"	"Tupok'ta"	"stats"	"jump	14	3	5	3	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	8	60	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	2	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_decados.jpeg"	"same"
+"name"	"Imperial Destroyer"	"1"	"abbrev"	"Crescent"	"stats"	"jump	14	3	4	3	9	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	110	9	80	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	-1	44	3	286	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_imperial.jpeg"	"same"
+"name"	"Church Destroyer"	"1"	"abbrev"	"Crescent"	"stats"	"jump	14	3	4	3	9	80	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	110	9	80	0	0	0	50	500	0	0	180	0	0	2	0	15	0	0	10	0	2	-1	-1	14	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"destroyer_church.jpeg"	"same"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{15	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Frigate"	"1"	"abbrev"	"Solar Flare"	"stats"	"jump	15	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	13	20	0	0	0	0	0	0	0	0	0	0	0	1	3	0	3	1	1"	"art"	"frigate.jpeg"	"efsunit.bin"
+"name"	"Imperial Frigate"	"1"	"abbrev"	"Solar Flare"	"stats"	"jump	15	3	5	4	11	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	50	10	70	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	-1	44	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_imperial.jpeg"	"same"
+"name"	"Church Frigate"	"1"	"abbrev"	"Hearth"	"stats"	"jump	15	3	5	4	11	60	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	50	10	70	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_church.jpeg"	"same"
+"name"	"League Frigate"	"1"	"abbrev"	"Castellan"	"stats"	"jump	15	3	6	5	11	80	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	70	11	90	0	0	0	0	0	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_league.jpeg"	"same"
+"name"	"al-Malik Frigate"	"1"	"abbrev"	"Spider"	"stats"	"jump	15	3	5	5	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	4	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_almalik.jpeg"	"same"
+"name"	"Hawkwood Frigate"	"1"	"abbrev"	"Hornet"	"stats"	"jump	15	3	5	4	10	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	3	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_hawkwood.jpeg"	"same"
+"name"	"Hazat Frigate"	"1"	"abbrev"	"Scorpion"	"stats"	"jump	15	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	30	9	50	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	1	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_hazat.jpeg"	"same"
+"name"	"Li Halan Frigate"	"1"	"abbrev"	"Iskati"	"stats"	"jump	15	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	50	8	70	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	0	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_lihalan.jpeg"	"same"
+"name"	"Decados Frigate"	"1"	"abbrev"	"Mantis"	"stats"	"jump	15	3	6	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	0	0	0	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	2	2	292	0	0	0	0	0	0	0	0	0	0	1	0	0	3	1	1"	"art"	"frigate_decados.jpeg"	"same"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{16	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Light Carrier"	"1"	"abbrev"	"SSCV"	"stats"	"jump	16	3	7	1	1	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	30	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	1	0	7	1	1"	"art"	"light_carrier.jpeg"	"efsunit.bin"
+"name"	"al-Malik Light Carrier"	"1"	"abbrev"	"Asim"	"stats"	"jump	16	3	7	2	1	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	30	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	4	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_almalik.jpeg"	"same"
+"name"	"Hawkwood Light Carrier"	"1"	"abbrev"	"Malcolm"	"stats"	"jump	16	3	7	1	1	90	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	30	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	3	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_hawkwood.jpeg"	"same"
+"name"	"Li Halan Light Carrier"	"1"	"abbrev"	"Iriji"	"stats"	"jump	16	3	7	1	1	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	50	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	0	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_lihalan.jpeg"	"same"
+"name"	"Decados Light Carrier"	"1"	"abbrev"	"Hyram"	"stats"	"jump	16	3	8	1	1	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	30	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	2	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_decados.jpeg"	"same"
+"name"	"Hazat Light Carrier"	"1"	"abbrev"	"Trafalgar"	"stats"	"jump	16	3	7	1	1	70	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	30	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	1	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_hazat.jpeg"	"same"
+"name"	"Church Light Carrier"	"1"	"abbrev"	"SSCV"	"stats"	"jump	16	3	7	1	2	90	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	50	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_church.jpeg"	"same"
+"name"	"League Light Carrier"	"1"	"abbrev"	"SSCV"	"stats"	"jump	16	3	8	2	2	110	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	70	4	0	16384	0	0	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_league.jpeg"	"same"
+"name"	"Imperial Light Carrier"	"1"	"abbrev"	"SSCV"	"stats"	"jump	16	3	7	1	2	90	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	50	4	0	16384	100	1000	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	-1	44	3	318	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"light_carrier_imperial.jpeg"	"same"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{17	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Space Fighter"	"1"	"abbrev"	"Stinger"	"stats"	"space	17	3	3	5	12	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	55	2	351	0	0	0	0	0	0	0	0	0	0	1	4	0	1	1	1"	"art"	"fighter.jpeg"	"17.bmp"
+"name"	"al-Malik Fighter"	"1"	"abbrev"	"Zubayr"	"stats"	"space	17	3	3	6	12	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	4	2	351	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"fighter_almalik.jpeg"	"17.bmp"
+"name"	"Hawkwood Fighter"	"1"	"abbrev"	"Fitzhugh"	"stats"	"space	17	3	3	5	12	30	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	351	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"fighter_hawkwood.jpeg"	"17.bmp"
+"name"	"Cyber Fighter"	"1"	"abbrev"	"Archangel"	"stats"	"space	17	3	4	5	15	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	15	0	1	0	35	350	0	0	10	0	0	1	10	20	5	20	8	0	0	-1	-1	14	55	2	282	0	0	0	0	0	0	0	0	0	0	1	4	0	1	1	1"	"art"	"cyber_fighter.jpeg"	"ARCHANGEL.bmp"
+"name"	"Kurgan Raider"	"1"	"abbrev"	"Mujahidin"	"stats"	"lander	17	3	4	5	12	40	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	80	20	10	0	1	0	35	350	0	0	10	0	0	1	10	20	5	20	8	0	1	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"kurgan_raider.jpeg"	"ARCHANGEL.bmp"
+"name"	"Assault Starfighter"	"1"	"abbrev"	"Zephir"	"stats"	"space	17	3	5	5	15	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	20	0	1	0	70	700	0	0	20	0	0	2	20	40	10	40	10	0	0	-1	-1	14	55	2	282	0	0	0	0	0	0	0	0	0	0	1	2	0	1	1	1"	"art"	"assault_fighter.jpeg"	"assault_starfighter.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{18	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Space Torpedo Bomber"	"1"	"abbrev"	"Prophet"	"stats"	"space	18	3	3	5	10	15	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	55	2	353	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"torpedo.jpeg"	"18.bmp"
+"name"	"al-Malik Torpedo"	"1"	"abbrev"	"Mumit"	"stats"	"space	18	3	3	6	10	15	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	4	2	353	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_almalik.jpeg"	"18.bmp"
+"name"	"Hawkwood Torpedo"	"1"	"abbrev"	"Kestrel"	"stats"	"space	18	3	3	5	10	35	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	353	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_hawkwood.jpeg"	"18.bmp"
+"name"	"Heavy Torpedo Bomber"	"1"	"abbrev"	"Martyr"	"stats"	"space	18	3	3	5	10	25	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	500	0	1	0	35	350	0	0	10	0	0	10	0	5	0	0	10	0	0	-1	-1	14	55	2	323	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"heavy_torpedo.jpeg"	"MARTYR.bmp"
+"name"	"League Torpedo Bomber"	"1"	"abbrev"	"Prophet"	"stats"	"space	18	3	4	6	10	45	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	520	0	1	0	0	0	0	0	10	0	0	5	0	5	0	0	10	0	0	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_league.jpeg"	"MARTYR.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{19	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Imperial Assault Lander"	"1"	"abbrev"	"SSATL"	"stats"	"lander	19	3	4	3	10	60	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	4	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	-1	44	2	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_imperial.jpeg"	"19.bmp"
+"name"	"Assault Lander"	"1"	"abbrev"	"SSATL"	"stats"	"lander	19	3	4	3	9	40	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	2	0	8	1	1"	"art"	"ass_lander.jpeg"	"19.bmp"
+"name"	"Li Halan Assault Lander"	"1"	"abbrev"	"SSATL"	"stats"	"lander	19	3	4	3	9	40	40	0	0	0	0	0	0	0	0	7	60	0	0	0	0	0	0	4	80	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	0	2	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_lihalan.jpeg"	"ass_lander_lihalan.bmp"
+"name"	"Hazat Assault Lander"	"1"	"abbrev"	"SSATL"	"stats"	"lander	19	3	4	3	9	40	40	0	0	0	0	0	0	0	0	8	40	0	0	0	0	0	0	5	60	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	1	1	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_hazat.jpeg"	"19.bmp"
+"name"	"Decados Assault Lander"	"1"	"abbrev"	"Defiler"	"stats"	"lander	19	3	5	3	9	40	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	2	1	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_decados.jpeg"	"19.bmp"
+"name"	"Hawkwood Assault Lander"	"1"	"abbrev"	"Vindicator"	"stats"	"lander	19	3	4	3	9	60	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	3	1	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_hawkwood.jpeg"	"19.bmp"
+"name"	"al-Malik Assault Lander"	"1"	"abbrev"	"SSATL"	"stats"	"lander	19	3	4	4	9	40	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	3	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	4	1	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_almalik.jpeg"	"19.bmp"
+"name"	"League Assault Lander"	"1"	"abbrev"	"Swellingpug"	"stats"	"lander	19	3	5	4	10	80	60	0	0	0	0	0	0	0	0	8	60	0	0	0	0	0	0	5	80	4	0	0	0	0	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_league.jpeg"	"19.bmp"
+"name"	"Church Assault Lander"	"1"	"abbrev"	"Redeemer"	"stats"	"lander	19	3	4	3	10	60	100	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	4	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	14	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_church.jpeg"	"19.bmp"
+"name"	"Vuldrok Assault Lander"	"1"	"abbrev"	"Myrkwyrm"	"stats"	"lander	19	3	4	3	10	60	40	0	0	0	0	0	0	0	0	7	40	0	0	0	0	0	0	4	60	2	0	0	25	250	0	0	100	0	0	2	0	10	80	0	10	0	1	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"ass_lander_vuldrok.jpeg"	"19.bmp"
+"name"	"Imperial Eye Assault Lander"	"1"	"abbrev"	"Ghost"	"stats"	"lander	19	3	4	15	10	60	40	0	0	0	0	0	0	0	0	3	20	0	0	0	0	0	0	2	30	4	0	0	100	1000	0	0	100	0	0	2	0	50	100	10	5	0	1	-1	-1	-1	12	2	262	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"stealth_ass_lander.jpeg"	"19.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{20	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Freighter"	"1"	"abbrev"	"SSTV"	"stats"	"jump	20	3	3	2	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	30	300	0	0	150	0	0	2	0	5	0	0	9	0	1	-1	-1	14	55	2	291	0	0	0	0	0	0	0	0	0	0	1	2	0	9	1	1"	"art"	"freighter.jpeg"	"20.bmp"
+"name"	"Armored Freighter"	"1"	"abbrev"	"SSTV II"	"stats"	"jump	20	3	3	2	3	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	35	350	0	0	250	0	0	2	0	5	80	0	9	0	1	-1	-1	14	55	2	257	0	0	0	0	0	0	0	0	0	0	1	2	0	9	1	1"	"art"	"armored_freighter.jpeg"	"SSTVII.bmp"
+"name"	"Freighter"	"1"	"abbrev"	"SSTV"	"stats"	"jump	20	3	3	2	3	60	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	30	300	0	0	150	0	0	2	0	5	0	0	9	0	1	-1	-1	14	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"freighter.jpeg"	"SSTVII.bmp"
+"name"	"Armored Freighter"	"1"	"abbrev"	"SSTV II"	"stats"	"jump	20	3	3	2	3	80	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	35	350	0	0	250	0	0	2	0	5	80	0	10	0	1	-1	-1	14	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"armored_freighter.jpeg"	"SSTVII.bmp"
+"name"	"Imperial Freighter"	"1"	"abbrev"	"SSTV"	"stats"	"jump	20	3	3	2	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	30	300	0	0	150	0	0	2	0	5	0	0	9	0	1	-1	-1	-1	44	2	291	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"freighter_imperial.jpeg"	"SSTVII.bmp"
+"name"	"Imperial Armored Freighter"	"1"	"abbrev"	"SSTV II"	"stats"	"jump	20	3	3	2	3	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	2	0	32768	35	350	0	0	250	0	0	2	0	5	80	0	10	0	1	-1	-1	-1	44	2	257	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"armored_freighter_imperial.jpeg"	"SSTVII.bmp"
+"name"	"League Fast Freighter"	"1"	"abbrev"	"Emberhawk"	"stats"	"lander	19	6	4	16	9	200	60	0	0	0	0	0	0	0	0	8	60	0	0	0	0	0	0	5	80	1	0	32768	0	0	0	0	150	0	0	2	0	5	0	0	9	0	1	-1	-1	14	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"fast_freighter_league.jpeg"	"SSTVII.bmp"
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	4	3	3	80	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	70	3	0	32768	0	0	0	0	250	0	0	2	0	5	80	0	9	0	1	-1	-1	14	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+}																																																																										
+{21	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Bulk Hauler"	"1"	"abbrev"	"SSBH"	"stats"	"jump	21	3	3	1	2	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	4	0	65536	40	400	0	0	200	0	0	4	0	10	0	0	10	0	2	-1	-1	14	6	4	0	0	0	0	0	0	0	0	0	0	0	1	2	0	9	1	1"	"art"	"bulk_hauler.jpeg"	"21.bmp"
+"name"	"Armored Bulk Hauler"	"1"	"abbrev"	"SSBH II"	"stats"	"jump	21	3	3	1	2	200	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	40	4	0	65536	45	450	0	0	250	0	0	4	0	15	100	0	12	0	2	-1	-1	14	6	4	0	0	0	0	0	0	0	0	0	0	0	1	2	0	9	1	1"	"art"	"armored_bulk_hauler.jpeg"	"SSBHII.bmp"
+"name"	"Imperial Bulk Hauler"	"1"	"abbrev"	"SSBH"	"stats"	"jump	21	3	3	1	2	120	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	4	0	65536	40	400	0	0	200	0	0	4	0	10	0	0	10	0	2	-1	-1	-1	44	4	271	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"bulk_hauler_imperial.jpeg"	"SSBHII.bmp"
+"name"	"Imperial Armored Bulk Hauler"	"1"	"abbrev"	"SSBH II"	"stats"	"jump	21	3	3	1	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	80	4	0	65536	45	450	0	0	250	0	0	4	0	15	100	0	12	0	2	-1	-1	-1	44	4	256	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"armored_bulk_hauler_imperial.jpeg"	"SSBHII.bmp"
+"name"	"Bulk Hauler"	"1"	"abbrev"	"SSBH"	"stats"	"jump	21	3	3	1	2	120	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	20	4	0	65536	40	400	0	0	200	0	0	4	0	10	0	0	10	0	2	-1	-1	14	55	4	271	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"bulk_hauler.jpeg"	"SSBHII.bmp"
+"name"	"Armored Bulk Hauler"	"1"	"abbrev"	"SSBH II"	"stats"	"jump	21	3	3	1	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	40	4	0	65536	45	450	0	0	250	0	0	4	0	15	100	0	12	0	2	-1	-1	14	55	4	256	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"armored_bulk_hauler.jpeg"	"SSBHII.bmp"
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	4	2	2	220	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	100	4	0	65536	0	0	0	0	250	0	0	4	0	15	100	0	10	0	2	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+"name"	"Vuldrok Armed Hauler"	"1"	"abbrev"	"Possum"	"stats"	"jump	21	3	3	1	2	200	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	80	4	0	65536	45	450	0	0	250	0	0	4	0	15	100	0	10	0	2	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"vuldrok_armed_hauler.jpeg"	"SSBHII.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{22	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Starbase"	"1"	"abbrev"	"SB"	"stats"	"space	16	3	8	1	4	600	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	30	7	180	4	0	16793600	200	2000	0	0	300	0	0	20	0	100	150	0	50	0	0	-1	-1	14	55	3	354	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"starbase.jpeg"	"22.bmp"
+"name"	"Meson Starbase"	"1"	"abbrev"	"SB II"	"stats"	"space	16	3	8	1	4	800	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	60	8	220	4	0	16793600	300	3000	0	0	350	0	0	20	0	150	200	0	70	0	0	-1	-1	14	55	3	327	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"meson_starbase.jpeg"	"SBII.bmp"
+"name"	"Ventris Starbase"	"1"	"abbrev"	"Ventris"	"stats"	"space	16	1	8	1	20	1000	40	0	0	0	0	0	0	0	0	0	0	0	0	15	500	11	100	9	220	4	0	16793600	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	0"	"art"	"ventris.jpeg"	"SBII.bmp"
+"name"	"Diadem Starbase"	"1"	"abbrev"	"Diadem"	"stats"	"space	16	1	10	1	20	1000	40	0	0	0	0	0	0	0	0	0	0	0	0	15	500	13	150	11	250	4	0	16793600	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	10	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	0"	"art"	"diadem.jpeg"	"SBII.bmp"
+"name"	"Cumulus Starbase"	"1"	"abbrev"	"Cumulus"	"stats"	"space	16	1	9	2	20	1020	60	0	0	0	0	0	0	0	0	0	0	0	0	16	520	12	120	11	240	4	0	16793600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	0"	"art"	"cumulus.jpeg"	"SBII.bmp"
+"name"	"Murimuria Starbase"	"1"	"abbrev"	"Murimuria"	"stats"	"space	16	1	8	1	20	1000	40	0	0	0	0	0	0	0	0	0	0	0	0	15	500	10	90	9	220	4	0	16793600	200	0	0	0	300	0	0	20	0	100	150	0	50	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"murimuria.jpeg"	"SBII.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{23	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Submarine"	"1"	"abbrev"	"Lurker"	"stats"	"underwater	23	6	4	15	8	30	30	6	90	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	20	200	0	0	40	0	0	5	0	10	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"efssub1.jpeg"	"23.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{24	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Battleship"	"1"	"abbrev"	"Leviathon"	"stats"	"naval	24	8	4	2	2	130	30	0	0	5	90	10	50	16	200	0	0	0	0	0	0	0	0	0	0	0	0	0	15	150	0	0	80	0	0	8	0	5	0	0	0	0	0	-1	-1	3	99	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"efsbatl.jpeg"	"24.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{25	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Naval Cruiser"	"1"	"abbrev"	"Kraken"	"stats"	"naval	25	10	6	3	9	60	30	14	80	8	50	16	100	8	50	12	60	0	0	0	0	0	0	0	0	0	0	262144	10	100	0	0	60	0	0	4	0	20	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"efsdest1.jpeg"	"25.bmp"
+"name"	"Meson Naval Cruiser"	"1"	"abbrev"	"MCR"	"stats"	"naval	25	8	6	3	8	60	30	0	0	0	0	0	0	0	0	0	0	0	0	8	150	0	0	0	0	0	0	0	30	300	0	0	100	0	0	8	0	40	0	0	1	0	0	-1	-1	3	55	3	326	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"efsdest2.jpeg"	"25.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{26	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Carrier"	"1"	"abbrev"	"Eagle"	"stats"	"naval	26	8	5	2	1	90	30	0	0	0	0	12	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4096	20	200	0	0	90	0	0	8	0	20	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"efscarry.jpeg"	"26.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{27	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Naval Transport"	"1"	"abbrev"	"Terrapin"	"stats"	"naval	27	8	3	3	1	50	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	8192	10	100	0	0	50	0	0	4	0	1	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"efsfret1.jpeg"	"27.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	
+{28	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Scepter"	"1"	"abbrev"	"Scepter"	"stats"	"hover	28	8	1	1	1	100	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	167773185	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0"	"art"	"scepter.jpeg"	"28.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{29	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Holy Relic"	"1"	"abbrev"	"Relic"	"stats"	"hover	29	8	1	1	1	100	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	167774209	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0"	"art"	"relic1.jpeg"	"29.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{30	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Fighter"	"1"	"abbrev"	"Fighter"	"stats"	"air	30	30	10	4	8	60	100	9	80	0	0	10	100	9	80	0	0	0	0	0	0	0	0	0	0	0	1	134742016	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"vau_fighter.jpeg"	"30.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{31	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Mandarin"	"1"	"abbrev"	"Mandarin"	"stats"	"foot	31	8	9	6	7	20	100	0	0	0	0	0	0	0	0	3	30	9	100	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"vau_mandarin.jpeg"	"31.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{32	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Guard"	"1"	"abbrev"	"Guard"	"stats"	"foot	32	8	4	5	7	100	100	0	0	0	0	0	0	0	0	8	100	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"vau_guard.jpeg"	"32.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{33	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Jet Bike"	"1"	"abbrev"	"JetBike"	"stats"	"hover	33	20	6	3	8	120	100	0	0	0	0	9	80	8	80	0	0	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"vau_bike.jpeg"	"33.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{34	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau War-Skif"	"1"	"abbrev"	"Skif"	"stats"	"hover	34	10	7	2	8	150	100	0	0	8	100	10	80	10	150	0	0	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"vau_skiff.jpeg"	"34.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{35	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau War-Tower"	"1"	"abbrev"	"Tower"	"stats"	"mech	35	5	8	1	9	200	100	0	0	8	150	10	120	10	150	0	0	0	0	8	100	7	100	6	80	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"vau_tower.jpeg"	"v_wartower.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{36	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Warrior Tlaavu"	"1"	"abbrev"	"Tlaavu"	"stats"	"foot	36	5	5	5	7	100	100	0	0	0	0	6	80	10	100	12	150	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior1.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Kwamar"	"1"	"abbrev"	"Kwama"	"stats"	"foot	36	5	5	5	7	110	110	0	0	0	0	6	80	10	100	13	160	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior2.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Suam'shal"	"1"	"abbrev"	"Suam'shal"	"stats"	"foot	36	5	5	5	7	120	120	0	0	0	0	6	80	11	120	13	160	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior3.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Khelee"	"1"	"abbrev"	"Khelee"	"stats"	"foot	36	5	5	5	7	130	130	0	0	0	0	7	100	11	120	13	160	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior4.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Soqluq"	"1"	"abbrev"	"Soqluq"	"stats"	"foot	36	5	5	5	7	140	140	0	0	0	0	7	100	11	120	14	180	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior5.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Lyo'dwed"	"1"	"abbrev"	"Lyo'dwed"	"stats"	"foot	36	5	5	5	7	150	150	0	0	0	0	7	100	12	140	14	180	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior6.jpeg"	"v_warrior.bmp"
+"name"	"Vau Warrior Zeput'nu"	"1"	"abbrev"	"Zeput'nu"	"stats"	"foot	36	5	5	5	7	160	160	0	0	0	0	8	120	12	140	14	180	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior7.jpeg"	"v_warrior.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{37	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Vau Worker"	"1"	"abbrev"	"Worker"	"stats"	"foot	37	5	3	3	4	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134218240	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"vau_worker.jpeg"	"v_worker.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{38	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Wymzeeset"	"1"	"abbrev"	"Wymzeeset"	"stats"	"air	38	20	9	4	8	10	10	0	0	0	0	9	100	8	80	6	50	0	0	0	0	0	0	0	0	0	1	134873088	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"s_ftr.jpeg"	"spitter.bmp"
+"name"	"Symbiot Wymgantai"	"1"	"abbrev"	"Wymgantai"	"stats"	"air	38	20	9	4	8	20	10	0	0	5	100	5	50	0	0	9	100	0	0	0	0	0	0	0	0	0	1	134873088	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"wymgantai.jpeg"	"wymgantai.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{39	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Kor"	"1"	"abbrev"	"Kor"	"stats"	"foot	39	8	8	6	4	20	90	0	0	0	0	0	0	0	0	9	30	8	60	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"mindr.jpeg"	"minder.bmp"
+"name"	"Symbiot Kolo Zarnka"	"1"	"abbrev"	"Kolo Zarnka"	"stats"	"foot	39	8	8	6	4	40	10	0	0	0	0	0	0	0	0	9	80	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"kolo.jpeg"	"kolo.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{40	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Galka Setzo"	"1"	"abbrev"	"Galka Setzo"	"stats"	"tread	40	8	4	3	2	60	10	0	0	0	0	0	0	9	100	6	50	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"s_tank.jpeg"	"s_tank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{41	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Bazozad"	"1"	"abbrev"	"Bazozad"	"stats"	"wheel	41	8	4	4	3	50	10	0	0	9	50	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"arcer.jpeg"	"arcer.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{42	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Galtu"	"1"	"abbrev"	"Galtu"	"stats"	"foot	42	8	5	5	4	45	10	0	0	0	0	0	0	8	70	8	80	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"s_buch.jpeg"	"butcher.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{43	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Zag Kanta"	"1"	"abbrev"	"Zag Kanta"	"stats"	"crawler	43	12	8	9	5	30	10	0	0	0	0	0	0	0	0	10	80	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"reavr.jpeg"	"reaver.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{44	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Symbiot Zog"	"1"	"abbrev"	"Zog"	"stats"	"foot	44	8	3	6	2	20	10	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	134217984	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	7	7	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"nstr.jpeg"	"nester.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{45	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Noble Retinue"	"1"	"abbrev"	"Noble"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"noble.jpeg"	"noble.bmp"
+"name"	"Li Halan Noble Retinue"	"1"	"abbrev"	"Li Halan"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	0	18	332	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"lihalan.jpeg"	"noble.bmp"
+"name"	"Hazat Noble Retinue"	"1"	"abbrev"	"Hazat"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	1	18	332	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hazat.jpeg"	"noble.bmp"
+"name"	"Decados Noble Retinue"	"1"	"abbrev"	"Decados"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	2	18	332	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"decad.jpeg"	"noble.bmp"
+"name"	"Hawkwood Noble Retinue"	"1"	"abbrev"	"Hawkwood"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	3	18	332	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hawk.jpeg"	"noble.bmp"
+"name"	"al-Malik Noble Retinue"	"1"	"abbrev"	"al-Malik"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	0	4	18	332	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"almlk.jpeg"	"noble.bmp"
+"name"	"Kurgan Caliph"	"1"	"abbrev"	"Caliph"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"caliph.jpeg"	"kurgan.bmp"
+"name"	"Kurgan Sultan"	"1"	"abbrev"	"Sultan"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"sultan.jpeg"	"kurgan.bmp"
+"name"	"Battlemaster Retinue"	"1"	"abbrev"	"Battlemaster"	"stats"	"foot	45	8	6	4	11	10	65	0	0	0	0	0	0	0	0	10	80	0	0	0	0	0	0	0	0	0	1	18	200	2000	200	0	10	0	10	0	0	0	0	0	0	15	0	-1	-1	0	55	4	266	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"blade.jpeg"	"blade.bmp"
+"name"	"Vuldrok Thane"	"1"	"abbrev"	"Thane"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	18	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"thane.jpeg"	"thane.bmp"
+"name"	"Ramakrishna Noble Retinue"	"1"	"abbrev"	"Ramakrishna"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"ramakrishna.jpeg"	"noble.bmp"
+"name"	"Vuldrok Warlord"	"1"	"abbrev"	"Warlord"	"stats"	"foot	45	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	18	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"v_warlord.jpeg"	"thane.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{46	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Warlock"	"1"	"abbrev"	"Warlock"	"stats"	"foot	46	8	10	6	9	10	90	0	0	0	0	0	0	0	0	0	0	6	80	0	0	0	0	0	0	0	1	0	25	250	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	3	1	7	1	1"	"art"	"warlock.jpeg"	"warlock.bmp"
+"name"	"Manitou Irregular"	"1"	"abbrev"	"Manitou"	"stats"	"foot	46	8	8	8	10	10	90	0	0	0	0	0	0	0	0	8	80	6	80	0	0	0	0	0	0	0	1	6	1000	10000	0	0	0	0	0	0	0	0	0	0	0	30	0	-1	-1	14	-1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"manitou.jpeg"	"manitou.bmp"
+"name"	"Manifest Light"	"1"	"abbrev"	"Manifest"	"stats"	"foot	46	8	10	6	9	10	90	0	0	0	0	0	0	0	0	0	0	6	80	0	0	0	0	0	0	0	1	0	25	250	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	11	5	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"manifest.jpeg"	"manifest.bmp"
+"name"	"Vuldrok War Shaman"	"1"	"abbrev"	"Shamans"	"stats"	"foot	46	8	10	6	9	10	90	0	0	0	0	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	1	0	25	250	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"warshaman.jpeg"	"manifest.bmp"
+"name"	"Biolord"	"1"	"abbrev"	"Biolords"	"stats"	"foot	46	8	10	6	9	10	90	0	0	0	0	0	0	0	0	0	0	6	80	0	0	0	0	0	0	0	1	0	25	250	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"biolord.jpeg"	"warlock.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{47	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Inquisitor"	"1"	"abbrev"	"Inquisitor"	"stats"	"foot	47	5	8	5	6	80	80	0	0	0	0	3	20	8	80	6	100	5	100	0	0	0	0	0	0	0	1	128	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	1	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"avesti.jpeg"	"avesti.bmp"
+"name"	"Inquisitor"	"1"	"abbrev"	"Inquisitor"	"stats"	"foot	47	5	8	5	6	80	80	0	0	0	0	3	20	8	80	6	100	5	100	0	0	0	0	0	0	0	1	128	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	2	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"avesti.jpeg"	"avesti.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{48	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Dervish"	"1"	"abbrev"	"Dervish"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"derv.jpeg"	"dervish.bmp"
+"name"	"Royal Dervish"	"1"	"abbrev"	"Dervish"	"stats"	"foot	48	8	8	6	9	40	90	0	0	0	0	0	0	0	0	5	50	6	80	0	0	0	0	0	0	0	1	2	50	500	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	1	2	346	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"royal_dervish.jpeg"	"dervish.bmp"
+"name"	"Screaming Dervish"	"1"	"abbrev"	"Dervish"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	2	2	348	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"screaming_dervish.jpeg"	"dervish.bmp"
+"name"	"Ghamizi"	"1"	"abbrev"	"Ghamizi"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"ghamizi.jpeg"	"dervish.bmp"
+"name"	"Taliesin's Spear"	"1"	"abbrev"	"Taliesin"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	3	2	359	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"taliesin.jpeg"	"dervish.bmp"
+"name"	"Diwin"	"1"	"abbrev"	"Diwin"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	0	2	287	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"diwin.jpeg"	"dervish.bmp"
+"name"	"Midnight Fury"	"3"	"abbrev"	"Furies"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	0	2	329	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"furies.jpeg"	"dervish.bmp"
+"name"	"Marifah"	"1"	"abbrev"	"Marifah"	"stats"	"foot	48	8	5	5	8	20	90	0	0	0	0	0	0	0	0	3	20	6	60	0	0	0	0	0	0	0	1	2	10	100	30	0	10	0	2	10	0	0	0	0	0	5	0	-1	-1	13	4	2	322	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"marifah.jpeg"	"dervish.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{49	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Spy"	"3"	"abbrev"	"Spy"	"stats"	"foot	49	6	8	6	10	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	6	20	2000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"spy.jpeg"	"spy.bmp"
+"name"	"Assassin"	"1"	"abbrev"	"Assassin"	"stats"	"foot	49	6	6	8	10	10	30	0	0	0	0	0	0	0	0	8	80	0	0	0	0	0	0	0	0	0	1	6	40	4000	4	0	0	0	0	0	50	100	0	0	0	0	0	49	0	13	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"asasin.jpeg"	"assassin.bmp"
+"name"	"Doppleganger"	"1"	"abbrev"	"D'ganger"	"stats"	"foot	49	8	10	12	10	10	30	0	0	0	0	0	0	0	0	9	100	0	0	0	0	0	0	0	0	0	1	6	50	5000	5	0	0	0	0	0	50	100	0	0	0	0	0	-1	-1	13	13	4	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"dop.jpeg"	"assassin.bmp"
+"name"	"Kalinthi"	"1"	"abbrev"	"Kalinthi"	"stats"	"foot	49	6	8	8	7	20	60	0	0	0	0	0	0	0	0	0	0	5	60	0	0	0	0	0	0	0	1	6	20	2000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	1	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"kalinthi.jpeg"	"synecullum.bmp"
+"name"	"Synecullum"	"1"	"abbrev"	"Synecullum"	"stats"	"foot	49	6	8	8	6	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	6	20	2000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	1	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"syn.jpeg"	"synecullum.bmp"
+"name"	"White Hand of Hombor"	"1"	"abbrev"	"Hombor"	"stats"	"foot	49	8	6	12	8	10	60	0	0	0	0	0	0	0	0	6	60	5	60	0	0	0	0	0	0	0	1	6	60	6000	2	0	5	0	0	0	0	100	0	0	1	5	0	-1	-1	13	0	2	369	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"hombor.jpeg"	"synecullum.bmp"
+"name"	"Legion of the Cloak Guard"	"1"	"abbrev"	"Cloak"	"stats"	"foot	49	8	6	8	8	40	80	0	0	0	0	0	0	0	0	8	80	5	60	0	0	0	0	0	0	0	1	67108870	50	5000	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	2	2	317	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"cloak.jpeg"	"cloak.bmp"
+"name"	"Imperial Eye Operative"	"1"	"abbrev"	"Eye Operative"	"stats"	"foot	49	10	10	15	10	30	60	0	0	0	0	0	0	0	0	8	90	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	0	0	0	0	0	100	0	0	1	0	0	-1	-1	-1	12	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"eyeop.jpeg"	"spy.bmp"
+"name"	"Sahir"	"1"	"abbrev"	"Sahir"	"stats"	"foot	49	6	8	8	10	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	6	20	2000	2	0	0	0	0	0	0	100	0	0	1	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"sahir.jpeg"	"spy.bmp"
+"name"	"Berserker"	"1"	"abbrev"	"Berserker"	"stats"	"foot	49	6	8	8	10	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	67108866	20	2000	2	0	0	0	0	0	0	100	0	0	1	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"berserker.jpeg"	"berserker.bmp"
+"name"	"Fheykrig"	"1"	"abbrev"	"Fheykrigs"	"stats"	"foot	49	6	8	8	10	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	67108866	20	2000	2	0	0	0	0	0	0	100	0	0	1	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"Fheykrigs.jpeg"	"shield_maiden.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{50	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Merchant"	"1"	"abbrev"	"Merchant"	"stats"	"foot	50	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	4	55	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"merch.jpeg"	"dean.bmp"
+"name"	"Merchant"	"1"	"abbrev"	"Merchant"	"stats"	"foot	50	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	4	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"merch.jpeg"	"dean.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{51	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Non-Commissioned Officer"	"1"	"abbrev"	"Officer"	"stats"	"foot	51	6	5	2	8	5	30	0	0	0	0	0	0	0	0	5	30	0	0	0	0	0	0	0	0	0	1	16	5	50	5	0	0	0	0	0	0	20	0	0	0	0	0	-1	-1	-1	2055	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"offic.jpeg"	"officer.bmp"
+"name"	"Knight Retinue"	"1"	"abbrev"	"Knight"	"stats"	"foot	51	8	4	4	9	5	30	0	0	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	67108880	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	0	55	2	315	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"knight.jpeg"	"knight.bmp"
+"name"	"House Crusader"	"1"	"abbrev"	"Crusader"	"stats"	"foot	51	10	4	4	6	30	30	0	0	0	0	4	40	4	40	6	40	0	0	0	0	0	0	0	0	0	1	67108864	100	1000	100	0	20	0	5	0	0	0	0	0	5	10	0	-1	-1	0	55	2	305	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"crusader.jpeg"	"crusader.bmp"
+"name"	"Church Crusader"	"1"	"abbrev"	"Crusader"	"stats"	"foot	51	10	4	4	6	30	30	0	0	0	0	4	40	4	40	6	40	0	0	0	0	0	0	0	0	0	1	67108864	100	1000	100	0	20	0	5	0	0	0	0	0	5	10	0	-1	-1	0	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"ch_crusader.jpeg"	"crusader.bmp"
+"name"	"Khan Retinue"	"1"	"abbrev"	"Khan"	"stats"	"foot	51	8	4	4	9	40	40	0	0	0	0	0	0	0	0	7	50	0	0	0	0	0	0	0	0	0	1	16	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"khan.jpeg"	"khan.bmp"
+"name"	"Vanguard Knight"	"1"	"abbrev"	"Vanguard"	"stats"	"foot	51	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	366	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"vanguard.jpeg"	"vanguard.bmp"
+"name"	"Knight Retinue"	"1"	"abbrev"	"Knight"	"stats"	"foot	51	8	4	4	9	5	30	0	0	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	67108880	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	0	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"knight.jpeg"	"knight.bmp"
+"name"	"Imperial Ambassador"	"1"	"abbrev"	"Ambassador"	"stats"	"foot	51	6	5	2	8	5	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-2500	0	5	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	99	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"ambassador.jpeg"	"officer.bmp"
+"name"	"Custodian of the Sacred Grove"	"1"	"abbrev"	"Custodian"	"stats"	"foot	51	8	5	6	9	40	30	0	0	0	0	0	0	0	0	5	50	5	50	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	0	1	315	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"sacred_grove.jpeg"	"knight.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{52	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Bishop"	"1"	"abbrev"	"Bishop"	"stats"	"foot	52	6	6	5	6	30	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	15	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"bishop.jpeg"	"clergy.bmp"
+"name"	"Archbishop"	"1"	"abbrev"	"Archbishop"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"archbishop.jpeg"	"clergy.bmp"
+"name"	"Bishop Magnus Torenson"	"1"	"abbrev"	"Magnus"	"stats"	"foot	52	8	5	4	6	20	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	-100	5000	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"magnus.jpeg"	"clergy.bmp"
+"name"	"Clergy"	"3"	"abbrev"	"Clergy"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	2	20	0	0	0	0	0	0	0	1	64	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"clergy.jpeg"	"clergy.bmp"
+"name"	"Sanctuary Aeon"	"1"	"abbrev"	"Amalthean"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	2	20	0	0	0	0	0	0	0	1	16777280	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	105	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"amalthean.jpeg"	"clergy.bmp"
+"name"	"Archbishop Lyander"	"0"	"abbrev"	"Lyander"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"lyander.jpeg"	"clergy.bmp"
+"name"	"Archbishop Taraleng"	"0"	"abbrev"	"Taraleng"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"taraleng.jpeg"	"clergy.bmp"
+"name"	"Archbishop Sondra Nies"	"0"	"abbrev"	"Sondra"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"sondra.jpeg"	"clergy.bmp"
+"name"	"Hakim"	"1"	"abbrev"	"Hakim"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	16777217	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"hakim.jpeg"	"medic.bmp"
+"name"	"Archbishop Jordano"	"0"	"abbrev"	"Jordano"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"jordano.jpeg"	"clergy.bmp"
+"name"	"Archbishop Marcion"	"0"	"abbrev"	"Marcion"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"marcion.jpeg"	"clergy.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{53	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Engineer"	"1"	"abbrev"	"Engineer"	"stats"	"foot	53	6	2	2	3	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	32	50	500	100	0	300	0	0	10	0	50	0	0	0	0	0	-1	-1	21	55	5	119	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"engin.jpeg"	"engineer.bmp"
+"name"	"Engineer"	"1"	"abbrev"	"Engineer"	"stats"	"foot	53	6	2	2	3	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	32	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	0	2055	4	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"engin.jpeg"	"engineer.bmp"
+"name"	"Battlefield Engineer"	"1"	"abbrev"	"Field Eng"	"stats"	"tread	53	6	2	2	3	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	16777248	100	1000	100	0	500	0	0	20	0	100	0	0	0	0	0	-1	-1	21	55	5	119	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"b_eng.jpeg"	"bengineer.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{54	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Ceramite Mantle Knight"	"1"	"abbrev"	"Ceramite"	"stats"	"foot	83	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	4	1	273	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"ceramite.jpeg"	"ceramite.bmp"
+"name"	"Cybercorp"	"1"	"abbrev"	"Cybercorp"	"stats"	"foot	54	8	9	5	7	40	10	0	0	0	0	4	20	10	50	10	80	0	0	0	0	0	0	0	0	0	1	0	30	300	300	0	1	0	0	1	10	5	1	100	1	0	0	-1	-1	23	55	3	284	0	0	0	0	0	0	0	0	0	0	1	3	1	4	1	1"	"art"	"cybercorps.jpeg"	"cyber.bmp"
+"name"	"The Dispossessed"	"1"	"abbrev"	"Askari"	"stats"	"foot	54	8	7	5	7	40	10	0	0	3	30	3	30	5	40	6	80	0	0	0	0	0	0	0	0	0	1	0	500	5000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	4	3	333	0	0	0	0	0	0	0	0	0	0	0	0	1	5	1	1"	"art"	"dispossessed.jpeg"	"cyber.bmp"
+"name"	"Nung of Midian"	"1"	"abbrev"	"Nung"	"stats"	"foot	54	8	7	5	7	45	10	0	0	4	40	4	40	6	50	7	80	0	0	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	0	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	5	1	1"	"art"	"nung.jpeg"	"cyber.bmp"
+"name"	"Imperial Eye Security"	"3"	"abbrev"	"Eye Security"	"stats"	"foot	54	8	9	5	7	40	10	0	0	0	0	4	20	10	50	10	80	0	0	0	0	0	0	0	0	0	1	0	30	30	300	0	1	0	0	1	10	5	1	100	1	0	0	-1	-1	-1	2055	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"eyesec.jpeg"	"eye_security.bmp"
+"name"	"Cyborg"	"1"	"abbrev"	"Cyborg"	"stats"	"foot	54	9	9	5	7	80	10	0	0	0	0	5	40	10	80	10	100	0	0	0	0	0	0	0	0	0	1	0	500	5000	300	0	1	0	0	1	10	10	1	200	1	0	0	-1	-1	23	99	3	285	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"cyber.jpeg"	"cyber.bmp"
+"name"	"Cybercorp"	"1"	"abbrev"	"Cybercorp"	"stats"	"foot	54	8	9	5	7	40	10	0	0	0	0	4	20	10	50	10	80	0	0	0	0	0	0	0	0	0	1	0	30	300	300	0	1	0	0	1	10	5	1	100	1	0	0	-1	-1	3	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"cyber_corps.jpeg"	"cyber.bmp"
+"name"	"Cybercorp"	"1"	"abbrev"	"Cybercorp"	"stats"	"foot	54	8	9	5	7	40	10	0	0	0	0	4	20	10	50	10	80	0	0	0	0	0	0	0	0	0	1	0	0	0	300	0	1	0	0	1	10	5	1	100	1	0	0	-1	-1	3	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"cyber_corps.jpeg"	"cyber.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{55	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Rebel Partisan"	"1"	"abbrev"	"Partisans"	"stats"	"foot	55	6	4	6	5	10	30	0	0	0	0	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	5	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"rebel.jpeg"	"rebel.bmp"
+"name"	"Ascorbite"	"1"	"abbrev"	"Ascorbite"	"stats"	"foot	36	6	5	6	5	40	40	0	0	0	0	0	0	0	0	4	40	1	10	0	0	0	0	0	0	0	1	0	150	0	25	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"ascorbite.jpeg"	"ascorbite.bmp"
+"name"	"Hironem"	"1"	"abbrev"	"Hironem"	"stats"	"foot	36	6	5	6	5	25	30	0	0	0	0	0	0	0	0	4	40	1	10	0	0	0	0	0	0	0	1	0	150	0	25	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"hironem.jpeg"	"hironem.bmp"
+"name"	"Dragon Warrior"	"1"	"abbrev"	"Dragon"	"stats"	"foot	36	6	5	6	5	25	60	0	0	0	0	0	0	0	0	5	50	2	20	0	0	0	0	0	0	0	1	0	400	4000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	2	2	288	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1"	"art"	"dragon.jpeg"	"hironem.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{56	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"PTS Laser Canon"	"1"	"abbrev"	"PTS Laser"	"stats"	"tread	56	2	6	1	1	180	30	0	0	0	0	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	25	250	0	0	20	0	0	2	0	5	7	0	10	0	0	-1	-1	3	55	3	336	0	0	0	0	0	0	0	0	0	0	1	2	1	9	1	1"	"art"	"laser_pts.jpeg"	"pts_laser.bmp"
+"name"	"PTS Meson Canon"	"1"	"abbrev"	"Falling Star"	"stats"	"tread	56	2	9	1	1	200	30	0	0	0	0	0	0	0	0	0	0	0	0	8	100	0	0	0	0	0	0	0	50	500	0	0	25	0	0	3	0	6	8	0	6	0	0	-1	-1	3	55	3	337	0	0	0	0	0	0	0	0	0	0	1	2	1	9	1	1"	"art"	"meson_pts.jpeg"	"pts_meson.bmp"
+"name"	"PTS Meson Canon"	"1"	"abbrev"	"Falling Star"	"stats"	"tread	56	2	9	1	1	200	30	0	0	0	0	0	0	0	0	0	0	0	0	8	100	0	0	0	0	0	0	0	0	0	0	0	25	0	0	3	0	6	8	0	6	0	0	-1	-1	3	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"meson_pts.jpeg"	"pts_meson.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{57	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"PTS Missile Launcher"	"1"	"abbrev"	"PTS Missile"	"stats"	"tread	57	2	6	1	1	180	30	0	0	0	0	0	0	0	0	0	0	0	0	2	120	0	0	0	0	0	0	0	50	500	0	0	5	0	0	1	0	5	10	0	5	0	0	-1	-1	3	55	3	338	0	0	0	0	0	0	0	0	0	0	1	2	1	9	1	1"	"art"	"missile_pts.jpeg"	"pts_torpedo.bmp"
+"name"	"PTS Torpedo Launcher"	"1"	"abbrev"	"PTS Torpedo"	"stats"	"tread	57	2	9	1	1	180	30	0	0	0	0	0	0	0	0	0	0	0	0	4	200	0	0	0	0	0	0	0	100	1000	0	0	5	0	0	1	0	5	10	0	10	0	0	-1	-1	3	55	3	339	0	0	0	0	0	0	0	0	0	0	1	2	1	9	1	1"	"art"	"torpedo_pts.jpeg"	"pts_torpedo.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{58	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Scout Tank"	"1"	"abbrev"	"Greyhound"	"stats"	"tread	58	10	8	3	5	40	30	0	0	0	0	0	0	7	30	1	10	0	0	0	0	0	0	0	0	0	1	0	10	100	0	0	35	0	0	2	0	4	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"scout_tank.jpeg"	"scout_tank.bmp"
+"name"	"Cavalry"	"3"	"abbrev"	"Cavalry"	"stats"	"foot	58	10	7	4	7	15	30	0	0	0	0	0	0	0	0	3	20	0	0	0	0	0	0	0	0	0	1	0	16	0	160	0	0	0	0	1	0	0	0	0	0	0	0	-1	-1	13	99	2	272	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"cavalry.jpeg"	"horse.bmp"
+"name"	"Shantor Cavalry"	"3"	"abbrev"	"Shantor"	"stats"	"foot	58	10	7	4	7	15	30	0	0	0	0	0	0	0	0	4	30	0	0	0	0	0	0	0	0	0	1	0	16	0	160	0	0	0	0	1	0	0	0	0	0	0	0	-1	-1	13	4	2	349	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"shant.jpeg"	"shantor.bmp"
+"name"	"Trusnikron Cavalry"	"3"	"abbrev"	"Cavalry"	"stats"	"foot	58	14	7	5	8	20	30	0	0	0	0	0	0	0	0	4	30	0	0	0	0	0	0	0	0	0	1	0	100	1000	160	0	0	0	0	0	0	0	0	0	0	2	0	-1	-1	13	1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"t_cavalry.jpeg"	"horse.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{59	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Medium Tank"	"1"	"abbrev"	"Pitbull"	"stats"	"tread	58	8	5	2	2	60	30	0	0	0	0	0	0	4	60	2	30	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"medium_tank.jpeg"	"med_tank.bmp"
+"name"	"Cx-Omega"	"1"	"abbrev"	"Cx-Omega"	"stats"	"tread	58	8	5	2	3	90	30	0	0	0	0	0	0	7	80	3	50	0	0	0	0	0	0	0	0	0	1	0	12	120	0	0	15	0	0	1	0	4	0	0	1	0	0	-1	-1	3	1	2	280	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"cx-omega.jpeg"	"minimite.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	2	303	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{60	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Anti-personnel Tank"	"1"	"abbrev"	"Grim Reaper"	"stats"	"tread	60	8	5	2	2	50	30	0	0	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	60	0	0	3	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"anti_inf_tank.jpeg"	"anti_inf_tank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{61	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	55	3	325	0	0	0	0	0	0	0	0	0	0	1	2	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mantius Crusader-X"	"1"	"abbrev"	"Mantius"	"stats"	"tread	58	8	5	1	3	130	30	0	0	0	0	0	0	9	130	6	90	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	60	0	0	3	0	5	20	0	5	0	0	-1	-1	3	0	3	325	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mantius.jpeg"	"mantius.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{62	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	12	5	3	7	95	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Imperial Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	14	5	3	7	100	30	7	60	0	0	0	0	9	80	6	60	0	0	0	0	0	0	0	0	0	1	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	9	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"imperial_hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Su-325 Hover Tank"	"1"	"abbrev"	"Black Adder"	"stats"	"hover	58	14	5	3	7	100	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	1	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"su325_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"unused"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	-1	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"2nd Republic Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	62	16	8	6	8	120	30	0	0	0	0	0	0	10	120	8	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_tank.jpeg"	"hover_tank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{63	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Falcon"	"stats"	"hover	63	12	4	3	7	105	30	0	0	0	0	0	0	9	110	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	306	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"2nd Republic Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	94	16	8	6	8	130	30	0	0	0	0	0	0	12	120	5	50	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_at.jpeg"	"hover_at.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{64	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Peregrine"	"stats"	"hover	64	12	6	3	7	95	30	0	0	0	0	8	110	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	5	0	0	10	0	15	10	0	5	0	0	-1	-1	3	3	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	308	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{65	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Tank Killer"	"1"	"abbrev"	"Tank Killer"	"stats"	"tread	65	8	4	2	2	80	30	0	0	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"tank_destroyer.jpeg"	"tk.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{66	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Heavy Tank Killer"	"1"	"abbrev"	"Wolverine"	"stats"	"tread	66	6	3	1	3	110	30	0	0	0	0	0	0	8	120	0	0	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	3	302	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"heavy_tank_destroyer.jpeg"	"heavy_tk.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{67	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"SP Flak"	"1"	"abbrev"	"Tornado"	"stats"	"tread	67	8	6	2	3	60	30	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_flak.jpeg"	"sp_flak.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{68	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"SP Artillery"	"3"	"abbrev"	"Smyter"	"stats"	"tread	68	8	6	2	2	60	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_artillery.jpeg"	"sp_art.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{69	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	99	2	260	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+"name"	"Xf-123 'City Killer'"	"1"	"abbrev"	"Xf-123"	"stats"	"tread	69	4	6	1	1	80	30	0	0	5	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	16	160	0	0	30	0	0	6	6	5	10	0	0	0	0	-1	-1	3	2	2	260	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"xf-123.jpeg"	"ass_gun.bmp"
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{70	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Rocket Artillery"	"3"	"abbrev"	"Howler"	"stats"	"tread	70	8	6	1	1	100	30	0	0	3	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	10	0	3	20	0	5	0	0	-1	-1	3	55	2	343	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"rocket_artillery.jpeg"	"rocket_art.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{71	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Plague Artillery"	"3"	"abbrev"	"Pestulator"	"stats"	"tread	71	8	6	1	1	100	30	0	0	4	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	402653184	40	400	0	0	60	0	0	20	20	10	20	0	5	0	0	-1	-1	3	55	3	334	0	0	0	0	0	0	0	0	0	0	1	1	1	8	1	1"	"art"	"pestulator_artillery.jpeg"	"plagueart.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{72	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Stealth Tank"	"1"	"abbrev"	"Wraith"	"stats"	"tread	72	8	5	13	4	110	30	0	0	0	0	0	0	8	60	3	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	60	0	0	3	0	40	40	0	6	0	0	-1	-1	3	55	2	356	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"stealth_tank.jpeg"	"stealthtank.bmp"
+"name"	"Assault Stealth Tank"	"1"	"abbrev"	"Spectre"	"stats"	"tread	72	8	7	14	6	140	30	0	0	0	0	0	0	10	80	5	40	0	0	0	0	0	0	0	0	0	1	0	60	600	0	0	80	0	0	6	0	80	80	0	10	0	0	-1	-1	3	55	3	265	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"ass_stealth_tank.jpeg"	"stealthtank.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{73	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Gunship"	"1"	"abbrev"	"Dragonfly"	"stats"	"air	73	15	8	3	6	35	30	5	50	0	0	4	10	6	70	4	40	0	0	0	0	0	0	0	0	0	1	131072	30	300	0	0	8	0	0	2	0	20	10	0	0	0	0	-1	-1	3	55	2	298	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"gunshp06.jpeg"	"gunship.bmp"
+"name"	"Assault Gunship"	"1"	"abbrev"	"Apache"	"stats"	"air	73	15	8	5	7	60	30	7	70	0	0	6	20	8	90	5	60	0	0	0	0	0	0	0	0	0	1	131072	60	600	0	0	20	0	0	5	0	50	20	0	5	0	0	-1	-1	3	55	2	261	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"gunship.jpeg"	"gunship.bmp"
+"name"	"Assault Gunship"	"1"	"abbrev"	"Apache"	"stats"	"air	73	15	8	5	7	60	30	7	70	0	0	6	20	8	90	5	60	0	0	0	0	0	0	0	0	0	1	131072	60	600	0	0	20	0	0	5	0	50	20	0	5	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"gunship.jpeg"	"gunship.bmp"
+"name"	"Assault Gunship"	"1"	"abbrev"	"Apache"	"stats"	"air	73	15	8	5	7	60	30	7	70	0	0	6	20	8	90	5	60	0	0	0	0	0	0	0	0	0	1	131072	60	600	0	0	20	0	0	5	0	50	20	0	5	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"gunship.jpeg"	"gunship.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{74	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Atmos Fighter"	"1"	"abbrev"	"Gryphon"	"stats"	"air	74	20	5	2	7	20	30	0	0	0	0	7	40	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	20	200	0	0	5	0	0	2	0	10	0	0	5	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	8	1	1"	"art"	"afighter.jpeg"	"atmosfighter.bmp"
+"name"	"Cyber Atmos Fighter"	"1"	"abbrev"	"Wyvern"	"stats"	"air	74	25	6	3	9	25	30	0	0	0	0	9	60	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	50	500	0	0	5	0	0	1	0	20	5	10	6	0	0	-1	-1	3	55	2	283	0	0	0	0	0	0	0	0	0	0	1	3	0	9	1	1"	"art"	"s_cyber.jpeg"	"atmosfighter.bmp"
+"name"	"Recon Plane"	"1"	"abbrev"	"AWACS"	"stats"	"air	74	20	10	5	7	15	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	200	2000	0	0	5	0	0	3	0	50	0	5	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	0	0	1	1"	"art"	"awacs.jpeg"	"awacs.bmp"
+"name"	"Imperial Eye Recon Plane"	"1"	"abbrev"	"AWACS"	"stats"	"air	74	30	15	15	7	15	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	200	2000	0	0	5	0	0	3	0	50	0	5	0	0	0	-1	-1	-1	2055	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1"	"art"	"eye_awacs.jpeg"	"awacs.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{75	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Divebomber"	"1"	"abbrev"	"Banshee"	"stats"	"air	75	15	7	1	6	25	30	5	70	0	0	0	0	5	50	0	0	0	0	0	0	0	0	0	0	0	1	0	10	100	0	0	10	0	0	2	0	8	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"dbomber.jpeg"	"divebomber.bmp"
+"name"	"Cyber Divebomber"	"1"	"abbrev"	"Banshee II"	"stats"	"air	75	17	7	2	8	40	30	6	80	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	5	0	0	1	0	15	0	10	5	0	0	-1	-1	3	55	2	281	0	0	0	0	0	0	0	0	0	0	1	3	0	1	1	1"	"art"	"cyber_dbomber.jpeg"	"divebomber.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{76	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Strategic Bomber"	"1"	"abbrev"	"Devastator"	"stats"	"air	76	15	7	1	5	30	30	0	0	3	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	20	200	0	0	15	0	0	4	0	10	0	0	0	0	0	-1	-1	3	99	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"bomber.jpeg"	"strbomber.bmp"
+"name"	"Aerotransport"	"1"	"abbrev"	"Osprey"	"stats"	"air	76	15	7	1	5	30	30	0	0	0	0	2	20	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	20	200	0	0	15	0	0	4	0	10	0	0	0	0	0	-1	-1	3	99	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"c_plane.jpeg"	"aerotransport.bmp"
+"name"	"Stealth Bomber"	"1"	"abbrev"	"Ghost"	"stats"	"air	76	15	7	14	5	30	30	0	0	3	90	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	15	0	0	4	0	20	0	0	0	0	0	-1	-1	3	55	3	355	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"stealth_bomber.jpeg"	"stealth-bomber.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{77	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Marauder"	"1"	"abbrev"	"Marauder"	"stats"	"foot	77	1	5	4	4	10	40	0	0	0	0	0	0	0	0	3	20	0	0	0	0	0	0	8	40	0	1	0	8	80	80	0	5	0	0	1	0	0	0	0	1	0	0	-1	-1	14	55	2	321	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"marauder.jpeg"	"marauder.bmp"
+"name"	"Royal Kossack Knight"	"1"	"abbrev"	"Kossack"	"stats"	"air	77	10	6	6	9	40	30	0	0	0	0	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67633182	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	347	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"kossack.jpeg"	"etyri.bmp"
+"name"	"Wagon of St.Paulus"	"0"	"abbrev"	"Hopper"	"stats"	"mech	77	20	5	4	8	30	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	12288	100	10000	0	0	50	0	0	20	0	20	50	0	5	0	0	-1	-1	3	55	5	368	0	0	0	0	0	0	0	0	0	0	1	2	0	4	1	1"	"art"	"hopper.jpeg"	"hopper.bmp"
+"name"	"Hover Carrier"	"1"	"abbrev"	"HCarrier"	"stats"	"hover	77	15	5	4	8	120	40	0	0	0	0	3	40	4	40	0	0	0	0	0	0	0	0	0	0	4	0	12288	100	10000	0	0	50	0	0	20	0	20	50	0	5	0	0	-1	-1	3	55	5	307	0	0	0	0	0	0	0	0	0	0	1	1	0	8	1	1"	"art"	"hcarrier.jpeg"	"hcarrier.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{78	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Ranger"	"1"	"abbrev"	"Ranger"	"stats"	"foot	78	8	7	15	8	60	40	0	0	0	0	5	30	9	50	9	80	0	0	0	0	0	0	0	0	0	1	0	18	180	180	0	10	0	0	10	0	10	20	0	5	0	0	-1	-1	13	55	2	340	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"ranger.jpeg"	"ranger.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{79	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Xyll Warbeast"	"1"	"abbrev"	"Warbeast"	"stats"	"foot	79	10	6	3	6	80	10	0	0	0	0	0	0	0	0	9	100	0	0	0	0	0	0	0	0	0	1	134217728	5	500	0	0	0	0	10	10	40	0	0	0	0	0	0	-1	-1	23	55	2	371	0	0	0	0	0	0	0	0	0	0	1	4	1	0	1	1"	"art"	"warb.jpeg"	"xyll.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{80	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Space Marine"	"1"	"abbrev"	"Marine"	"stats"	"foot	80	1	5	5	5	20	40	0	0	0	0	5	40	5	40	8	50	0	0	0	0	0	0	8	60	0	1	0	16	160	160	0	10	0	0	20	0	5	10	0	1	0	0	-1	-1	13	55	2	352	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"space_marine.jpeg"	"spacemarine.bmp"
+"name"	"Grimson"	"1"	"abbrev"	"Grimson"	"stats"	"foot	80	8	6	6	7	20	40	0	0	0	0	4	30	6	40	8	80	0	0	0	0	0	0	0	0	0	1	0	12	120	200	0	10	0	0	1	20	0	0	0	1	0	0	-1	-1	13	55	2	297	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"grimson.jpeg"	"grims.bmp"
+"name"	"Misfits Guild"	"1"	"abbrev"	"Mongrel"	"stats"	"foot	80	8	8	9	7	50	60	0	0	0	0	0	0	5	40	8	80	0	0	0	0	0	0	0	0	0	1	6	800	8000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"misfits.jpeg"	"misfits.bmp"
+"name"	"Changed"	"1"	"abbrev"	"Changed"	"stats"	"foot	80	8	8	8	7	50	60	0	0	0	0	0	0	4	40	8	80	0	0	0	0	0	0	0	0	0	1	0	2	20	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	13	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"changed.jpeg"	"grims.bmp"
+"name"	"Imperial Space Marine"	"1"	"abbrev"	"Marine"	"stats"	"mech	80	8	6	5	7	50	60	0	0	0	0	6	40	6	50	8	80	0	0	0	0	0	0	9	70	0	1	0	16	160	160	0	10	0	0	20	0	5	10	0	1	0	0	-1	-1	-1	44	2	352	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"impflt.jpeg"	"marauder.bmp"
+"name"	"Bogatyr"	"1"	"abbrev"	"Bogatyr"	"stats"	"foot	80	6	5	5	5	20	40	0	0	0	0	2	20	5	40	6	40	0	0	0	0	0	0	8	60	0	1	0	16	0	160	0	10	0	0	20	0	5	10	0	1	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"bogatyr.jpeg"	"grims.bmp"
+"name"	"Qashik"	"1"	"abbrev"	"Qashik"	"stats"	"foot	80	6	5	5	5	20	40	0	0	0	0	0	0	0	0	8	60	0	0	0	0	0	0	8	60	0	1	0	16	0	160	0	10	0	0	20	0	5	10	0	1	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"qashik.jpeg"	"guard.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{81	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Stigmata Garrison"	"1"	"abbrev"	"Stigmata"	"stats"	"foot	81	8	8	7	7	80	60	0	0	3	60	4	40	8	100	8	150	0	0	0	0	0	0	0	0	0	1	0	6	0	120	0	0	0	0	0	0	0	0	0	1	0	0	-1	-1	-1	11	5	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"impstig.jpeg"	"stigmata.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{82	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Chem/Bio Warrior"	"1"	"abbrev"	"Chem/Bio"	"stats"	"foot	82	8	5	5	7	30	40	0	0	3	50	5	40	6	60	8	110	0	0	0	0	0	0	0	0	0	1	402653184	16	160	160	0	10	0	0	10	10	10	10	0	1	0	0	-1	-1	13	55	2	274	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"shock.jpeg"	"chembio.bmp"
+"name"	"Chemical Shock"	"1"	"abbrev"	"Chem Shock"	"stats"	"foot	82	8	5	5	8	40	40	0	0	3	50	5	40	6	60	9	80	0	0	0	0	0	0	0	0	0	1	8388608	18	180	180	0	20	0	0	20	0	10	10	0	1	0	0	-1	-1	23	55	2	275	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"chemical.jpeg"	"grims.bmp"
+"name"	"Vritra's Warrior"	"1"	"abbrev"	"Vritra"	"stats"	"foot	82	8	5	5	8	20	40	0	0	0	0	0	0	4	30	8	70	0	0	0	0	0	0	0	0	0	1	8388608	1000	10000	0	0	0	0	200	0	0	0	0	0	0	10	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"vritra.jpeg"	"grims.bmp"
+"name"	"NBC Troops"	"0"	"abbrev"	"NBC"	"stats"	"foot	82	8	5	5	7	30	40	0	0	4	100	5	50	6	80	8	100	0	0	0	0	0	0	0	0	0	1	402653184	25	250	160	0	10	0	0	10	10	10	10	0	1	0	0	-1	-1	13	55	3	331	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"nbc.jpeg"	"guard.bmp"
+"name"	"Chem/Bio Warrior"	"1"	"abbrev"	"Chem/Bio"	"stats"	"foot	82	8	5	5	7	30	40	0	0	3	50	5	40	6	60	8	110	0	0	0	0	0	0	0	0	0	1	402653184	16	160	160	0	10	0	0	10	10	10	10	0	1	0	0	-1	-1	13	13	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"shock.jpeg"	"chembio.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{83	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Infantry"	"3"	"abbrev"	"Infantry"	"stats"	"foot	83	6	4	5	6	30	30	0	0	0	0	0	0	1	10	3	20	0	0	0	0	0	0	0	0	0	1	0	8	80	80	0	2	0	0	1	0	1	0	0	0	0	0	-1	-1	13	55	1	310	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"inf.jpeg"	"infantry.bmp"
+"name"	"Heavy Infantry"	"3"	"abbrev"	"Hvy Inf"	"stats"	"foot	83	6	4	4	5	30	30	0	0	0	0	0	0	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	8	80	80	0	5	0	0	5	0	5	5	0	1	0	0	-1	-1	13	55	2	300	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hvyinf.jpeg"	"hvyinf.bmp"
+"name"	"Freedom Fighter"	"1"	"abbrev"	"Guerilla"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	10	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"fan.jpeg"	"fan.bmp"
+"name"	"Aragon Martyr"	"1"	"abbrev"	"Martyr"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	800	8000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"martyrs.jpeg"	"fan.bmp"
+"name"	"Drenjar Warrior"	"1"	"abbrev"	"Drenjar"	"stats"	"foot	83	6	4	6	7	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108864	5	50	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"drenjar.jpeg"	"fan.bmp"
+"name"	"White Tower Knight"	"1"	"abbrev"	"White Tower"	"stats"	"foot	83	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	3	1	369	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"white_tower.jpeg"	"white_tower.bmp"
+"name"	"Black Forge Knight"	"1"	"abbrev"	"Black Forge"	"stats"	"foot	83	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	3	1	268	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"black_forge.jpeg"	"black_forge.bmp"
+"name"	"Lakol Wolf-Warrior"	"1"	"abbrev"	"Lakol"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	0	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"lakol.jpeg"	"fan.bmp"
+"name"	"Skey Warband"	"1"	"abbrev"	"Skey"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	0	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"skey.jpeg"	"fan.bmp"
+"name"	"Zetol Warrior"	"1"	"abbrev"	"Zetol"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	0	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"zetol.jpeg"	"fan.bmp"
+"name"	"Maghtaw Warrior"	"1"	"abbrev"	"Maghtaw"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	0	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"maghtaw.jpeg"	"fan.bmp"
+"name"	"Rekgold Warrior"	"1"	"abbrev"	"Rekgold"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	0	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"rekgold.jpeg"	"fan.bmp"
+}		 	 	 	 	 																																																																	 	 	 	 
+{84	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Militia"	"1"	"abbrev"	"Militia"	"stats"	"foot	84	4	3	5	4	5	30	0	0	0	0	0	0	0	0	1	10	0	0	0	0	0	0	0	0	0	1	0	2	20	20	0	1	0	0	0	0	0	0	0	0	0	0	-1	-1	99	1055	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"militia.jpeg"	"militia.bmp"
+"name"	"Tracker"	"1"	"abbrev"	"Trackers"	"stats"	"foot	84	8	8	7	7	10	30	0	0	0	0	0	0	0	0	4	20	0	0	0	0	0	0	0	0	0	1	0	12	120	120	0	1	0	1	1	1	5	0	0	0	0	0	-1	-1	13	55	1	361	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"track.jpeg"	"track.bmp"
+"name"	"Oro'ym Aquatic Commando"	"1"	"abbrev"	"Oro'ym"	"stats"	"crawler	84	8	8	9	7	30	30	2	20	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	6	500	5000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"oroym.jpeg"	"oroym.bmp"
+"name"	"STING"	"1"	"abbrev"	"STING"	"stats"	"foot	84	8	10	6	8	30	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	0	20	2000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	1	2	358	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"sting.jpeg"	"house_spy.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{85	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Flak"	"1"	"abbrev"	"Flak"	"stats"	"wheel	85	6	3	4	1	40	30	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"flak.jpeg"	"flak.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{86	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Anti-Tank Gun"	"1"	"abbrev"	"ATG"	"stats"	"wheel	86	6	3	4	3	40	30	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"atg01.jpeg"	"at.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{87	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"L-66 'Wild Wombat'"	"1"	"abbrev"	"L-66"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	6	60	0	0	20	0	0	4	0	5	0	0	0	0	0	-1	-1	3	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"L66.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	2	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	3	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	4	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	-1	44	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{88	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Plague Bomb"	"1"	"abbrev"	"Plague Bomb"	"stats"	"hover	88	4	1	7	2	20	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1207959552	10	0	0	0	5	0	1	100	200	1	0	0	1	0	0	-1	-1	23	55	2	10	0	0	0	0	0	0	0	0	0	0	1	1	0	8	1	1"	"art"	"plague_bomb.jpeg"	"plague.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{89	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Scientist"	"1"	"abbrev"	"Scientist"	"stats"	"foot	89	4	2	1	2	5	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	50	0	500	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	55	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"scien.jpeg"	"scientist.bmp"
+"name"	"Scientist"	"1"	"abbrev"	"Scientist"	"stats"	"foot	89	4	2	1	2	5	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	500	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"scien.jpeg"	"scientist.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{90	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Peasant"	"1"	"abbrev"	"Peasant"	"stats"	"foot	90	4	1	1	2	5	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	55	1	0	0	0	0	0	0	0	0	0	0	1	1	0	1	9	1	1"	"art"	"peas.jpeg"	"peasant.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{91	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Cargo"	"1"	"abbrev"	"Cargo"	"stats"	"hover	91	6	0	1	3	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	167772161	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	1"	"art"	"cargo_pod.jpeg"	"cargo.bmp"
+}	 	 	 	 	 	 																																																																	 		 	
+{92	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Duke Nasir al-Malik"	"0"	"abbrev"	"Nasir"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"nasir.jpeg"	"noble.bmp"
+"name"	"Duke Xavier al-Malik"	"0"	"abbrev"	"Xavier"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"xavier.jpeg"	"noble.bmp"
+"name"	"Duke Omar al-Malik"	"0"	"abbrev"	"Omar"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"omar.jpeg"	"noble.bmp"
+"name"	"Duke Amir al-Malik"	"0"	"abbrev"	"Amir"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"amir.jpeg"	"noble.bmp"
+"name"	"Duke Rahim al-Malik"	"0"	"abbrev"	"Rahim"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"rahim.jpeg"	"noble.bmp"
+"name"	"Duke Tarafah al-Malik"	"0"	"abbrev"	"Tarafah"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"tarafah.jpeg"	"noble.bmp"
+"name"	"Prince Hakim al-Malik"	"0"	"abbrev"	"Hakim"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hakim_almalik.jpeg"	"noble.bmp"
+"name"	"Duchess Yusara al-Malik"	"0"	"abbrev"	"Yusara"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"yusara.jpeg"	"noble.bmp"
+"name"	"Duchess Aisha al-Malik"	"0"	"abbrev"	"Aisha"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"aisha.jpeg"	"noble.bmp"
+"name"	"Duke Ibrahim al-Malik"	"0"	"abbrev"	"Ibrahim"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"ibrahim.jpeg"	"noble.bmp"
+"name"	"Duke Samir al-Malik"	"0"	"abbrev"	"Samir"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"samir.jpeg"	"noble.bmp"
+"name"	"Duke Harman Ramakrishna"	"0"	"abbrev"	"Harman"	"stats"	"foot	92	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"harman.jpeg"	"noble.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{93																																																																										
+"name"	"House Torenson Advisor"	"1"	"abbrev"	"Torenson"	"stats"	"foot	93	8	5	4	10	10	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-1000	10000	100	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	55	1	333	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"torenson.jpeg"	"noble.bmp"
+"name"	"Marquessa Agneta Torenson"	"0"	"abbrev"	"Agneta"	"stats"	"foot	93	8	5	4	10	10	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"agneta.jpeg"	"noble.bmp"
+"name"	"Hemming Torenson"	"0"	"abbrev"	"Hemming"	"stats"	"foot	93	8	5	4	10	10	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-150	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hemming.jpeg"	"noble.bmp"
+}																																																																										
+{94	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Mutasih Secret Police"	"1"	"abbrev"	"Mutasih"	"stats"	"foot	94	8	10	14	8	30	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	4	2	330	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"mutasih.jpeg"	"house_spy.bmp"
+"name"	"Crystal Lantern Dancer"	"1"	"abbrev"	"Lantern"	"stats"	"foot	94	8	6	15	8	10	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	4	2	279	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"crystal_lantern.jpeg"	"house_spy.bmp"
+"name"	"Rook Operative"	"1"	"abbrev"	"Rook"	"stats"	"foot	94	8	10	13	8	30	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	3	2	345	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"rook.jpeg"	"house_spy.bmp"
+"name"	"Jakovian Agency"	"3"	"abbrev"	"Jakovian"	"stats"	"foot	94	8	10	15	8	30	40	0	0	0	0	0	0	0	0	6	60	4	30	0	0	0	0	0	0	0	1	6	30	3000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	2	2	313	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"jakovian.jpeg"	"jakovian.bmp"
+"name"	"Archon of the Hazat Claw"	"1"	"abbrev"	"Archon"	"stats"	"foot	94	8	6	14	8	10	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	5	0	0	0	0	100	0	0	0	0	0	-1	-1	13	1	2	255	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"archons.jpeg"	"house_spy.bmp"
+"name"	"Jingcha"	"1"	"abbrev"	"Jingcha"	"stats"	"foot	94	8	10	14	8	30	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	5	0	0	0	0	100	0	0	0	0	0	-1	-1	13	0	2	314	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"jingcha.jpeg"	"house_spy.bmp"
+"name"	"Hidden Martyr"	"1"	"abbrev"	"Martyr"	"stats"	"foot	94	8	6	14	8	10	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	6	30	3000	2	0	5	0	0	0	0	100	0	0	0	0	0	-1	-1	13	0	2	304	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"hidden_martyrs.jpeg"	"house_spy.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{95																																																																										
+"name"	"Ur-Ukar Dark Legion"	"1"	"abbrev"	"Dark Legion"	"stats"	"foot	95	8	7	7	7	35	80	0	0	0	0	0	0	5	60	7	70	5	50	0	0	0	0	0	0	0	1	0	50	500	100	0	5	0	0	0	0	0	0	0	0	2	0	-1	-1	13	4	2	362	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"darklegion.jpeg"	"UKARI3.bmp"
+"name"	"Ur-Ukar Kordeth Allied Clan"	"1"	"abbrev"	"Kordeth Ukar"	"stats"	"foot	95	8	6	6	6	25	70	0	0	0	0	0	0	4	50	6	70	4	50	0	0	0	0	0	0	0	1	0	30	300	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	4	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukar_kordeth.jpeg"	"UKARI2.bmp"
+"name"	"Ur-Ukar Kordeth Outlaw Clan"	"1"	"abbrev"	"Kordeth Ukar"	"stats"	"foot	95	8	6	6	6	25	70	0	0	0	0	0	0	4	50	6	70	4	50	0	0	0	0	0	0	0	1	0	30	300	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukar_outlaw.jpeg"	"UKARI1.bmp"
+"name"	"United Freedom Movement"	"1"	"abbrev"	"UFM"	"stats"	"foot	95	8	5	8	6	20	70	0	0	0	0	0	0	3	30	6	50	3	30	0	0	0	0	0	0	0	1	0	30	300	100	0	5	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukarreb.jpeg"	"UKARI1.bmp"
+"name"	"Ur-Ukar Aylon Clan"	"1"	"abbrev"	"Aylon Ukar"	"stats"	"foot	95	8	6	6	6	25	70	0	0	0	0	0	0	4	50	6	70	4	50	0	0	0	0	0	0	0	1	0	30	300	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	4	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukar_aylon.jpeg"	"UKARI2.bmp"
+"name"	"Ur-Ukar Istakhr Clan"	"1"	"abbrev"	"Istakhr Ukar"	"stats"	"foot	95	8	6	6	6	25	70	0	0	0	0	0	0	4	50	6	70	4	50	0	0	0	0	0	0	0	1	0	30	300	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	4	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukar_istakhr.jpeg"	"UKARI2.bmp"
+"name"	"Ur-Ukar Criticorum Clan"	"1"	"abbrev"	"Dwelthmid"	"stats"	"foot	95	8	6	6	6	25	70	0	0	0	0	0	0	4	50	6	70	4	50	0	0	0	0	0	0	0	1	0	30	300	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	4	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"ukar_crit.jpeg"	"UKARI2.bmp"
+}																																																																										
+{96		 	 	 	 	 																																																																	 	 	 	 
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	4	2	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	50	3	0	32768	700	7000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	2	2	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	3	2	3	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	50	3	0	32768	500	5000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	3	2	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	3	3	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	50	3	0	32768	300	3000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	4	2	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	3	2	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	70	3	0	32768	900	9000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	0	2	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+"name"	"League Small Freighter"	"1"	"abbrev"	"Caravan"	"stats"	"jump	20	3	3	2	3	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	50	3	0	32768	900	9000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"small_freighter_league.jpeg"	"SSTVII.bmp"
+}																																																																										
+{97	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	3	1	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	100	4	0	32768	1500	15000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	0	3	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	3	1	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	80	4	0	32768	1500	15000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	1	3	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	4	1	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	80	4	0	32768	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	2	3	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	3	1	2	220	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	80	4	0	32768	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	3	3	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+"name"	"League Large Freighter"	"1"	"abbrev"	"Ambrim 5700"	"stats"	"jump	21	3	3	2	2	200	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	80	4	0	32768	500	5000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	4	3	333	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"large_freighter_league.jpeg"	"SSBHII.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{98																																																																										
+"name"	"Scraver Dean"	"1"	"abbrev"	"Dean"	"stats"	"foot	98	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"dean.jpeg"	"dean.bmp"
+"name"	"Scraver Informant"	"1"	"abbrev"	"Informant"	"stats"	"foot	98	6	8	8	5	10	30	0	0	0	0	0	0	0	0	7	80	0	0	0	0	0	0	0	0	0	1	6	0	0	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"scraver_informant.jpeg"	"spy.bmp"
+"name"	"Scraver Bodyguard"	"1"	"abbrev"	"Taketsu"	"stats"	"foot	98	8	4	4	6	25	40	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	0	0	0	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	13	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"scraver_guard.jpeg"	"muster.bmp"
+"name"	"Siegel Family"	"3"	"abbrev"	"Siegel"	"stats"	"foot	98	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-900	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"siegel.jpeg"	"dean.bmp"
+}																																																																										
+{99																																																																										
+"name"	"Muster Consul"	"1"	"abbrev"	"Consul"	"stats"	"foot	99	6	5	2	4	20	40	0	0	0	0	0	0	0	0	5	30	0	0	0	0	0	0	0	0	0	1	16	0	0	5	0	0	0	0	0	0	20	0	0	0	0	0	-1	-1	13	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"muster_consul.jpeg"	"officer.bmp"
+"name"	"Muster Troops"	"0"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	0	0	80	0	2	0	0	1	0	1	0	0	1	0	0	-1	-1	13	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"muster_troops.jpeg"	"muster.bmp"
+"name"	"Muster Mercenary"	"3"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	0	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	1"	"art"	"muster_merc.jpeg"	"muster.bmp"
+"name"	"Muster Mercenary"	"3"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	1	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	1"	"art"	"muster_merc.jpeg"	"muster.bmp"
+"name"	"Muster Mercenary"	"3"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	800	8000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	2	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	1"	"art"	"muster_merc.jpeg"	"muster.bmp"
+"name"	"Muster Mercenary"	"3"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	3	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	1"	"art"	"muster_merc.jpeg"	"muster.bmp"
+"name"	"Muster Mercenary"	"3"	"abbrev"	"Muster"	"stats"	"foot	99	8	4	5	4	25	30	0	0	4	40	2	20	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	500	5000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	4	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	1"	"art"	"muster_merc.jpeg"	"muster.bmp"
+"name"	"Muster Bodyguard"	"1"	"abbrev"	"Sentry"	"stats"	"foot	99	4	5	5	4	30	40	0	0	0	0	0	0	0	0	5	60	0	0	0	0	0	0	0	0	0	1	0	0	0	80	0	2	0	0	1	0	1	0	0	1	0	0	-1	-1	13	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"scraver_guard.jpeg"	"muster.bmp"
+"name"	"Muster Bodyguard"	"1"	"abbrev"	"Sentry"	"stats"	"foot	99	4	5	5	4	30	40	0	0	0	0	0	0	0	0	5	60	0	0	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	0	0	1	6	1	1"	"art"	"scraver_guard.jpeg"	"muster.bmp"
+"name"	"Muster Slaver"	"1"	"abbrev"	"Slaver"	"stats"	"foot	99	6	5	2	4	20	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-50	0	5	0	0	0	0	0	0	20	0	0	0	0	0	-1	-1	13	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"muster_slaver.jpeg"	"muster.bmp"
+}																																																																										
+{100																																																																										
+"name"	"Reeves Banker"	"1"	"abbrev"	"Banker"	"stats"	"foot	100	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"reeves_banker.jpeg"	"dean.bmp"
+}																																																																										
+{101																																																																										
+"name"	"House Juandaastas Retinue"	"1"	"abbrev"	"Juandaastas"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"juandaastas.jpeg"	"noble.bmp"
+"name"	"King Vaclav II Vasalayana"	"0"	"abbrev"	"Vaclav II"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"vaclav.jpeg"	"noble.bmp"
+"name"	"Duke Honorius Masseri"	"0"	"abbrev"	"Honorius"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"honorius.jpeg"	"noble.bmp"
+"name"	"Sheikh Haroun Keddah"	"0"	"abbrev"	"Haroun"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"haroun.jpeg"	"noble.bmp"
+"name"	"House Keddah Retinue"	"1"	"abbrev"	"Keddah"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"keddah.jpeg"	"noble.bmp"
+"name"	"King Arturo Chauki"	"0"	"abbrev"	"Arturo"	"stats"	"foot	101	8	5	4	5	20	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	0	0	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"arturo.jpeg"	"noble.bmp"
+}																																																																										
+{102																																																																										
+"name"	"Supreme Order of Engineer"	"1"	"abbrev"	"Engineer"	"stats"	"foot	102	6	2	2	3	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	32	0	0	100	0	300	0	0	10	0	50	0	0	0	0	0	-1	-1	21	5	10	0	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"league_eng.jpeg"	"engineer.bmp"
+"name"	"League Engineer"	"1"	"abbrev"	"Engineer"	"stats"	"foot	102	6	2	2	3	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	32	1500	15000	0	0	0	0	0	0	0	0	0	0	0	10	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"league_eng.jpeg"	"engineer.bmp"
+}																																																																										
+{103																																																																										
+"name"	"Brother Battle"	"1"	"abbrev"	"Brother Battle"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	0	0	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	0	0	-1	-1	1	6	4	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"brother.jpeg"	"brother.bmp"
+"name"	"Scions of Zhal"	"1"	"abbrev"	"Scion"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	6	80	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	0	0	-1	-1	1	6	4	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"zhal.jpeg"	"zhal.bmp"
+"name"	"Brother Battle"	"1"	"abbrev"	"Brother Battle"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	0	0	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	0	0	-1	-1	-1	11	4	270	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"brother.jpeg"	"brother.bmp"
+"name"	"Scions of Zhal"	"1"	"abbrev"	"Scion"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	6	80	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	0	0	-1	-1	-1	11	4	270	109	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"zhal.jpeg"	"zhal.bmp"
+"name"	"Brother Battle"	"1"	"abbrev"	"Brother Battle"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	0	0	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	0	0	-1	-1	1	55	4	270	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"brother.jpeg"	"brother.bmp"
+"name"	"Scions of Zhal"	"1"	"abbrev"	"Scion"	"stats"	"foot	103	8	8	8	8	80	60	0	0	4	80	4	40	8	100	8	150	6	80	0	0	0	0	0	0	0	1	0	6	0	120	0	40	0	0	0	0	20	40	0	1	5	0	-1	-1	1	55	4	270	109	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"zhal.jpeg"	"zhal.bmp"
+}																																																																										
+{104	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Prince Darius Hawkwood"	"0"	"abbrev"	"Darius"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"darius.jpeg"	"noble.bmp"
+"name"	"Duke Egil Gordon Hawkwood"	"0"	"abbrev"	"Egil"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"egil.jpeg"	"noble.bmp"
+"name"	"Countess Chirona Hawkwood"	"0"	"abbrev"	"Chirona"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"chirona.jpeg"	"noble.bmp"
+"name"	"Duchess Leda Hawkwood"	"0"	"abbrev"	"Leda"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"leda.jpeg"	"noble.bmp"
+"name"	"Alvarex Hawkwood"	"0"	"abbrev"	"Alvarex"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"alvarex.jpeg"	"noble.bmp"
+"name"	"Duke Cassius Hawkwood"	"0"	"abbrev"	"Cassius"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"cassius.jpeg"	"noble.bmp"
+"name"	"Duchess Catherine Hawkwood"	"0"	"abbrev"	"Catherine"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"catherine.jpeg"	"noble.bmp"
+"name"	"Duke Redoran II Hawkwood"	"0"	"abbrev"	"Redoran"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"redoran.jpeg"	"noble.bmp"
+"name"	"Duke Erasmus Hawkwood"	"0"	"abbrev"	"Erasmus"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"erasmus.jpeg"	"noble.bmp"
+"name"	"Duke William Hawkwood"	"0"	"abbrev"	"William"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"william.jpeg"	"noble.bmp"
+"name"	"Alexius Hawkwood"	"0"	"abbrev"	"Alexius"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"alexius.jpeg"	"noble.bmp"
+"name"	"Duchess Regnus-Octavia Hawkwood"	"0"	"abbrev"	"Octavia"	"stats"	"foot	104	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"octavia.jpeg"	"noble.bmp"
+}																																																																										
+{105	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"House Justinian Retinue"	"1"	"abbrev"	"Justinian"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"justinian.jpeg"	"noble.bmp"
+"name"	"Marquis Argus Justinian"	"0"	"abbrev"	"Argus"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"argus.jpeg"	"noble.bmp"
+"name"	"Count Udoro Justinian"	"0"	"abbrev"	"Udoro"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"udoro.jpeg"	"noble.bmp"
+"name"	"House Basque Retinue"	"1"	"abbrev"	"Basque"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"basque.jpeg"	"noble.bmp"
+"name"	"Duke Andrea Cameton"	"0"	"abbrev"	"Andrea"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	9	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"andrea.jpeg"	"noble.bmp"
+"name"	"House Cameton Retinue"	"1"	"abbrev"	"Cameton"	"stats"	"foot	105	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	9	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"cameton.jpeg"	"noble.bmp"
+}																																																																										
+{106	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Justinian Guard"	"1"	"abbrev"	"Old Guard"	"stats"	"foot	106	8	4	4	6	40	40	0	0	0	0	3	30	4	40	6	60	0	0	0	0	0	0	0	0	0	1	67108864	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"justinian_guard.jpeg"	"guard.bmp"
+"name"	"Phoenix Guard"	"1"	"abbrev"	"Phoenix"	"stats"	"foot	106	10	8	6	8	50	80	0	0	8	80	8	80	9	90	8	80	0	0	0	0	0	0	0	0	0	1	67108864	15	0	100	0	10	0	5	5	5	10	40	5	2	0	0	-1	-1	-1	9	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"phoenix.jpeg"	"guard.bmp"
+"name"	"Swords of Lextius"	"0"	"abbrev"	"Lextius"	"stats"	"foot	106	8	6	6	8	40	40	0	0	0	0	4	40	5	50	8	80	0	0	0	0	0	0	0	0	0	1	0	10	0	50	0	40	0	1	0	0	0	0	0	0	0	0	-1	-1	13	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"lextius.jpeg"	"guard.bmp"
+"name"	"Order of St.Yara"	"1"	"abbrev"	"Samaritan"	"stats"	"foot	106	8	6	6	8	40	40	0	0	0	0	0	0	0	0	8	80	0	0	0	0	0	0	0	0	0	1	0	10	0	50	0	40	0	1	0	0	0	0	0	0	0	0	-1	-1	13	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"yara.jpeg"	"yara.bmp"
+"name"	"Red Lion Guard"	"1"	"abbrev"	"Red Lion"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	3	2	341	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"red_lion.jpeg"	"red_lion.bmp"
+"name"	"White Lion Guard"	"1"	"abbrev"	"White Lion"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	3	2	367	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"white_lion.jpeg"	"guard.bmp"
+"name"	"Stiletto Guard"	"1"	"abbrev"	"Stiletto"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	2	2	357	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"stiletto.jpeg"	"stiletto.bmp"
+"name"	"Jaguar Guard"	"1"	"abbrev"	"Jaguar"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	1	2	312	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"jaguar.jpeg"	"jaguar.bmp"
+"name"	"Iron Phalanx Guard"	"1"	"abbrev"	"Phalanx"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	1	2	311	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"phalanx.jpeg"	"guard.bmp"
+"name"	"Righteous Anvil Guard"	"1"	"abbrev"	"Anvil"	"stats"	"foot	106	8	6	6	8	40	50	0	0	6	60	5	50	5	60	8	80	3	40	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	0	2	342	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"anvil.jpeg"	"anvil.bmp"
+"name"	"Legion of St.Ongor Guard"	"1"	"abbrev"	"St.Ongor"	"stats"	"foot	106	8	6	6	8	40	40	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108864	50	0	100	0	10	0	5	5	5	10	30	5	1	0	0	-1	-1	13	0	2	316	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"ongor.jpeg"	"ongor.bmp"
+"name"	"Midnight Dove Knight"	"1"	"abbrev"	"Dove"	"stats"	"foot	106	8	5	6	9	50	30	0	0	6	60	5	50	5	60	8	80	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	3	1	328	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"midnight_dove.jpeg"	"midnight_dove.bmp"
+}																																																																										
+{107																																																																										
+"name"	"Vorox Commando"	"1"	"abbrev"	"Vorox"	"stats"	"foot	107	8	8	7	7	10	30	0	0	0	0	0	0	0	0	4	20	0	0	0	0	0	0	0	0	0	1	0	20	200	120	0	1	0	1	1	1	5	0	0	0	0	0	-1	-1	13	0	2	364	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"vorox.jpeg"	"vorox.bmp"
+"name"	"Etyri Air Commando"	"1"	"abbrev"	"Etyri"	"stats"	"air	107	10	8	4	8	35	30	0	0	0	0	4	20	0	0	4	40	0	0	0	0	0	0	0	0	0	1	524288	500	5000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	2	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"etyri.jpeg"	"etyri.bmp"
+"name"	"King Kummanga"	"1"	"abbrev"	"Kummanga"	"stats"	"foot	107	8	6	6	8	80	60	0	0	0	0	0	0	0	0	9	100	0	0	0	0	0	0	0	0	0	1	8	50	0	100	0	10	0	5	5	5	10	30	5	0	0	0	-1	-1	-1	0	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"kummanga.jpeg"	"vorox.bmp"
+}																																																																										
+{108	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"House Trusnikron Retinue"	"1"	"abbrev"	"Trusnikron"	"stats"	"foot	108	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"trusnikron.jpeg"	"noble.bmp"
+"name"	"Countess Morgana Trusnikron"	"0"	"abbrev"	"Morgana"	"stats"	"foot	108	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"morgana.jpeg"	"noble.bmp"
+"name"	"Vis-Marquis Kovann Trusnikron"	"0"	"abbrev"	"Kovann"	"stats"	"foot	108	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"kovann.jpeg"	"noble.bmp"
+"name"	"Trusnikron Urroc Rider"	"1"	"abbrev"	"Urroc"	"stats"	"air	108	10	8	4	8	35	30	0	0	0	0	4	20	0	0	4	40	0	0	0	0	0	0	0	0	0	1	524288	500	5000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	3	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"urroc.jpeg"	"urroc.bmp"
+}																																																																										
+{109	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Prince Juan Hazat"	"0"	"abbrev"	"Juan"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"juan.jpeg"	"noble.bmp"
+"name"	"Duchess Elena Hazat"	"0"	"abbrev"	"Elena"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"elena.jpeg"	"noble.bmp"
+"name"	"Duchess Karmena Hazat"	"0"	"abbrev"	"Karmena"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"karmena.jpeg"	"noble.bmp"
+"name"	"Duke Jorge Hazat"	"0"	"abbrev"	"Jorge"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"jorge.jpeg"	"noble.bmp"
+"name"	"Duke Ferdinando Hazat"	"0"	"abbrev"	"Ferdinando"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"ferdinando.jpeg"	"noble.bmp"
+"name"	"Duchess Amanda Hazat"	"0"	"abbrev"	"Amanda"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"amanda.jpeg"	"noble.bmp"
+"name"	"Duke Manuel Hazat"	"0"	"abbrev"	"Manuel"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"manuel.jpeg"	"noble.bmp"
+"name"	"Duke Hugo Hazat"	"0"	"abbrev"	"Hugo"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hugo.jpeg"	"noble.bmp"
+"name"	"Duke Alvaro Hazat"	"0"	"abbrev"	"Alvaro"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"alvaro.jpeg"	"noble.bmp"
+"name"	"Duke Santiago Hazat"	"0"	"abbrev"	"Santiago"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"santiago.jpeg"	"noble.bmp"
+"name"	"Duke Marcelo Hazat"	"0"	"abbrev"	"Marcelo"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"marcelo.jpeg"	"noble.bmp"
+"name"	"Duke Gilberto Hazat"	"0"	"abbrev"	"Gilberto"	"stats"	"foot	109	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"gilberto.jpeg"	"noble.bmp"
+}																																																																										
+{110	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Prince Flavius Li Halan"	"0"	"abbrev"	"Flavius"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"flavius.jpeg"	"noble.bmp"
+"name"	"Duke Maximino Li Halan"	"0"	"abbrev"	"Maximino"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"maximino.jpeg"	"noble.bmp"
+"name"	"Duke Augustus Li Halan"	"0"	"abbrev"	"Augustus"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"augustus.jpeg"	"noble.bmp"
+"name"	"Duchess Melissa Li Halan"	"0"	"abbrev"	"Melissa"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"melissa.jpeg"	"noble.bmp"
+"name"	"Duke Tensin Li Halan"	"0"	"abbrev"	"Tensin"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"tensin.jpeg"	"noble.bmp"
+"name"	"Duke Nerus Li Halan"	"0"	"abbrev"	"Nerus"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"nerus.jpeg"	"noble.bmp"
+"name"	"Duke Elias Li Halan"	"0"	"abbrev"	"Elias"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"elias.jpeg"	"noble.bmp"
+"name"	"Duchess Carmen Li Halan"	"0"	"abbrev"	"Carmen"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"carmen.jpeg"	"noble.bmp"
+"name"	"Duke Victor Li Halan"	"0"	"abbrev"	"Victor"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"victor.jpeg"	"noble.bmp"
+"name"	"Duke David Paul Li Halan"	"0"	"abbrev"	"David"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"davidpaul.jpeg"	"noble.bmp"
+"name"	"Duchess Irenna Li Halan"	"0"	"abbrev"	"Irenna"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"irenna.jpeg"	"noble.bmp"
+"name"	"Duke Hendrik Li Halan"	"0"	"abbrev"	"Hendrik"	"stats"	"foot	110	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hendrik.jpeg"	"noble.bmp"
+}																																																																										
+{111	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Prince Hyram Decados"	"0"	"abbrev"	"Hyram"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"hyram.jpeg"	"hiram.bmp"
+"name"	"Duchess Salandra Decados"	"0"	"abbrev"	"Salandra"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"salandra.jpeg"	"noble.bmp"
+"name"	"Duke Janos Decados"	"0"	"abbrev"	"Janos"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"janos.jpeg"	"noble.bmp"
+"name"	"Duchess Marion Decados"	"0"	"abbrev"	"Marion"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"marion.jpeg"	"noble.bmp"
+"name"	"Duke Theodore Decados"	"0"	"abbrev"	"Theodore"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"theodore.jpeg"	"noble.bmp"
+"name"	"Duke Grigori Decados"	"0"	"abbrev"	"Grigori"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"grigori.jpeg"	"noble.bmp"
+"name"	"Duke Igor Decados"	"0"	"abbrev"	"Igor"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"igor.jpeg"	"noble.bmp"
+"name"	"Duke Ivan Decados"	"0"	"abbrev"	"Ivan"	"stats"	"foot	111	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"ivan.jpeg"	"noble.bmp"
+}																																																																										
+{112	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Heavy Carrier"	"1"	"abbrev"	"SSCV II"	"stats"	"jump	16	3	7	1	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	150	1500	0	0	250	0	0	22	0	80	100	0	30	0	4	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	1	0	7	1	1"	"art"	"heavy_carrier.jpeg"	"heavy_carrier.bmp"
+"name"	"Hawkwood Heavy Carrier"	"1"	"abbrev"	"Osprey"	"stats"	"jump	112	3	7	1	3	140	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	150	1500	0	0	250	0	0	22	0	80	100	0	30	0	4	-1	-1	14	3	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_hawkwood.jpeg"	"heavy_carrier.bmp"
+"name"	"al-Malik Heavy Carrier"	"1"	"abbrev"	"Asim"	"stats"	"jump	112	3	7	2	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	100	1500	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	4	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_almalik.jpeg"	"heavy_carrier.bmp"
+"name"	"Li Halan Heavy Carrier"	"1"	"abbrev"	"Iriji"	"stats"	"jump	112	3	7	1	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	70	4	0	16400	100	1500	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	0	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_lihalan.jpeg"	"heavy_carrier.bmp"
+"name"	"Decados Heavy Carrier"	"1"	"abbrev"	"Hyram"	"stats"	"jump	112	3	8	1	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	100	1500	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	2	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_decados.jpeg"	"heavy_carrier.bmp"
+"name"	"Hazat Heavy Carrier"	"1"	"abbrev"	"Trafalgar"	"stats"	"jump	112	3	7	1	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	50	4	0	16400	100	1500	0	0	200	0	0	20	0	60	80	0	20	0	4	-1	-1	14	1	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_hazat.jpeg"	"heavy_carrier.bmp"
+"name"	"Church Heavy Carrier"	"1"	"abbrev"	"SSCV II"	"stats"	"jump	112	3	7	1	3	120	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	150	1500	0	0	250	0	0	22	0	80	100	0	30	0	4	-1	-1	14	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_church.jpeg"	"heavy_carrier.bmp"
+"name"	"League Heavy Carrier"	"1"	"abbrev"	"SSCV II"	"stats"	"jump	112	3	8	2	3	220	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	70	4	0	16400	0	0	0	0	250	0	0	22	0	80	100	0	30	0	4	-1	-1	14	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_league.jpeg"	"heavy_carrier.bmp"
+"name"	"Imperial Heavy Carrier"	"1"	"abbrev"	"SSCV II"	"stats"	"jump	112	3	7	1	3	120	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	50	4	0	16400	150	1500	0	0	250	0	0	22	0	80	100	0	30	0	4	-1	-1	-1	44	3	299	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"heavy_carrier_imperial.jpeg"	"heavy_carrier.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{113	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Marquis Zarachia Van Gelder"	"0"	"abbrev"	"Zarachia"	"stats"	"foot	113	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"zarachia.jpeg"	"noble.bmp"
+"name"	"Dame Agatha Van Gelder"	"0"	"abbrev"	"Agatha"	"stats"	"foot	113	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"agatha.jpeg"	"noble.bmp"
+}																																																																										
+{114	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Anunnaki Stealth Ship"	"1"	"abbrev"	"Enki"	"stats"	"gate	114	3	7	20	10	100	150	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	120	14	30	0	0	4	0	0	0	1000	200	0	0	0	0	0	0	0	0	0	0	136	0	14	-1	5	121	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"enki.jpeg"	"anunnaki_stealth.bmp"
+"name"	"Anunnaki Cruiser"	"1"	"abbrev"	"An"	"stats"	"gate	114	3	7	4	11	170	150	0	0	0	0	17	30	15	30	13	50	0	0	11	230	12	170	13	120	0	0	0	0	0	0	1000	500	0	0	0	0	0	0	0	0	0	0	137	0	14	-1	5	121	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"an.jpeg"	"anunnaki_cruiser.bmp"
+"name"	"Anunnaki Transporter"	"1"	"abbrev"	"Enlil"	"stats"	"lander	114	3	7	4	5	80	150	0	0	11	40	9	20	0	0	0	0	0	0	0	0	16	30	0	0	4	0	0	0	0	0	1000	100	0	0	0	0	0	0	0	0	0	0	138	0	14	-1	5	121	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"enlil.jpeg"	"anunnaki_transporter.bmp"
+"name"	"Anunnaki Carrier"	"1"	"abbrev"	"Ninhursag"	"stats"	"gate	114	3	7	4	8	170	150	0	0	7	40	18	20	16	10	9	50	0	0	15	30	13	30	0	0	4	0	16400	0	0	0	1000	800	0	0	0	0	0	0	0	0	0	0	139	0	14	-1	5	121	0	0	0	0	0	0	0	0	0	0	1	0	0	9	1	1"	"art"	"ninhursag.jpeg"	"anunnaki_carrier.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{115	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Dreadnought"	"1"	"abbrev"	"Dreadnought"	"stats"	"jump	115	3	6	2	5	300	40	0	0	0	0	0	0	0	0	0	0	0	0	12	450	10	300	0	0	0	0	8	100	1000	0	0	300	0	0	8	0	60	200	0	30	0	4	-1	-1	14	55	5	249	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"2nd_dreadnought.jpeg"	"2nd_dread.bmp"
+"name"	"2nd Republic Dreadnought"	"1"	"abbrev"	"Dreadnought"	"stats"	"jump	115	3	6	2	5	300	40	0	0	0	0	0	0	0	0	0	0	0	0	12	450	10	300	0	0	0	0	8	0	0	0	0	300	0	0	8	0	60	200	0	30	0	4	-1	-1	14	5	5	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"2nd_dreadnought.jpeg"	"2nd_dread.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{116	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Cruiser"	"1"	"abbrev"	"Typhon"	"stats"	"jump	116	3	9	3	10	200	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	9	150	10	80	0	0	0	75	750	0	0	200	0	0	6	0	60	100	0	20	0	3	-1	-1	14	55	4	247	0	0	0	0	0	0	0	0	0	0	1	1	0	5	1	1"	"art"	"2nd_cruiser.jpeg"	"2nd_cruiser.bmp"
+"name"	"2nd Republic Cruiser"	"1"	"abbrev"	"Typhon"	"stats"	"jump	116	3	9	3	10	200	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	9	150	10	80	0	0	0	0	0	0	0	200	0	0	6	0	60	100	0	20	0	3	-1	-1	14	5	4	0	0	0	0	0	0	0	0	0	0	0	1	1	0	5	1	1"	"art"	"2nd_cruiser.jpeg"	"2nd_cruiser.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{117	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Dreadnought Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	115	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Cruiser Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	116	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Destroyer Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	118	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Frigate Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	119	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Lander Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	120	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Fighter Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	127	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Heavy Fighter Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	128	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Bomber Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	129	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+"name"	"Heavy Bomber Nanobuilder"	"1"	"abbrev"	"Nanobuilder"	"stats"	"hover	117	3	5	1	3	190	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	130	0	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	1	1"	"art"	"nanobuilder.jpeg"	"cargo.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{118	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Destroyer"	"1"	"abbrev"	"Destroyer"	"stats"	"jump	118	3	5	3	10	100	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	100	15	90	0	0	0	50	500	0	0	180	0	0	4	0	30	80	0	20	0	2	-1	-1	14	55	3	248	0	0	0	0	0	0	0	0	0	0	1	1	0	4	1	1"	"art"	"2nd_destroyer.jpeg"	"2nd_destroyer.bmp"
+}																																																																										
+{119	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Frigate"	"1"	"abbrev"	"Syreene"	"stats"	"jump	119	3	6	4	12	80	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	40	21	50	0	0	0	25	250	0	0	140	0	0	2	0	60	50	0	20	0	1	-1	-1	14	55	2	251	0	0	0	0	0	0	0	0	0	0	1	1	0	4	1	1"	"art"	"2nd_frigate.jpeg"	"2nd_frigate.bmp"
+}																																																																										
+{120	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Assault Lander"	"1"	"abbrev"	"Defender"	"stats"	"lander	120	3	5	3	10	50	40	0	0	10	30	8	10	0	0	8	120	0	0	0	0	15	20	0	0	4	0	0	25	250	0	0	100	0	0	4	0	20	100	0	5	0	1	-1	-1	14	55	2	245	0	0	0	0	0	0	0	0	0	0	1	1	0	8	1	1"	"art"	"2nd_ass_lander.jpeg"	"2nd_lander.bmp"
+}																																																																										
+{121	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Askari War Golem"	"1"	"abbrev"	"Askari"	"stats"	"foot	121	8	4	4	6	50	40	0	0	0	0	5	80	0	0	8	100	0	0	0	0	0	0	0	0	0	1	134217728	0	5000	0	0	5	0	5	0	0	10	10	10	5	0	0	-1	-1	3	55	2	259	0	0	0	0	0	0	0	0	0	0	1	2	0	7	1	1"	"art"	"askari.jpeg"	"mech.bmp"
+"name"	"Widget War Golem"	"1"	"abbrev"	"Widget"	"stats"	"foot	121	8	4	4	6	60	40	0	0	8	110	5	80	8	110	0	0	0	0	0	0	0	0	0	0	0	1	134217728	0	10000	0	0	5	0	5	0	0	10	10	10	5	0	0	-1	-1	3	55	3	370	0	0	0	0	0	0	0	0	0	0	1	2	0	7	1	1"	"art"	"widget.jpeg"	"mech.bmp"
+"name"	"Predator War Golem"	"1"	"abbrev"	"Predator"	"stats"	"foot	121	8	4	4	6	70	40	0	0	0	0	5	80	8	120	8	120	0	0	0	0	0	0	0	0	0	1	134217728	0	20000	0	0	5	0	5	0	0	10	10	10	5	0	0	-1	-1	3	55	4	335	0	0	0	0	0	0	0	0	0	0	1	2	0	7	1	1"	"art"	"golem.jpeg"	"mech.bmp"
+}																																																																										
+{122																																																																										
+"name"	"Champions of Vhem"	"1"	"abbrev"	"Vhem"	"stats"	"foot	122	8	4	4	6	40	60	0	0	0	0	0	0	0	0	5	60	4	40	0	0	0	0	0	0	0	1	0	1000	10000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	3	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"vhem.jpeg"	"vhem.bmp"
+"name"	"Federative Guard"	"1"	"abbrev"	"Obun"	"stats"	"foot	122	8	4	4	6	40	60	0	0	3	40	3	30	4	40	5	60	4	40	0	0	0	0	0	0	0	1	67108864	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"federative_guard.jpeg"	"obun.bmp"
+}																																																																										
+{123																																																																										
+"name"	"Armored Skimmer"	"1"	"abbrev"	"Hover APC"	"stats"	"hover	123	10	5	3	6	30	30	0	0	0	0	0	0	0	0	4	30	0	0	0	0	0	0	0	0	4	0	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	55	2	258	0	0	0	0	0	0	0	0	0	0	1	2	1	9	1	1"	"art"	"hover_apc.jpeg"	"hover_apc.bmp"
+"name"	"Armored Skimmer"	"1"	"abbrev"	"Hover APC"	"stats"	"hover	123	10	5	3	6	30	30	0	0	0	0	0	0	0	0	4	30	0	0	0	0	0	0	0	0	4	0	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"hover_apc.jpeg"	"hover_apc.bmp"
+}																																																																										
+{124																																																																										
+"name"	"Light Mech Lance"	"1"	"abbrev"	"Javelin"	"stats"	"foot	124	10	5	4	6	120	30	0	0	0	0	6	60	0	0	5	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	10	40	0	5	0	0	-1	-1	3	55	1	319	0	0	0	0	0	0	0	0	0	0	1	4	0	7	1	1"	"art"	"light_mech.jpeg"	"mech01.bmp"
+"name"	"Medium Mech Lance"	"1"	"abbrev"	"Centurion"	"stats"	"foot	124	10	5	3	5	130	30	0	0	0	0	6	70	6	60	6	50	0	0	0	0	0	0	0	0	0	1	0	80	800	0	0	50	0	0	20	0	20	50	0	10	0	0	-1	-1	3	55	2	324	0	0	0	0	0	0	0	0	0	0	1	4	0	7	1	1"	"art"	"medium_mech.jpeg"	"mech02.bmp"
+"name"	"Heavy Mech Lance"	"1"	"abbrev"	"Warhammer"	"stats"	"foot	124	10	5	2	4	140	30	0	0	7	80	7	70	7	80	8	80	0	0	0	0	0	0	0	0	0	1	0	120	1200	0	0	60	0	0	30	0	30	60	0	15	0	0	-1	-1	3	55	3	301	0	0	0	0	0	0	0	0	0	0	1	4	0	7	1	1"	"art"	"heavy_mech.jpeg"	"mech03.bmp"
+"name"	"Assault Mech Lance"	"1"	"abbrev"	"Atlas"	"stats"	"foot	124	10	5	1	3	150	30	0	0	8	100	8	80	8	100	9	100	0	0	0	0	0	0	0	0	0	1	0	160	1600	0	0	70	0	0	40	0	40	70	0	20	0	0	-1	-1	3	55	4	263	0	0	0	0	0	0	0	0	0	0	1	4	0	7	1	1"	"art"	"assault_mech.jpeg"	"mech04.bmp"
+}																																																																										
+{125																																																																										
+"name"	"Skimmer Infantry"	"3"	"abbrev"	"Skimmer"	"stats"	"hover	125	9	4	5	8	20	30	0	0	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	0	8	200	80	0	4	0	0	2	0	5	1	0	3	0	0	-1	-1	13	55	2	350	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"skimmer.jpeg"	"skimmer.bmp"
+"name"	"Skimmer Infantry"	"3"	"abbrev"	"Skimmer"	"stats"	"hover	125	9	4	5	8	20	30	0	0	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	0	8	200	80	0	4	0	0	2	0	5	1	0	3	0	0	-1	-1	13	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"skimmer.jpeg"	"skimmer.bmp"
+}																																																																										
+{126	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Shelit Cyber Lord"	"1"	"abbrev"	"Cyber Lord"	"stats"	"foot	126	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	1000	100	0	5	0	5	0	0	0	0	0	0	10	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"shelit_cyberlord.jpeg"	"noble.bmp"
+"name"	"Shelit CyberPhysick"	"1"	"abbrev"	"Shelit"	"stats"	"foot	126	6	8	6	6	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	16777216	50	500	0	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	14	1	1	333	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"shelit_ cyberphysicks.jpeg"	"medic.bmp"
+"name"	"Gannok Mechanic"	"1"	"abbrev"	"Gannok"	"stats"	"tread	126	6	8	6	6	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	16777216	50	500	0	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	14	55	1	333	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"gannok.jpeg"	"gannok.bmp"
+"name"	"Gannok Space Mechanic"	"1"	"abbrev"	"Gannok"	"stats"	"space	126	0	8	6	6	20	40	0	0	0	0	0	0	0	0	2	80	0	0	0	0	0	0	0	0	0	1	16777216	50	500	0	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	14	55	1	333	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"gannok_space.jpeg"	"gannok.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{127	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Fighter"	"1"	"abbrev"	"Saber"	"stats"	"space	127	4	6	6	14	20	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	20	0	1	0	70	700	0	0	20	0	0	2	20	40	10	40	5	0	0	-1	-1	14	55	2	250	0	0	0	0	0	0	0	0	0	0	1	1	0	1	1	1"	"art"	"2nd_fighter.jpeg"	"2nd_fighter.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{128	 	 	 	 	 	 																																																																	 	 	 	
+"name"	"2nd Republic Heavy Fighter"	"1"	"abbrev"	"Seraphim"	"stats"	"space	128	4	6	6	17	20	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	40	0	1	0	90	900	0	0	30	0	0	3	30	50	20	50	7	0	0	-1	-1	14	55	2	253	0	0	0	0	0	0	0	0	0	0	1	1	0	1	1	1"	"art"	"2nd_heavy_fighter.jpeg"	"2nd_fighter.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{129	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Bomber"	"1"	"abbrev"	"Thunderclap"	"stats"	"space	129	4	5	6	12	30	20	8	100	8	100	0	0	0	0	0	0	0	0	0	0	0	0	6	400	0	1	0	35	350	0	0	20	0	0	20	0	15	10	20	5	0	0	-1	-1	14	55	2	246	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"2nd_bomber.jpeg"	"2nd_bomber.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{130	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"2nd Republic Heavy Bomber"	"1"	"abbrev"	"Fortitude"	"stats"	"space	130	4	6	7	12	50	20	10	150	10	150	0	0	0	0	0	0	0	0	0	0	0	0	6	600	0	1	0	50	500	0	0	30	0	0	30	0	30	20	30	7	0	0	-1	-1	14	55	2	252	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"2nd_heavy_bomber.jpeg"	"2nd_bomber.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{131																																																																										
+"name"	"Duke Norton Hawkwood"	"0"	"abbrev"	"Norton"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"norton.jpeg"	"noble.bmp"
+"name"	"Duke Philip Hawkwood"	"0"	"abbrev"	"Philip"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"philip.jpeg"	"noble.bmp"
+"name"	"Duke George Hawkwood"	"0"	"abbrev"	"George"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"george.jpeg"	"noble.bmp"
+"name"	"Duke Ivar Hawkwood"	"0"	"abbrev"	"Ivar"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"ivar.jpeg"	"noble.bmp"
+"name"	"Duke Reuben Hawkwood"	"0"	"abbrev"	"Reuben"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"reuben.jpeg"	"noble.bmp"
+"name"	"Duke Andrew Hawkwood"	"0"	"abbrev"	"Andrew"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"andrew.jpeg"	"noble.bmp"
+"name"	"Duchess Nerina Gualdi"	"0"	"abbrev"	"Nerina"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"gualdi.jpeg"	"noble.bmp"
+"name"	"Duchess Exera Kiergard"	"0"	"abbrev"	"Exera"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"kiergard.jpeg"	"noble.bmp"
+"name"	"Duke Ragnar Heidgard"	"0"	"abbrev"	"Ragnar"	"stats"	"foot	131	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"heidgard.jpeg"	"noble.bmp"
+}																																																																										
+{132																																																																										
+"name"	"Griffon Knight"	"1"	"abbrev"	"Griffon"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	6	50	8	60	0	0	0	0	0	0	8	70	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	3	1	295	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"griffon.jpeg"	"spacemarine.bmp"
+"name"	"Lion Star Knight"	"1"	"abbrev"	"Lion Star"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	3	1	320	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"lion_star.jpeg"	"lion_star.bmp"
+"name"	"Griffon's Claw Knight"	"1"	"abbrev"	"Claw"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	1	1	296	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"griffon_claw.jpeg"	"griffon_claw.bmp"
+"name"	"Golden Claw Knight"	"1"	"abbrev"	"Golden"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	1	1	293	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"golden_claw.jpeg"	"golden_claw.bmp"
+"name"	"Rolandine Society"	"3"	"abbrev"	"Rolandine"	"stats"	"foot	132	8	6	4	11	10	65	0	0	0	0	0	0	0	0	10	80	0	0	0	0	0	0	0	0	0	1	10	200	2000	200	0	0	0	1	0	0	0	0	0	0	0	0	45	2	13	1	2	344	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"rolandine.jpeg"	"blade.bmp"
+"name"	"White Stone Knight"	"1"	"abbrev"	"Stone"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	368	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"white_stone.jpeg"	"white_stone.bmp"
+"name"	"Green Blossom Knight"	"1"	"abbrev"	"Blossom"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	294	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"green_blossom.jpeg"	"green_blossom.bmp"
+"name"	"Black Mantis Knight"	"1"	"abbrev"	"Mantis"	"stats"	"foot	132	8	5	6	9	40	30	0	0	4	40	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	269	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"black_mantis.jpeg"	"black_mantis.bmp"
+}																																																																										
+{133	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Duke Arden Li Halan"	"0"	"abbrev"	"Arden"	"stats"	"foot	133	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"arden.jpeg"	"noble.bmp"
+"name"	"Duke Duncan Li Halan"	"0"	"abbrev"	"Duncan"	"stats"	"foot	133	8	5	4	10	10	40	0	0	0	0	0	0	0	0	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"duncan.jpeg"	"noble.bmp"
+}																																																																										
+{134																																																																										
+"name"	"Flying Crescent"	"1"	"abbrev"	"Crescent"	"stats"	"air	134	20	8	15	9	100	30	5	50	0	0	6	40	6	100	6	80	0	0	0	0	0	0	0	0	0	1	524288	60	600	0	0	16	0	0	4	0	40	20	0	10	0	0	-1	-1	3	4	4	290	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"crescent.jpeg"	"crescent.bmp"
+}																																																																										
+{135	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Church Galliot"	"1"	"abbrev"	"Halvor"	"stats"	"jump	135	3	5	4	10	60	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_church.jpeg"	"galliot.bmp"
+"name"	"League Galliot"	"1"	"abbrev"	"Van Owen"	"stats"	"jump	135	3	6	5	10	80	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	50	9	70	3	0	16384	0	0	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_league.jpeg"	"galliot.bmp"
+"name"	"al-Malik Galliot"	"1"	"abbrev"	"Rahimat"	"stats"	"jump	135	3	5	5	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	4	2	372	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_almalik.jpeg"	"galliot.bmp"
+"name"	"Hawkwood Galliot"	"1"	"abbrev"	"Darius"	"stats"	"jump	135	3	5	4	10	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	3	2	372	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_hawkwood.jpeg"	"galliot.bmp"
+"name"	"Hazat Galliot"	"1"	"abbrev"	"Xerxes"	"stats"	"jump	135	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	30	9	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	1	2	372	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_hazat.jpeg"	"galliot.bmp"
+"name"	"Li Halan Galliot"	"1"	"abbrev"	"Cardano"	"stats"	"jump	135	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	50	8	70	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	0	2	372	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_lihalan.jpeg"	"galliot.bmp"
+"name"	"Decados Galliot"	"1"	"abbrev"	"Lucretzia"	"stats"	"jump	135	3	6	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	2	2	372	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_decados.jpeg"	"galliot.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{136	 	 	 	 	 	 																																																																	 	 	 	 
+"name"	"Anunnaki Hull"	"1"	"abbrev"	"Enki"	"stats"	"hover	136	8	1	4	8	100	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	200	20	0	0	0	100	50	30	10	0	2	-1	-1	-1	8	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	9	1	1"	"art"	"hull.jpeg"	"cargo.bmp"
+}																																																																										
+{137																																																																										
+"name"	"Anunnaki Hull"	"1"	"abbrev"	"An"	"stats"	"hover	137	8	1	4	8	170	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	500	50	0	0	0	50	100	20	20	0	4	-1	-1	-1	8	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	9	1	1"	"art"	"hull.jpeg"	"cargo.bmp"
+}																																																																										
+{138																																																																										
+"name"	"Anunnaki Hull"	"1"	"abbrev"	"Enlil"	"stats"	"hover	138	8	1	4	8	80	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	100	10	0	0	0	10	10	10	10	0	2	-1	-1	-1	8	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	9	1	1"	"art"	"hull.jpeg"	"cargo.bmp"
+}																																																																										
+{139																																																																										
+"name"	"Anunnaki Hull"	"1"	"abbrev"	"Ninhursag"	"stats"	"hover	139	8	1	4	8	170	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	800	80	0	0	0	80	150	20	30	0	4	-1	-1	-1	8	100	0	0	0	0	0	0	0	0	0	0	0	1	1	0	9	1	1"	"art"	"hull.jpeg"	"cargo.bmp"
+}	 	 	 	 	 	 																																																																	 	 	 	 
+{140																																																																										
+"name"	"Aspiration Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Gizeh Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Heaven Ridge Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Iver Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Pandora Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Sargasso Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Rimpoche Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Yathrib Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+"name"	"Ustar Jump Key"	"1"	"abbrev"	"Jump Key"	"stats"	"hover	140	0	1	1	1	200	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	134217729	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	-1	100	0	0	0	0	0	0	0	0	0	0	0	0	1	0	9	1	0"	"art"	"jumpkey.jpeg"	"cargo.bmp"
+}																																																																										
+{141																																																																										
+"name"	"Mercenary Frigate"	"1"	"abbrev"	"Fr"	"stats"	"jump	15	3	5	4	10	40	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	0	0	0	2500	50000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	1"	"art"	"frigate.jpeg"	"15.bmp"
+"name"	"Mercenary Destroyer"	"1"	"abbrev"	"De"	"stats"	"jump	14	3	4	3	8	60	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	90	8	60	0	0	0	3750	75000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	1"	"art"	"destroyer.jpeg"	"14.bmp"
+"name"	"Mercenary Cruiser"	"1"	"abbrev"	"Cr"	"stats"	"jump	13	3	8	2	6	90	40	0	0	0	0	0	0	0	0	0	0	0	0	6	120	7	90	8	60	0	0	0	5000	100000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	1"	"art"	"cruiser.jpeg"	"13.bmp"
+"name"	"Mercenary Dreadnought"	"1"	"abbrev"	"Dn"	"stats"	"jump	12	3	5	1	2	150	40	0	0	0	0	0	0	0	0	0	0	0	0	8	200	6	130	0	0	0	0	8	10000	200000	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	14	55	2	333	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1"	"art"	"dreadnought.jpeg"	"12.bmp"
+}																																																																										
+{142																																																																										
+"name"	"Demon Type I"	"1"	"abbrev"	"Nycaloth"	"stats"	"foot	142	6	8	4	6	800	10	0	0	0	0	0	0	6	40	10	50	3	30	0	0	0	0	0	0	0	0	134217734	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1"	"art"	"demon01.jpeg"	"demon01.bmp"
+"name"	"Demon Type II"	"1"	"abbrev"	"Nabassu"	"stats"	"air	142	6	8	4	6	800	10	0	0	0	0	8	60	7	50	10	50	3	30	0	0	0	0	0	0	0	0	134742022	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1"	"art"	"demon02.jpeg"	"demon02.bmp"
+"name"	"Demon Type III"	"1"	"abbrev"	"Nalfeshnee"	"stats"	"hover	142	6	8	4	6	800	10	0	0	0	0	0	0	8	60	10	50	3	30	0	0	0	0	0	0	0	0	134217734	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	1"	"art"	"demon03.jpeg"	"demon03.bmp"
+}																																																																										
