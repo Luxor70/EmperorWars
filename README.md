@@ -28,14 +28,14 @@ Please follow these steps.
 
 ## Changelog
 
-4.0c
+4.0c\
 - Anunnaki Stealth ship can now attack on Byzantium II
 - Added more unit graphics
 - Added 2nd Republic Fighters/Bombers units
 - Updated Tech Tree
 - Switched ownership of Stigmata fleet to Imperial Fleet
 
-4.0d
+4.0d\
 - Added Sutek to Hazat
 - Added more unit graphics
 
