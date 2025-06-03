@@ -1,0 +1,3 @@
+Red Lasers
+
+Lasers that emit red light, used for targeting and combat.

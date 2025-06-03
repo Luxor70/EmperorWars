@@ -1,0 +1,48 @@
+// Trait File
+//
+// Each house's traits are enclosed in {}.  The strings of numbers after
+// the difficulty level are the 15 positive traits.  The strings of numbers
+// after that are the 11 negative traits.  0 means they do not get that trait
+// and a 1 means they do.
+//
+// Also provides default names for the 3 portraits for each house
+{
+"house" "0" "Flavius" "Maximino" "Melissa"
+"beginner"  "1 0 0 1 0 0 0 0 1 0 1 1 1 0 0" "0 0 0 0 0 0 0 0 1 0 1"
+"easy"      "1 0 0 1 0 0 0 0 1 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"average"   "1 0 0 0 0 0 0 0 1 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"difficult" "0 0 0 0 0 0 0 0 1 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"ridiculus" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+}
+{
+"house" "1" "Juan" "Jorge" "Elena"
+"beginner"  "0 0 0 0 1 1 1 0 0 0 0 1 0 0 1" "0 0 0 0 0 1 0 0 0 0 0"
+"easy"      "0 0 0 0 1 1 0 0 0 0 0 0 0 0 1" "0 0 0 0 0 0 0 0 0 0 0"
+"average"   "0 0 0 0 1 0 0 0 0 0 0 0 0 0 1" "0 0 0 0 0 0 0 0 0 0 0"
+"difficult" "0 0 0 0 1 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"ridiculus" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+}
+{
+"house" "2" "Hyram" "Grigori" "Salandra"
+"beginner"  "0 1 0 0 0 0 0 1 0 0 1 0 1 1 1" "0 1 0 0 0 0 0 1 0 0 0"
+"easy"      "0 1 0 0 0 0 0 1 0 0 1 0 0 1 0" "0 0 0 0 0 0 0 1 0 0 0"
+"average"   "0 0 0 0 0 0 0 0 0 0 1 0 0 1 0" "0 0 0 0 0 0 0 0 0 0 0"
+"difficult" "0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" "0 0 0 0 0 0 0 0 0 0 0"
+"ridiculus" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+}
+{
+"house" "3" "Darius" "Alexius" "Alvarex"
+"beginner"  "1 0 0 1 0 1 0 0 0 0 0 1 0 0 1" "0 0 0 0 0 0 0 0 0 1 0"
+"easy"      "1 0 0 1 0 1 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"average"   "1 0 0 0 0 1 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"difficult" "0 0 0 0 0 1 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"ridiculus" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+}
+{
+"house" "4" "Hakim" "Tarafah" "Yusara"
+"beginner"  "0 0 1 0 0 0 1 1 0 1 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"easy"      "0 0 1 0 0 0 1 0 0 1 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"average"   "0 0 0 0 0 0 1 0 0 1 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"difficult" "0 0 0 0 0 0 0 0 0 1 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+"ridiculus" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" "0 0 0 0 0 0 0 0 0 0 0"
+}

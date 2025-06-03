@@ -1,0 +1,3 @@
+Magnetics
+
+Study and application of magnetic fields and materials.

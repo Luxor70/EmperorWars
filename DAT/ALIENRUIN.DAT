@@ -1,0 +1,327 @@
+// New! ALIENRUIN.DAT - specifies the number of Alien Ruin stack types
+//
+// The number of stack types is extensible
+//
+// Unit Kind Numbers - see UNIT.DAT
+// Owner Numbers - see TREATY.DAT
+//
+// Move Type Numbers:       Statistics      Weapons             Resource Type Numbers:
+//   -1 Any                 -1 Any          -1 Any              -1 Any
+//    0 Foot                 0 Move Points   0 Water             0 Food
+//    1 Wheel                1 Spot          1 Air               1 Energy
+//    2 Tread                2 Camouflage    2 Indirect          2 Metal
+//    3 Air                  3 Agility       3 Direct            3 Trace
+//    4 Naval                4 Armor         4 Close             4 Exotica
+//    5 Space                5 Psy Def       5 Psy               5 Chemicals
+//    6 Hover                                6 Ranged Space      6 Biochems
+//    7 Jump                                 7 Direct Space      7 Electronics
+//    8 Crawler                              8 Close Space       8 Ceramsteel
+//    9 Lander                                                   9 Wetware
+//   10 Mech                                                    10 Monopols
+//   11 Gate                                                    11 Gems
+//   12 Underwater                                              12 Singularities
+//
+// Note that Naval & Underwater are only considered if there is water in an adjacent hex
+//
+// The units that can appear are arranged as follows:
+//
+// Row #1: Starts with brace, {, and then the number of the stack (starts at 0)
+//         Master Owner - the player that will control the ruin forces
+//         Min Units - the minimum number of units that will appear
+//         Max Units - the maximum number of units that will appear
+//         Power Min - multiplies the player's average power by this factor
+//         Power Max - multiplies the player's max power by this factor
+//
+// Row #2: Owner - only consider units from this owner
+//         Kind - specify the kind of unit (see UNIT.DAT for a description of KIND), -1 means none
+//         Min Number - the minimum number of Kind of unit that will be in the stack, -1 means any number
+//         Max Number - the maximum number of Kind of unit that will be in the stack, -1 means any number
+//         MoveType - whether a unit of a particular movetype is required (listed above), -1 means any movetype
+//         Statistic - whether a unit has to have a statistic (listed above) that is greater than the Statisic Value, -1 means any Statistic
+//         Stat Value - the value the statistic has to exceed, -1 means any value
+//         Weapon - whether a unit's accuracy * strength for that weapon type (listed above) is greater than the Weapon Value, -1 means any value
+//         Weapon Value - the value the weapon accuracy * strength has to exceed, -1 means any value 
+//         Resource - whether a unit has a resource requirement (listed above) that is greater than the Resource Value, -1 means any Resource
+//         Resource Value - the value the resource number has to exceed, -1 means any value
+//
+// Notes:
+//   1. Each set of criteria should be considered to be ANDed with another
+//  
+// Stack Master Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{0   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40      -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{1   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{2   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{3  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{4   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+// Stack Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{5   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{6  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{7   7   16  20  -1   -1
+     55     79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{8  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+// Stack Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{9  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{10  7   16  20  -1   -1
+     55     79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{11 7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{12   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{13  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{14   7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+// Stack Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{15  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{16  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{17  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{18  7   16  20  -1   -1
+    55      79       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      38       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      39       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      40       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      41       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      42       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     7      43       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{19 13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+// Stack Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{20   13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{21   13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{22  13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{23   13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{24  13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+// Stack Owner  Min Units   Max Units    Power Min   Power Max
+//  Owner   Kind    Min Number    Max Number  MoveType    Statistic Stat Value  Weapon  Weapon Value    Resource    Resource Value
+{25   13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{26  13   10  12  -1   -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{27  13   10  12  -1   -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{28  13   10  12  -1   -1
+     8      36       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      35       -1            -1          -1          -1        -1          -1      -1               1           1
+     8      34       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      33       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      32       -1            -1          -1          -1        -1          -1      -1              -1          -1
+     8      30       -1            -1          -1          -1        -1          -1      -1              -1          -1
+}
+{29	13	4	 5	-1	-1						
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+}		
+{30	13	4	 5	-1	-1						
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+}													
+{31	13	4	 5	-1	-1						
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+	13	142	0	-1	-1	-1	-1	-1	-1	-1	-1
+}			
