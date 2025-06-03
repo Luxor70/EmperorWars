@@ -477,7 +477,7 @@
 "name"	"Chem/Bio Warrior"	"1"	"abbrev"	"Chem/Bio"	"stats"	"foot	82	8	5	5	7	30	40	0	0	3	50	5	40	6	60	8	110	0	0	0	0	0	0	0	0	0	1	402653184	16	160	160	0	10	0	0	10	10	10	10	0	1	0	0	-1	-1	13	13	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"shock.jpeg"	"chembio.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {83	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Infantry"	"3"	"abbrev"	"Infantry"	"stats"	"foot	83	6	4	5	6	15	30	0	0	0	0	0	0	1	10	3	20	0	0	0	0	0	0	0	0	0	1	0	8	80	80	0	2	0	0	1	0	1	0	0	0	0	0	-1	-1	13	55	1	310	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"inf.jpeg"	"infantry.bmp"
+"name"	"Infantry"	"3"	"abbrev"	"Infantry"	"stats"	"foot	83	6	4	5	6	30	30	0	0	0	0	0	0	1	10	3	20	0	0	0	0	0	0	0	0	0	1	0	8	80	80	0	2	0	0	1	0	1	0	0	0	0	0	-1	-1	13	55	1	310	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"inf.jpeg"	"infantry.bmp"
 "name"	"Heavy Infantry"	"3"	"abbrev"	"Hvy Inf"	"stats"	"foot	83	6	4	4	5	30	30	0	0	0	0	0	0	5	40	5	40	0	0	0	0	0	0	0	0	0	1	0	8	80	80	0	5	0	0	5	0	5	5	0	1	0	0	-1	-1	13	55	2	300	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hvyinf.jpeg"	"hvyinf.bmp"
 "name"	"Freedom Fighter"	"1"	"abbrev"	"Guerilla"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	1	10	10	0	3	0	0	5	0	5	0	0	0	0	0	-1	-1	-1	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"fan.jpeg"	"fan.bmp"
 "name"	"Aragon Martyr"	"1"	"abbrev"	"Martyr"	"stats"	"foot	83	6	4	6	7	15	30	0	0	2	20	2	20	2	20	5	30	0	0	0	0	0	0	0	0	0	1	67108864	800	8000	0	0	0	0	0	0	0	0	0	0	0	20	0	-1	-1	14	1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"martyrs.jpeg"	"fan.bmp"

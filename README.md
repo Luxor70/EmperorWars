@@ -208,3 +208,7 @@ Changelog
 4.3.2a
 - Renamed Close Attack to Soft Attack
 - Renamed Direct Attack to Hard Attack
+
+4.3.2b
+- Fixed some wrong Archives entries
+- Increased Infantry armor

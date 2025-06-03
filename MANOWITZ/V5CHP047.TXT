@@ -1,7 +1,5 @@
-Green Blossom Knights
+Golden Claw Knights
 
-Known for their prowess in combat and their allegiance to House Decados, the members of this order embody the cunning and intrigue often associated with their noble house.
+This honorary knightly order is quite similar to the Hawkwood honorary knighthoods which they copy, but they involve more pageantry and bravado and meet more often simply to counter the fact that they are less longstanding than the corresponding Hawkwood orders. Knights of the Obsidian, Iron, and Golden Claws tend to be more loud about their membership and more demonstrative of their great valor than their Hawkwood counterparts.
 
-The Order of the Green Blossom sees itself as the guardians of House Decados' secrets and interests. They believe in the power of knowledge, manipulation, and subtlety to achieve their goals. The order's members are taught to be skilled spies, diplomats, and assassins, using their abilities to further the influence of House Decados and protect its secrets.
-
-Decados-only unit.
+Hazat-only unit.

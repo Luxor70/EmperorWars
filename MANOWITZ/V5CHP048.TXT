@@ -1,5 +1,7 @@
-Griffon Knights
+Green Blossom Knights
 
-A somewhat honorary order of knights who have distinguished themselves in space, as fighter pilots, fleet commanders, marauders or marines. It carries additional duties and obligations, as there are both fighter squadrons and small battlefleets commanded entirely of Knights of the Griffon, members must spend a portion of their time in practice for interplanetary battle, and members are called upon more often to defend Hawkwood space, but it is not tightly regimented. Membership in the Company of the Griffon is an honor considering the high esteem for naval prowess, and in times of peace is somewhat honorary.
+Known for their prowess in combat and their allegiance to House Decados, the members of this order embody the cunning and intrigue often associated with their noble house.
 
-Hawkwood-only unit.
+The Order of the Green Blossom sees itself as the guardians of House Decados' secrets and interests. They believe in the power of knowledge, manipulation, and subtlety to achieve their goals. The order's members are taught to be skilled spies, diplomats, and assassins, using their abilities to further the influence of House Decados and protect its secrets.
+
+Decados-only unit.
