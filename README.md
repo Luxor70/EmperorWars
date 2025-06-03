@@ -248,3 +248,7 @@ Please follow these steps.
 4.3.2b
 - Fixed some wrong Archives entries
 - Increased Infantry armor
+
+
+4.3.2c
+- Added Hard attack to many units that should damage vehicles
