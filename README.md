@@ -28,16 +28,18 @@ Please follow these steps.
 
 ## Changelog
 
-4.0c\
+4.0c
 - Anunnaki Stealth ship can now attack on Byzantium II
 - Added more unit graphics
 - Added 2nd Republic Fighters/Bombers units
 - Updated Tech Tree
 - Switched ownership of Stigmata fleet to Imperial Fleet
 
-4.0d\
+
+4.0d
 - Added Sutek to Hazat
 - Added more unit graphics
+
 
 4.0e
 - Completed Microbiology Archive
@@ -45,6 +47,7 @@ Please follow these steps.
 - Tweaked Hawkwood worlds
 - Tweaked Hazat worlds
 - Added Jukelo's flc for knights, guards, and various units
+
 
 4.0f
 - Nerfed Anunnaki Ships armor
@@ -54,6 +57,7 @@ Please follow these steps.
 - Added House Psionic warriors: Royal Dervishes, Screaming Dervishes, Taliesin's Spears, Diwins, Midnight Furies, Marifahs. FLC conversion by Jukelo
 - Reworked spies and assassins: spy is used to spot enemies far away, while assassin can kill rank 6 units (nobles) and attack on Byzantium II. Added House intelligence units (spy) and assassins by lore
 
+
 4.0g
 - Added Cadavus to League
 - Tweaked Li Halan worlds
@@ -61,9 +65,11 @@ Please follow these steps.
 - Tweaked al-Malik worlds
 - Added House spies and assassins flc converted by Jukelo
 
+
 4.0h
 - Added Anunnaki Ships FLCs (converted by Jukelo).
 - Adjusted food yields for Houses to have a sustainable situation for Warehouse off setting
+
 
 4.1
 - Given Church control to most of House planets
@@ -80,6 +86,7 @@ Please follow these steps.
 - Added Xenotrenium's icons for House Guards/Knights
 - Church and Stigmata are now allied at the start of the game
 
+
 4.1a
 - Fixed missing League garrison bug on Byzantium II's agora.
 - Cx-omega tech is for Hazat-only
@@ -91,6 +98,7 @@ Please follow these steps.
 - League Fast Freighter is now stealthy
 - Reworked ruins and alien ruins files (thanks to Jonathan)
 
+
 4.1b
 - Nerfed Golem garrison for ruins
 - Buffed vehicles armor
@@ -98,6 +106,7 @@ Please follow these steps.
 - Added Noble/Officer roles to Titan/Dreadnought
 - Tweaked target.dat file (order and phases)
 - Increased costs for Mercenaries units
+
 
 4.2
 - NBC and Chem/Bio can now tactically spread plague like Pestulator Artillery
@@ -118,21 +127,26 @@ Please follow these steps.
 - Added new Lost Worlds: Aspiration, Gizeh, Pandora, Rimpoche
 - Rebalanced units
 
+
 4.2a
 - Added missing resources to Delphi
 - Changed starting difficulty settings to Beginner
 
+
 4.2b
 - Buffed well and arborium yields
+
 
 4.2c
 - Removed credits/turn costs from League units
 - Farms are not buildable anymore to allow university building
 
+
 4.2.4
 - Fixed Knight Retinue tech bug where only Li Halan could research it
 - Remoced Battlemaster unit requirement. They now act as officers and assassins
 - Nerfed Symbiot spaceships
+
 
 4.2.5
 - Added energy depots to Twilight
@@ -144,15 +158,18 @@ Please follow these steps.
 - Removed Officer role from Light Carriers
 - Removed many tech descriptions that caused crash when selecting them for research
 
+
 4.2.6
 - Increased tech maintenance costs
 - Changed sect.dat ruin gift chances: 2 for Eskatonics and 1 for Incarnates
 - Increased Ceramsteel and Wetware values
 
+
 4.2.7
 - Increased air transports cargo to 4
 - Nerfed Imperial Fleet ground forces
 - Disabled Peasants and Scientists units
+
 
 4.2.8
 - Added University to Aragon
@@ -160,16 +177,20 @@ Please follow these steps.
 - Nerfed troops landing capability of Fleet
 - Vau Interceptor can no longer be loaded as cargo
 
+
 4.3.0
 - EFS 1.5.2 Compatibility
 - Added new Manowitz entries
 
+
 4.3.0a
 - Fixed efs.res file that caused a crash
+
 
 4.3.0b
 - Fixed Combat yellow flags and skull images
 - Increased combat time
+
 
 4.3.0c
 - Added small flag/skull combat image (courtesy of Jukelo)
@@ -179,8 +200,10 @@ Please follow these steps.
 - Switched PTS missile and torpedo stats
 - Fixed League Small Freighter costs
 
+
 4.3.0d
 - Fixed string files after 27th April patch
+
 
 4.3.1
 - Farms can now be built
@@ -188,6 +211,7 @@ Please follow these steps.
 - Added Mercenaries Frigates, Destroyers, Cruisers, Dreadnoughts
 - Doubled 3rd Republic min/max FBs requirements
 - Added icon graphics by Lagi
+
 
 4.3.2
 - Added new graphics for all units (385)
@@ -211,9 +235,11 @@ Please follow these steps.
 - Increased 3rd Republic requirements to 1M and 2M (min/max)
 - Added Demons units that will spawn at ruins. Need psy units to defeat.
 
+
 4.3.2a
 - Renamed Close Attack to Soft Attack
 - Renamed Direct Attack to Hard Attack
+
 
 4.3.2b
 - Fixed some wrong Archives entries
