@@ -11,17 +11,21 @@ More than 400 unique units to be built/discovered. Among them you can find Anunn
 Revamped combat system. Now units have specific roles. Combined arms are now strongly suggested.\
 Brand new tech tree with 300+ techs to be researched.
 
-INSTALLATION GUIDE. Please follow these steps.
+### [!INSTALLATION GUIDE]
+
+Please follow these steps.
 
 1. Create EW folder inside MOD folder.
 
 2. Extract zip content into MOD/EW folder.
 
-3. Extract mod.zip file in root game folder. mod.zip
+3. Extract mod.zip file in root game folder.
 
 4. Start the game and enjoy the mod :-)
 
-Changelog
+----------------------------------------
+
+## Changelog
 
 4.0c
 - Anunnaki Stealth ship can now attack on Byzantium II
