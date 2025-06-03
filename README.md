@@ -16,13 +16,19 @@ Brand new tech tree with 300+ techs to be researched.
 
 Please follow these steps.
 
-1. Create EW folder inside MOD folder.
+1. Click on green button Code and select Download ZIP
 
-2. Extract zip content into MOD/EW folder.
+2. Create EW folder inside MOD folder.
 
-3. Extract mod.zip file in root game folder.
+3. Take the EmperorWars-main.zip file you downloaded, right-click it and select Extract All.
 
-4. Start the game and enjoy the mod :-)
+4. Click browse, and navigate all the way to your game's steam folder and select the MOD folder as the destination. The extraction path should read something like "steam\steamapss\common\EFS\MOD". Extract it there. 
+
+5. Once it's extracted, rename the folder EmperorWars-main in MOD to EW. Then open the file mod.ini in your game's root folder (ini files are just text files, you can use notepad or any text editor) and make sure it includes a line reading EW (nothing else on the line, no semicolon), then save it.
+
+6. Make sure your EW folder in the MOD folder does not contain an 'EmperorWars-main' subfolder - if it does, cut all the contents of that subfolder and paste it one level up, into the EW folder.
+
+7. Start the game and enjoy the mod :-)
 
 ----------------------------------------
 
