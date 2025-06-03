@@ -1,6 +1,6 @@
 # Emperor-Wars-Mod
 
-Emperor Wars mod for Emperor of the Fading Suns 1.52
+**Emperor Wars mod for Emperor of the Fading Suns 1.52**
 This mod recreates the historical (by the books) conditions at the beginning of the second Emperor War. The year is 4964 A.D.
 
 MOD content:
