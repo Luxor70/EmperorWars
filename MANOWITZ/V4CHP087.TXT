@@ -1,3 +1,0 @@
-Space Carrier Operations
-
-Techniques and strategies for managing and deploying spacecraft from carriers.

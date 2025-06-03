@@ -1,3 +1,0 @@
-Supersolid Materials
-
-Materials that exhibit both solid and superfluid properties.

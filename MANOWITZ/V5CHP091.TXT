@@ -1,5 +1,0 @@
-PTS Missile Launcher
-
-A planetary defense missile launcher consists of multiple launch tubes or silos, capable of holding and launching a significant number of missiles. The launcher has the ability to fire several missiles simultaneously or in rapid succession to engage multiple targets.
-
-Planetary defense missile launchers are equipped with sophisticated targeting and tracking systems. These systems include advanced radar, satellite surveillance, or other sensor technologies to detect and track incoming threats, enabling precise engagement.

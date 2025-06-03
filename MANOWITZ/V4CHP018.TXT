@@ -1,3 +1,0 @@
-Carrier Hull
-
-A hull designed to house and deploy multiple smaller spacecraft.

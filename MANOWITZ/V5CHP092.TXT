@@ -1,3 +1,0 @@
-PTS Torpedo Launcher
-
-An enhanced version of the PTS Missile Launcher that deploys specialized torpedoes designed for interception and destruction of incoming threats.

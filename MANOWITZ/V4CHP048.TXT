@@ -1,3 +1,0 @@
-Hover Drive
-
-A propulsion system that allows vehicles to hover above the ground.

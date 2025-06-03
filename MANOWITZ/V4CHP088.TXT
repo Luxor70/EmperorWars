@@ -1,3 +1,0 @@
-Space Station Hull
-
-A hull designed for constructing and maintaining space stations.
