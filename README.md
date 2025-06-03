@@ -12,7 +12,7 @@ Revamped combat system. Now units have specific roles. Combined arms are now str
 Brand new tech tree with 300+ techs to be researched.
 
 > [!IMPORTANT]
-> ## INSTALLATION GUIDE
+> ### INSTALLATION GUIDE
 
 Please follow these steps.
 
