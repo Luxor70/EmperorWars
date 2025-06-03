@@ -1,3 +1,0 @@
-Railguns
-
-Electromagnetic guns that launch projectiles at extremely high velocities.

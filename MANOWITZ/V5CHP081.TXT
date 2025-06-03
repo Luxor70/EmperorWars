@@ -1,5 +1,0 @@
-Meson Starbase
-
-A Meson Starbase is a formidable defensive structure or installation that incorporates Meson Cannons as its primary weapons. It is designed to protect a specific location, such as a planet, system, or strategic chokepoint, from enemy incursions.
-
-The primary offensive armament of a Meson Starbase is a network of Meson Cannons strategically positioned to cover a wide range of potential attack vectors. These cannons can be mounted on rotating turrets or fixed emplacements, allowing them to engage multiple targets simultaneously.

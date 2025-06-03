@@ -1,3 +1,0 @@
-Missile Launchers
-
-Devices that launch guided missiles at targets.

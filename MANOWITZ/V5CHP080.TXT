@@ -1,5 +1,0 @@
-Meson Naval Cruiser
-
-A Meson Naval Cruiser is a large and powerful warship primarily used for planetary defense. It serves as a defensive platform and a deterrent against hostile forces that may attempt to invade or attack.
-
-It is equipped with a long range meson cannon. Meson cannons can have an extended effective range, allowing them to engage targets from a distance. They can be mounted on various platforms, such as starships or ground-based installations, and are often used for long-range engagements or planetary defense.

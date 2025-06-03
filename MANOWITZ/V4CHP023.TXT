@@ -1,3 +1,0 @@
-Coilguns
-
-Electromagnetic guns that launch projectiles at high velocities.

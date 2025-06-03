@@ -1,3 +1,0 @@
-Synapse Interceptors
-
-Advanced interceptors that use neural networks for enhanced targeting.

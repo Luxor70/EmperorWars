@@ -1,3 +1,0 @@
-Multi-Spectral Sensors
-
-Sensors that operate across multiple wavelengths to detect various targets.

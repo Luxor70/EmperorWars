@@ -1,3 +1,0 @@
-Magneto Ballistics
-
-Use of magnetic fields to accelerate and control projectiles.
