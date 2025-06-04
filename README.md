@@ -252,4 +252,3 @@ Please follow these steps.
 
 4.3.2c
 - Added Hard attack to many units that should damage vehicles
-- Added Hard attack to most of units that had just close attack
