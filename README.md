@@ -252,3 +252,9 @@ Please follow these steps.
 
 4.3.2c
 - Added Hard attack to many units that should damage vehicles
+
+4.3.2d
+- Increased 3rd Republic requirements to 5M/9M
+- Added new icons from Lagi
+- Changed some unit graphics
+- Changed Crawler description to Amphibious

@@ -214,7 +214,7 @@
         },
         {
             "ID": 1088,
-            "value": "Crawler"
+            "value": "Amphibious"
         },
         {
             "ID": 1089,
@@ -266,7 +266,7 @@
         },
         {
             "ID": 1188,
-            "value": ": Ground unit that can only move on land and through rough terrain the slowest of all ground units."
+            "value": ": Ground unit that can move on land and sea."
         },
         {
             "ID": 1189,
