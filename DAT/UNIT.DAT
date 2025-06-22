@@ -108,7 +108,7 @@
 {17	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Space Fighter"	"1"	"abbrev"	"Stinger"	"stats"	"space	17	3	3	5	12	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	55	2	351	0	0	0	0	0	0	0	0	0	0	1	4	0	1	1	1"	"art"	"fighter.jpeg"	"17.bmp"
 "name"	"al-Malik Fighter"	"1"	"abbrev"	"Zubayr"	"stats"	"space	17	3	3	6	12	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	4	2	351	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"fighter_almalik.jpeg"	"17.bmp"
-"name"	"Hawkwood Fighter"	"1"	"abbrev"	"Fitzhugh"	"stats"	"space	17	3	3	5	12	30	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	351	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"fighter_hawkwood.jpeg"	"17.bmp"
+"name"	"Hawkwood Fighter"	"1"	"abbrev"	"Fitzhugh"	"stats"	"space	17	3	3	5	12	20	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	10	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	351	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"fighter_hawkwood.jpeg"	"17.bmp"
 "name"	"Cyber Fighter"	"1"	"abbrev"	"Archangel"	"stats"	"space	17	3	4	5	15	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	15	0	1	0	35	350	0	0	10	0	0	1	10	20	5	20	8	0	0	-1	-1	14	55	2	282	0	0	0	0	0	0	0	0	0	0	1	4	0	1	1	1"	"art"	"cyber_fighter.jpeg"	"ARCHANGEL.bmp"
 "name"	"Kurgan Raider"	"1"	"abbrev"	"Mujahidin"	"stats"	"lander	17	3	4	5	12	40	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	80	20	10	0	1	0	35	350	0	0	10	0	0	1	10	20	5	20	8	0	1	-1	-1	-1	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	1"	"art"	"kurgan_raider.jpeg"	"ARCHANGEL.bmp"
 "name"	"Assault Starfighter"	"1"	"abbrev"	"Zephir"	"stats"	"space	17	3	5	5	15	10	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	20	0	1	0	70	700	0	0	20	0	0	2	20	40	10	40	10	0	0	-1	-1	14	55	2	282	0	0	0	0	0	0	0	0	0	0	1	2	0	1	1	1"	"art"	"assault_fighter.jpeg"	"assault_starfighter.bmp"
@@ -116,7 +116,7 @@
 {18	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Space Torpedo Bomber"	"1"	"abbrev"	"Prophet"	"stats"	"space	18	3	3	5	10	15	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	55	2	353	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"torpedo.jpeg"	"18.bmp"
 "name"	"al-Malik Torpedo"	"1"	"abbrev"	"Mumit"	"stats"	"space	18	3	3	6	10	15	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	4	2	353	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_almalik.jpeg"	"18.bmp"
-"name"	"Hawkwood Torpedo"	"1"	"abbrev"	"Kestrel"	"stats"	"space	18	3	3	5	10	35	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	353	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_hawkwood.jpeg"	"18.bmp"
+"name"	"Hawkwood Torpedo"	"1"	"abbrev"	"Kestrel"	"stats"	"space	18	3	3	5	10	25	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	300	0	1	0	25	250	0	0	10	0	0	5	0	5	0	0	5	0	0	-1	-1	14	3	2	353	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_hawkwood.jpeg"	"18.bmp"
 "name"	"Heavy Torpedo Bomber"	"1"	"abbrev"	"Martyr"	"stats"	"space	18	3	3	5	10	25	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	500	0	1	0	35	350	0	0	10	0	0	10	0	5	0	0	10	0	0	-1	-1	14	55	2	323	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"heavy_torpedo.jpeg"	"MARTYR.bmp"
 "name"	"League Torpedo Bomber"	"1"	"abbrev"	"Prophet"	"stats"	"space	18	3	4	6	10	45	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	520	0	1	0	0	0	0	0	10	0	0	5	0	5	0	0	10	0	0	-1	-1	14	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	1"	"art"	"torpedo_league.jpeg"	"MARTYR.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
@@ -289,7 +289,7 @@
 "name"	"Merchant"	"1"	"abbrev"	"Merchant"	"stats"	"foot	50	6	4	1	3	10	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	-100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	4	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	7	1	1"	"art"	"merch.jpeg"	"dean.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {51	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Non-Commissioned Officer"	"1"	"abbrev"	"Officer"	"stats"	"foot	51	6	5	2	8	5	30	0	0	0	0	0	0	0	0	5	30	0	0	0	0	0	0	0	0	0	1	16	5	50	5	0	0	0	0	0	0	20	0	0	0	0	0	-1	-1	-1	2055	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"offic.jpeg"	"officer.bmp"
+"name"	"Non-Commissioned Officer"	"1"	"abbrev"	"Officer"	"stats"	"foot	51	6	5	2	8	5	30	0	0	0	0	0	0	0	0	5	30	0	0	0	0	0	0	0	0	0	1	16	5	50	5	0	0	0	0	0	0	20	0	0	0	0	0	-1	-1	13	1055	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"offic.jpeg"	"officer.bmp"
 "name"	"Knight Retinue"	"1"	"abbrev"	"Knight"	"stats"	"foot	51	8	4	4	9	5	30	0	0	0	0	0	0	0	0	5	40	0	0	0	0	0	0	0	0	0	1	67108880	50	500	50	0	4	0	4	0	0	0	0	0	0	5	0	-1	-1	0	55	2	315	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"knight.jpeg"	"knight.bmp"
 "name"	"House Crusader"	"1"	"abbrev"	"Crusader"	"stats"	"foot	51	10	4	4	6	30	30	0	0	0	0	4	40	4	40	6	40	0	0	0	0	0	0	0	0	0	1	67108864	100	1000	100	0	20	0	5	0	0	0	0	0	5	10	0	-1	-1	0	55	2	305	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"crusader.jpeg"	"crusader.bmp"
 "name"	"Church Crusader"	"1"	"abbrev"	"Crusader"	"stats"	"foot	51	10	4	4	6	30	30	0	0	0	0	4	40	4	40	6	40	0	0	0	0	0	0	0	0	0	1	67108864	100	1000	100	0	20	0	5	0	0	0	0	0	5	10	0	-1	-1	0	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	7	1	1"	"art"	"ch_crusader.jpeg"	"crusader.bmp"
@@ -300,16 +300,16 @@
 "name"	"Custodian of the Sacred Grove"	"1"	"abbrev"	"Custodian"	"stats"	"foot	51	8	5	6	9	40	30	0	0	0	0	0	0	0	0	5	50	5	50	0	0	0	0	0	0	0	1	67108880	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	0	1	315	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"sacred_grove.jpeg"	"knight.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {52	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Bishop"	"1"	"abbrev"	"Bishop"	"stats"	"foot	52	6	6	5	6	30	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	15	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"bishop.jpeg"	"clergy.bmp"
-"name"	"Archbishop"	"1"	"abbrev"	"Archbishop"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"archbishop.jpeg"	"clergy.bmp"
-"name"	"Bishop Magnus Torenson"	"1"	"abbrev"	"Magnus"	"stats"	"foot	52	8	5	4	6	20	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	-100	5000	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"magnus.jpeg"	"clergy.bmp"
+"name"	"Bishop"	"1"	"abbrev"	"Bishop"	"stats"	"foot	52	6	6	5	6	30	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	15	0	5	0	0	0	0	0	0	0	0	0	0	5	0	52	3	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"bishop.jpeg"	"bishop.bmp"
+"name"	"Archbishop"	"1"	"abbrev"	"Archbishop"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	52	0	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"archbishop.jpeg"	"archbishop.bmp"
+"name"	"Bishop Magnus Torenson"	"1"	"abbrev"	"Magnus"	"stats"	"foot	52	8	5	4	6	20	40	0	0	0	0	0	0	0	0	0	0	3	30	0	0	0	0	0	0	0	1	64	-100	5000	100	0	0	0	0	0	0	0	0	0	0	50	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"magnus.jpeg"	"bishop.bmp"
 "name"	"Clergy"	"3"	"abbrev"	"Clergy"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	2	20	0	0	0	0	0	0	0	1	64	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"clergy.jpeg"	"clergy.bmp"
 "name"	"Sanctuary Aeon"	"1"	"abbrev"	"Amalthean"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	2	20	0	0	0	0	0	0	0	1	16777280	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	1	99	1	101	105	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"amalthean.jpeg"	"clergy.bmp"
 "name"	"Archbishop Lyander"	"0"	"abbrev"	"Lyander"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"lyander.jpeg"	"lyander.bmp"
-"name"	"Archbishop Taraleng"	"0"	"abbrev"	"Taraleng"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"taraleng.jpeg"	"clergy.bmp"
-"name"	"Archbishop Sondra Nies"	"0"	"abbrev"	"Sondra"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"sondra.jpeg"	"clergy.bmp"
+"name"	"Archbishop Taraleng"	"0"	"abbrev"	"Taraleng"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"taraleng.jpeg"	"archbishop.bmp"
+"name"	"Archbishop Sondra Nies"	"0"	"abbrev"	"Sondra"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"sondra.jpeg"	"archbishop.bmp"
 "name"	"Hakim"	"1"	"abbrev"	"Hakim"	"stats"	"foot	52	6	6	5	6	30	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	16777217	10	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"hakim.jpeg"	"medic.bmp"
-"name"	"Archbishop Jordano"	"0"	"abbrev"	"Jordano"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"jordano.jpeg"	"clergy.bmp"
+"name"	"Archbishop Jordano"	"0"	"abbrev"	"Jordano"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"jordano.jpeg"	"archbishop.bmp"
 "name"	"Archbishop Marcion"	"0"	"abbrev"	"Marcion"	"stats"	"foot	52	6	6	5	6	30	50	0	0	0	0	0	0	0	0	0	0	4	40	0	0	0	0	0	0	0	1	64	20	0	5	0	0	0	0	0	0	0	0	0	0	5	0	-1	-1	-1	13	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	6	1	1"	"art"	"marcion.jpeg"	"marcion.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {53	 	 	 	 	 	 																																																																	 	 	 	 
@@ -448,7 +448,7 @@
 {77	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Marauder"	"1"	"abbrev"	"Marauder"	"stats"	"foot	77	1	5	4	4	10	40	0	0	0	0	0	0	0	0	3	20	0	0	0	0	0	0	8	40	0	1	0	8	80	80	0	5	0	0	1	0	0	0	0	1	0	0	-1	-1	14	55	2	321	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"marauder.jpeg"	"marauder.bmp"
 "name"	"Royal Kossack Knight"	"1"	"abbrev"	"Kossack"	"stats"	"air	77	10	6	6	9	40	30	0	0	0	0	4	40	4	40	5	50	0	0	0	0	0	0	0	0	0	1	67633182	50	500	100	0	10	0	5	20	5	10	30	5	1	0	0	51	1	13	2	1	347	0	0	0	0	0	0	0	0	0	0	1	0	1	7	1	1"	"art"	"kossack.jpeg"	"etyri.bmp"
-"name"	"Wagon of St.Paulus"	"0"	"abbrev"	"Hopper"	"stats"	"mech	77	20	5	4	8	30	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	12288	100	10000	0	0	50	0	0	20	0	20	50	0	5	0	0	-1	-1	3	55	5	368	0	0	0	0	0	0	0	0	0	0	1	2	0	4	1	1"	"art"	"hopper.jpeg"	"hopper.bmp"
+"name"	"Wagon of St.Paulus"	"0"	"abbrev"	"Hopper"	"stats"	"mech	77	20	5	4	8	30	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	12288	100	10000	0	0	50	0	0	20	0	20	50	0	5	0	0	-1	-1	3	55	5	365	0	0	0	0	0	0	0	0	0	0	1	2	0	4	1	1"	"art"	"hopper.jpeg"	"hopper.bmp"
 "name"	"Hover Carrier"	"1"	"abbrev"	"HCarrier"	"stats"	"hover	77	15	5	4	8	120	40	0	0	0	0	3	40	4	40	0	0	0	0	0	0	0	0	0	0	4	0	12288	100	10000	0	0	50	0	0	20	0	20	50	0	5	0	0	-1	-1	3	55	5	307	0	0	0	0	0	0	0	0	0	0	1	1	0	8	1	1"	"art"	"hcarrier.jpeg"	"hcarrier.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {78	 	 	 	 	 	 																																																																	 	 	 	 

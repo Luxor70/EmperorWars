@@ -258,3 +258,8 @@ Please follow these steps.
 - Added new icons from Lagi
 - Changed some unit graphics
 - Changed Crawler description to Amphibious
+
+4.3.2e
+- Fixed typo for Officers, they can be rebuilt again
+- Added some unit icons
+- Fixed a typo for Church Dreadnought
