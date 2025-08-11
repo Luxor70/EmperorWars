@@ -263,3 +263,10 @@ Please follow these steps.
 - Fixed typo for Officers, they can be rebuilt again
 - Added some unit icons
 - Fixed a typo for Church Dreadnought
+
+4.3.2f
+- EFS 1.52a compatibility
+- PTS can now be disassembled in Factories to be transported
+- Added missing House space fighters/bombers
+- Increased cost of some late-game techs
+- Updated MP House rules
