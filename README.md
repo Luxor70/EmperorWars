@@ -270,3 +270,6 @@ Please follow these steps.
 - Added missing House space fighters/bombers
 - Increased cost of some late-game techs
 - Updated MP House rules
+
+4.3.2g
+- Set Agora credits/turn to 0
