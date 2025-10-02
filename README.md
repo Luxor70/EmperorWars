@@ -273,3 +273,6 @@ Please follow these steps.
 
 4.3.2g
 - Set Agora credits/turn to 0
+
+4.3.2H
+- EFS 1.52b compatibility patch (added empty VAU CITY.DAT file to DAT folder)
