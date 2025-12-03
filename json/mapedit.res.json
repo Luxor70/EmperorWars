@@ -245,6 +245,12 @@
                     "text": "Save Star ~Map"
                 },
                 {
+                    "hotkey": 67,
+                    "flags": 0,
+                    "winId": 1018,
+                    "text": "~Clear Planet Map"
+                },
+                {
                     "hotkey": 82,
                     "flags": 0,
                     "winId": 1012,
@@ -253,43 +259,43 @@
                 {
                     "hotkey": 99,
                     "flags": 0,
-                    "winId": 1019,
+                    "winId": 1023,
                     "text": "Add Stru~ctures"
                 },
                 {
                     "hotkey": 116,
                     "flags": 0,
-                    "winId": 1020,
+                    "winId": 1024,
                     "text": "Remove Struc~tures"
                 },
                 {
                     "hotkey": 85,
                     "flags": 0,
-                    "winId": 1021,
+                    "winId": 1025,
                     "text": "Add ~Units"
                 },
                 {
                     "hotkey": 110,
                     "flags": 0,
-                    "winId": 1013,
+                    "winId": 1026,
                     "text": "Delete U~nits"
                 },
                 {
                     "hotkey": 80,
                     "flags": 0,
-                    "winId": 1014,
+                    "winId": 1027,
                     "text": "Save to ~PNG"
                 },
                 {
                     "hotkey": 69,
                     "flags": 0,
-                    "winId": 1024,
+                    "winId": 1028,
                     "text": "~Export Planetary Data to CSV"
                 },
                 {
                     "hotkey": 73,
                     "flags": 0,
-                    "winId": 1025,
+                    "winId": 1029,
                     "text": "~Import Planetary Data from CSV"
                 },
                 {
@@ -1443,7 +1449,7 @@
             "style": 1,
             "fore": 0,
             "back": 921102,
-            "range": 100,
+            "range": 101,
             "page": 10
         },
         {
@@ -1456,8 +1462,8 @@
             "style": 1,
             "fore": 0,
             "back": 921102,
-            "range": 45,
-            "page": 5
+            "range": 20,
+            "page": 2
         },
         {
             "type": "scroll",
@@ -1470,7 +1476,7 @@
             "fore": 0,
             "back": 921102,
             "range": 999,
-            "page": 10
+            "page": 100
         },
         {
             "type": "button",
@@ -1520,6 +1526,42 @@
             "back": 921102,
             "data1": "Active",
             "data2": "Sentry"
+        },
+        {
+            "type": "edit",
+            "id": 2000,
+            "x": 10,
+            "y": 70,
+            "dx": 30,
+            "dy": 16,
+            "style": 10,
+            "fore": 13290702,
+            "back": 921102,
+            "maxLength": 2
+        },
+        {
+            "type": "edit",
+            "id": 2001,
+            "x": 10,
+            "y": 115,
+            "dx": 30,
+            "dy": 16,
+            "style": 10,
+            "fore": 13290702,
+            "back": 921102,
+            "maxLength": 3
+        },
+        {
+            "type": "edit",
+            "id": 2002,
+            "x": 10,
+            "y": 315,
+            "dx": 30,
+            "dy": 16,
+            "style": 10,
+            "fore": 13290702,
+            "back": 921102,
+            "maxLength": 4
         }
     ]
 },
@@ -1726,57 +1768,81 @@
                     "text": "Save Al~l Scenarios"
                 },
                 {
-                    "hotkey": 74,
+                    "hotkey": 78,
                     "flags": 0,
                     "winId": 1018,
+                    "text": "Clear All Planetary ~Maps"
+                },
+                {
+                    "hotkey": 122,
+                    "flags": 0,
+                    "winId": 1019,
+                    "text": "Randomi~ze Empty Planets"
+                },
+                {
+                    "hotkey": 70,
+                    "flags": 0,
+                    "winId": 1020,
+                    "text": "Update All Planets with Matching Scenario ~Files"
+                },
+                {
+                    "hotkey": 84,
+                    "flags": 0,
+                    "winId": 1021,
+                    "text": "Update All Planets with Matching ~Terrain Files"
+                },
+                {
+                    "hotkey": 74,
+                    "flags": 0,
+                    "winId": 1022,
                     "text": "Delete All ~JumpGates"
                 },
                 {
                     "hotkey": 99,
                     "flags": 0,
-                    "winId": 1019,
+                    "winId": 1023,
                     "text": "Add Stru~ctures"
                 },
                 {
                     "hotkey": 116,
                     "flags": 0,
-                    "winId": 1020,
+                    "winId": 1024,
                     "text": "Remove Struc~tures"
                 },
                 {
                     "hotkey": 85,
                     "flags": 0,
-                    "winId": 1021,
+                    "winId": 1025,
                     "text": "Add ~Units"
                 },
                 {
                     "hotkey": 110,
                     "flags": 0,
-                    "winId": 1022,
+                    "winId": 1026,
                     "text": "Remove U~nits"
                 },
                 {
                     "hotkey": 80,
                     "flags": 0,
-                    "winId": 1023,
+                    "winId": 1027,
                     "text": "Save All Planets to ~PNG"
                 },
                 {
                     "hotkey": 71,
                     "flags": 0,
-                    "winId": 1024,
+                    "winId": 1028,
                     "text": "Export ~Galaxy Data to CSV"
                 },
                 {
                     "hotkey": 73,
                     "flags": 0,
-                    "winId": 1025,
+                    "winId": 1029,
                     "text": "~Import Galaxy Data from CSV"
                 },
                 {
                     "hotkey": 68,
                     "flags": 0,
-                    "winId": 1026,
+                    "winId": 1030,
                     "text": "Replace ~With CSV Data"
                 },
                 {
@@ -2298,10 +2364,10 @@
             "y": 130,
             "dx": 20003,
             "dy": 20001,
-            "style": 2,
+            "style": 10,
             "fore": 13290702,
             "back": 921102,
-            "maxLength": 3
+            "maxLength": 2
         },
         {
             "type": "edit",
@@ -2310,10 +2376,10 @@
             "y": 130,
             "dx": 20003,
             "dy": 20001,
-            "style": 2,
+            "style": 10,
             "fore": 13290702,
             "back": 921102,
-            "maxLength": 3
+            "maxLength": 2
         }
     ]
 },

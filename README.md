@@ -276,3 +276,8 @@ Please follow these steps.
 
 4.3.2h
 - EFS 1.52b compatibility patch (added empty VAU CITY.DAT file to DAT folder)
+
+4.3.2i
+- Fixed a bug where some House units could be given as ruin rewards
+- Changed res files for new EFS version
+- Fixed some errors on unit ownership

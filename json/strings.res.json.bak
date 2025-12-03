@@ -1842,7 +1842,7 @@
         },
         {
             "ID": 29698,
-            "value": "Make room to build: %s cannot place %s %s on %s!"
+            "value": "\n\nHowever, you do not have anywhere to put your new unit.  Move some units out of this location and the unit will produce next turn."
         },
         {
             "ID": 29699,
@@ -1974,7 +1974,7 @@
         },
         {
             "ID": 29731,
-            "value": "Version %d.%d%s %s"
+            "value": "Version %d.%d %s"
         },
         {
             "ID": 29732,
@@ -2010,7 +2010,7 @@
         },
         {
             "ID": 29740,
-            "value": "Demo version"
+            "value": "Beta version"
         },
         {
             "ID": 29741,
@@ -2150,7 +2150,7 @@
         },
         {
             "ID": 29775,
-            "value": "Planetary Flock: %s - %d/%d"
+            "value": "Planetary Flock: %s - %d"
         },
         {
             "ID": 29776,
@@ -2257,10 +2257,6 @@
             "value": "%d t"
         },
         {
-            "ID": 29810,
-            "value": "razed city"
-        },
-        {
             "ID": 29850,
             "value": "Consuming %d points on this planet."
         },
@@ -2307,18 +2303,6 @@
         {
             "ID": 29861,
             "value": "Tithe Skim"
-        },
-        {
-            "ID": 29862,
-            "value": "{} attacked {} on {}!"
-        },
-        {
-            "ID": 29863,
-            "value": "{} attacked {}!"
-        },
-        {
-            "ID": 29864,
-            "value": "We have received a diplomatic request from {}."
         },
         {
             "ID": 29974,
@@ -2485,12 +2469,8 @@
             "value": "There seems to be no church on Holy Terra.  You can still play the game, but it won't be very much fun."
         },
         {
-          "ID": 31701,
-          "value": "There seems to be no Patriarch on Holy Terra.  You can still play the game, but it won't be very much fun."
-        },
-        {
-            "ID": 31999,
-            "value": "This would put the Planet outside of the map boundaries.\n\nValid Coordinates:\n\nX: 2 to 47\nY: 2 to 45"
+            "ID": 31701,
+            "value": "There seems to be no Patriarch on Holy Terra.  You can still play the game, but it won't be very much fun."
         },
         {
             "ID": 32000,
@@ -2509,8 +2489,8 @@
             "value": "You have reached the planet limit."
         },
         {
-          "ID": 32004,
-          "value": "Planet too close to edge of galaxy.\n\nValid Coordinates:\n\nX: 2 to 47\nY: 2 to 45"
+            "ID": 32004,
+            "value": "Planet too close to edge of galaxy."
         },
         {
             "ID": 32005,
@@ -2775,22 +2755,6 @@
         {
             "ID": 32070,
             "value": "Replace - No Matching Records Found!"
-        },
-        {
-            "ID": 32071,
-            "value": "This will erase all planetary map data for this planet!\n\nThe terrain map including all structure and unit data will be erased!\n\nAre you sure you want to do this (this CANNOT be undone!!!)?"
-        },
-        {
-            "ID": 32072,
-            "value": "This will erase all planetary map data for all planets!\n\nThe terrain map including all structure and unit data will be erased!\n\nAre you sure you want to do this (this CANNOT be undone!!!)?"
-        },
-        {
-            "ID": 32073,
-            "value": "Any planet name with a matching Scenario (.SEN) file in the folder selected will be updated to that loaded scenario.\n\nAre you sure you want to do this (this CANNOT be undone!!!)?\n\nIf you continue, select any valid .SEN file in that folder to proceed..."
-        },
-        {
-            "ID": 32074,
-            "value": "Any planet name with a matching Terrain (.TER) file in the folder selected will be updated to that loaded terrain.\n\nNote that all structures and units are preserved, regardless of whether they are on a valid terrain hex or not. You may have to manually edit your planet maps after this if that is the case.\n\nAre you sure you want to do this (this CANNOT be undone!!!)?\n\nIf you continue, select any valid .TER file in that folder to proceed..."
         },
         {
             "ID": 32100,
@@ -3147,18 +3111,6 @@
         {
             "ID": 32332,
             "value": "Officer Agility Bonus: {:+}"
-        },
-        {
-            "ID": 32333,
-            "value": "Damage Armor Penalty: {:+}%"
-        },
-        {
-            "ID": 32334,
-            "value": "Damage Psy Defense Penalty: {:+}%"
-        },
-        {
-            "ID": 32335,
-            "value": "Damage Attack Strength Penalty: {:+}%"
         }
     ]
 },

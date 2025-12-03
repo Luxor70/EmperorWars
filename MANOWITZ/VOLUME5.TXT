@@ -31,9 +31,9 @@ Cloaking Corvette
 Cruiser
 Crystal Lantern Dancer
 Cx-Omega
-Cyber Atmos Fighter
 Cyber Divebomber
 Cyber Fighter
+Cyber Atmos Fighter
 Cybercorps
 Cyborgs
 Destroyer

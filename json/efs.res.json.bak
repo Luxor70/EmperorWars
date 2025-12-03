@@ -255,7 +255,7 @@
                     "hotkey": 82,
                     "flags": 0,
                     "winId": 1318,
-                    "text": "Build/Raze ~Road"
+                    "text": "Build ~Road"
                 },
                 {
                     "hotkey": 66,
@@ -606,10 +606,10 @@
                     "text": "~Go"
                 },
                 {
-                    "hotkey": 65,
+                    "hotkey": 0,
                     "flags": 0,
                     "winId": 1316,
-                    "text": "Group ~All (dclick)"
+                    "text": "Group All (dclick)"
                 },
                 {
                     "hotkey": 86,
@@ -621,7 +621,7 @@
                     "hotkey": 82,
                     "flags": 0,
                     "winId": 1318,
-                    "text": "Build/Raze ~Road"
+                    "text": "Build ~Road"
                 },
                 {
                     "hotkey": 66,
@@ -2707,7 +2707,7 @@
             "fore": 0,
             "back": 921102,
             "range": 999,
-            "page": 100
+            "page": 999
         },
         {
             "type": "button",
@@ -2764,10 +2764,10 @@
             "y": 200,
             "dx": 50,
             "dy": 20001,
-            "style": 10,
+            "style": 2,
             "fore": 13290702,
             "back": 921102,
-            "maxLength": 4
+            "maxLength": 5
         }
     ]
 },
@@ -4670,38 +4670,6 @@
             "fore": 13290702,
             "back": -1,
             "data": "Unit Production Information"
-        }
-    ]
-},
-"MessagesDlg": {
-    "x": 0,
-    "y": 0,
-    "dx": 640,
-    "dy": 480,
-    "style": 16384,
-    "controls": [
-        {
-            "type": "listbox",
-            "id": 201,
-            "x": 20,
-            "y": 40,
-            "dx": 600,
-            "dy": 400,
-            "style": 1,
-            "fore": 13290702,
-            "back": 921102
-        },
-        {
-            "type": "button",
-            "id": 100,
-            "x": 555,
-            "y": 455,
-            "dx": 75,
-            "dy": 20001,
-            "style": 0,
-            "fore": 13290702,
-            "back": 921102,
-            "data1": "E~xit"
         }
     ]
 }
