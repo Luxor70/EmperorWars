@@ -281,3 +281,4 @@ Please follow these steps.
 - Fixed a bug where some House units could be given as ruin rewards
 - Changed res files for new EFS version
 - Fixed some errors on unit ownership
+- Fixed some errors on tech tree
