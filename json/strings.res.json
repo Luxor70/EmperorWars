@@ -553,6 +553,38 @@
             "value": "Flock"
         },
         {
+            "ID": 5002,
+            "value": "Bonuses"
+        },
+        {
+            "ID": 5003,
+            "value": "G"
+        },
+        {
+            "ID": 5004,
+            "value": "P1"
+        },
+        {
+            "ID": 5005,
+            "value": "P2"
+        },
+        {
+            "ID": 5006,
+            "value": "P3"
+        },
+        {
+            "ID": 5007,
+            "value": "I1"
+        },
+        {
+            "ID": 5008,
+            "value": "I2"
+        },
+        {
+            "ID": 5009,
+            "value": "I3"
+        },
+        {
             "ID": 6800,
             "value": "Food"
         },
@@ -2321,6 +2353,14 @@
             "value": "We have received a diplomatic request from {}."
         },
         {
+            "ID": 29865,
+            "value": "Thank you for your loan payment of %d Imperial Firebirds.\n\nRemember that you are responsible for paying your loan every year."
+        },
+        {
+            "ID": 29866,
+            "value": "Thank you for your loan payment.\n\nYour loan is now paid in full."
+        },
+        {
             "ID": 29974,
             "value": "On"
         },
@@ -2438,11 +2478,11 @@
         },
         {
             "ID": 31611,
-            "value": "You can only change Sects on this planet every %d years.\nYou must wait %d more year before you can change Sects on this planet!"
+            "value": "You must wait until the current Patriarch dies or %d more year before you can change the Sect on this planet!"
         },
         {
             "ID": 31612,
-            "value": "You can only change Sects on this planet every %d years.\nYou must wait %d years before you can change Sects on this planet!"
+            "value": "You must wait until the current Patriarch dies or %d more years before you can change the Sect on this planet!"
         },
         {
             "ID": 31613,
@@ -2485,8 +2525,12 @@
             "value": "There seems to be no church on Holy Terra.  You can still play the game, but it won't be very much fun."
         },
         {
-          "ID": 31701,
-          "value": "There seems to be no Patriarch on Holy Terra.  You can still play the game, but it won't be very much fun."
+            "ID": 31701,
+            "value": "There seems to be no Patriarch on Holy Terra.  You can still play the game, but it won't be very much fun."
+        },
+        {
+            "ID": 31998,
+            "value": "This would put the Planet on top of another planet!"
         },
         {
             "ID": 31999,
@@ -2502,15 +2546,15 @@
         },
         {
             "ID": 32002,
-            "value": "You cannot have two planets that close."
+            "value": "You cannot have two planets that close.\n\nPlanets must be {} squares apart."
         },
         {
             "ID": 32003,
             "value": "You have reached the planet limit."
         },
         {
-          "ID": 32004,
-          "value": "Planet too close to edge of galaxy.\n\nValid Coordinates:\n\nX: 2 to 47\nY: 2 to 45"
+            "ID": 32004,
+            "value": "Planet too close to edge of galaxy.\n\nValid Coordinates:\n\nX: {} to {}\nY: {} to {}"
         },
         {
             "ID": 32005,
@@ -2842,7 +2886,7 @@
         },
         {
             "ID": 32112,
-            "value": "Naval Carrier - Transports and Refuels (at end of turn) all Air Units"
+            "value": "(:) Naval Carrier - Refuels (at end of turn) all Air Units and those units (. or ,) consume 0 movement if moved with it"
         },
         {
             "ID": 32113,
@@ -2862,11 +2906,11 @@
         },
         {
             "ID": 32117,
-            "value": "V/STOL - Refuels on Naval Destroyers (and Carriers)"
+            "value": "(,) V/STOL - Refuels on Naval Destroyers (and Carriers) and does not consume movement if moved with them (; or :)"
         },
         {
             "ID": 32118,
-            "value": "Refuels V/STOL only (at end of turn)"
+            "value": "(;) Refuels V/STOL only (at end of turn) and those units (,) consume 0 movement if moved with it"
         },
         {
             "ID": 32119,
@@ -2874,15 +2918,15 @@
         },
         {
             "ID": 32120,
-            "value": "Safely lands when running out of fuel (cannot move until recovered by a transport)"
+            "value": "Safely lands when running out of fuel (cannot move until refueled)"
         },
         {
             "ID": 32121,
-            "value": "Can be towed"
+            "value": "(-) Towable (does not consume movement if moved with Towing (=) Unit)"
         },
         {
             "ID": 32122,
-            "value": "Can tow units that can be towed"
+            "value": "(=) Tows Towable Units (those units (-) consume 0 movement if moved with it)"
         },
         {
             "ID": 32123,
@@ -2943,6 +2987,10 @@
         {
             "ID": 32143,
             "value": "Out of fuel - refueled if unit remains here (or with this group) at turn's end"
+        },
+        {
+            "ID": 32144,
+            "value": "Does not consume movement if moved with Aircraft Carrier (:) unit"
         },
         {
             "ID": 32145,
@@ -3159,6 +3207,250 @@
         {
             "ID": 32335,
             "value": "Damage Attack Strength Penalty: {:+}%"
+        },
+        {
+            "ID": 32340,
+            "value": "Sect Water Accuracy: {:+}"
+        },
+        {
+            "ID": 32341,
+            "value": "Sect Water Strength: {:+}%"
+        },
+        {
+            "ID": 32342,
+            "value": "Sect Indirect Accuracy: {:+}"
+        },
+        {
+            "ID": 32343,
+            "value": "Sect Indirect Strength: {:+}%"
+        },
+        {
+            "ID": 32344,
+            "value": "Sect Air Accuracy: {:+}"
+        },
+        {
+            "ID": 32345,
+            "value": "Sect Air Strength: {:+}%"
+        },
+        {
+            "ID": 32346,
+            "value": "Sect Direct Accuracy: {:+}"
+        },
+        {
+            "ID": 32347,
+            "value": "Sect Direct Strength: {:+}%"
+        },
+        {
+            "ID": 32348,
+            "value": "Sect Close Accuracy: {:+}"
+        },
+        {
+            "ID": 32349,
+            "value": "Sect Close Strength: {:+}%"
+        },
+        {
+            "ID": 32350,
+            "value": "Sect Psychic Accuracy: {:+}"
+        },
+        {
+            "ID": 32351,
+            "value": "Sect Psychic Strength: {:+}%"
+        },
+        {
+            "ID": 32352,
+            "value": "Sect Ranged Space Accuracy: {:+}"
+        },
+        {
+            "ID": 32353,
+            "value": "Sect Ranged Space Strength: {:+}%"
+        },
+        {
+            "ID": 32354,
+            "value": "Sect Direct Space Accuracy: {:+}"
+        },
+        {
+            "ID": 32355,
+            "value": "Sect Direct Space Strength: {:+}%"
+        },
+        {
+            "ID": 32356,
+            "value": "Sect Close Space Accuracy: {:+}"
+        },
+        {
+            "ID": 32357,
+            "value": "Sect Close Space Strength: {:+}%"
+        },
+        {
+            "ID": 32360,
+            "value": "Sect Healing: {:+}"
+        },
+        {
+            "ID": 32361,
+            "value": "Sect Plague Chance: {:+}%"
+        },
+        {
+            "ID": 32362,
+            "value": "Sect Experience Gain Chance: {:+}%"
+        },
+        {
+            "ID": 32363,
+            "value": "Sect Routing Resistance: {:+}%"
+        },
+        {
+            "ID": 32364,
+            "value": "Sect Loyalty: {:+}%"
+        },
+        {
+            "ID": 32365,
+            "value": "Sect Rebellion Resistance: {:+}%"
+        },
+        {
+            "ID": 32366,
+            "value": "Change Sect Resistance: {:+}%"
+        },
+        {
+            "ID": 32367,
+            "value": "Sect Ruin Extra Gift Chance: {:+}%"
+        },
+        {
+            "ID": 32370,
+            "value": "Sect Food Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32371,
+            "value": "Sect Energy Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32372,
+            "value": "Sect Metal Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32373,
+            "value": "Sect Trace Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32374,
+            "value": "Sect Exotica Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32375,
+            "value": "Sect Chemicals Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32376,
+            "value": "Sect Biochems Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32377,
+            "value": "Sect Electronics Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32378,
+            "value": "Sect Ceramsteel Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32379,
+            "value": "Sect Wetware Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32380,
+            "value": "Sect Monopols Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32381,
+            "value": "Sect Gems Harvesting Bonus: {:+}%"
+        },
+        {
+            "ID": 32382,
+            "value": "Sect Singularities Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32383,
+            "value": "Sect Tax Collection Bonus: {:+}%"
+        },
+        {
+            "ID": 32384,
+            "value": "Sect Production Bonus: {:+}%"
+        },
+        {
+            "ID": 32385,
+            "value": "Sect Research Bonus: {:+}%"
+        },
+        {
+            "ID": 32386,
+            "value": "Sect Tech Maintenance: {:+}%"
+        },
+        {
+            "ID": 32387,
+            "value": "Sect Proscribed Tech Maintenance: {:+}%"
+        },
+        {
+            "ID": 32388,
+            "value": "Sect Lab Maintenance: {:+}%"
+        },
+        {
+            "ID": 32389,
+            "value": "Sect City Healing: {:+}"
+        },
+        {
+            "ID": 32390,
+            "value": "Sect Unit Healing: {:+}"
+        },
+        {
+            "ID": 32391,
+            "value": "Likely to Proscribe: {:+}"
+        },
+        {
+            "ID": 32395,
+            "value": "To see the Symbiot flock counts, the player needs: 1) A Spy on {}, 2) A Spy on {}, and 3) Researched Symbiot Psychology."
+        },
+        {
+            "ID": 32396,
+            "value": "To see the Vau flock counts, the player needs: 1) A Spy on {}, 2) A Spy on {}, and 3) Researched Vau Psychology."
+        },
+        {
+            "ID": 32397,
+            "value": "To see the Symbiot sect bonuses, the player needs: 1) A Spy on {} and 2) Researched Symbiot Psychology."
+        },
+        {
+            "ID": 32398,
+            "value": "To see the Vau sect bonuses, the player needs: 1) A Spy on {} and 2) Researched Vau Psychology."
+        },
+        {
+            "ID": 32400,
+            "value": "Staunch defenders of tradition and hierarchy providing economic stability and loyalty across the Known Worlds."
+        },
+        {
+            "ID": 32401,
+            "value": "Protects the weak, soothes the sick via improved defenses and higher healing abilities."
+        },
+        {
+            "ID": 32402,
+            "value": "Knowledge seekers that gain research and maintenance bonuses as well as psychic defense and unit agility, camouflage, and spotting bonuses."
+        },
+        {
+            "ID": 32403,
+            "value": "Populist theologians that gain upkeep, maintenance reduction, and production bonuses that help improve fringe settlements."
+        },
+        {
+            "ID": 32404,
+            "value": "Unyielding inquisitors that rule with a righteous fury, thwart rebellions, enforce loyalty, and accelerate military experience gain."
+        },
+        {
+            "ID": 32405,
+            "value": "Disciplined soldier monks, devoted to the sacred art of battle that specialize in improved fighting skills and elite military troops."
+        },
+        {
+            "ID": 32406,
+            "value": "Wandering mystics providing bonuses for efficient production, cheap maintenance, and stealth unit mobility."
+        },
+        {
+            "ID": 32407,
+            "value": "Many have wondered what the true power that the Symbiots and their followers hold."
+        },
+        {
+            "ID": 32408,
+            "value": "A mysterious alien race that provides more questions than answers."
         }
     ]
 },

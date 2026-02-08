@@ -282,3 +282,7 @@ Please follow these steps.
 - Changed res files for new EFS version
 - Fixed some errors on unit ownership
 - Fixed some errors on tech tree
+
+4.3.3
+- Added new icons by anternofer
+- Increased cargo slots for many units
