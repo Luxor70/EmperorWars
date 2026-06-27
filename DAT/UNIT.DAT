@@ -202,10 +202,10 @@
 "name"	"Vau Jet Bike"	"1"	"abbrev"	"JetBike"	"stats"	"hover	33	20	6	3	8	120	100	0	0	0	0	9	80	8	80	0	0	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"vau_bike.jpeg"	"33.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {34	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Vau War-Skif"	"1"	"abbrev"	"Skif"	"stats"	"hover	34	10	7	2	8	150	100	0	0	8	100	10	80	10	150	0	0	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"vau_skiff.jpeg"	"34.bmp"
+"name"	"Vau War-Skif"	"1"	"abbrev"	"Skif"	"stats"	"hover	34	10	7	2	8	150	100	0	0	8	100	10	80	10	150	0	0	0	0	0	0	0	0	0	0	0	2	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	4	1	1"	"art"	"vau_skiff.jpeg"	"34.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {35	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Vau War-Tower"	"1"	"abbrev"	"Tower"	"stats"	"mech	35	5	8	1	9	200	100	0	0	8	150	10	120	10	150	0	0	0	0	8	100	7	100	6	80	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"vau_tower.jpeg"	"v_wartower.bmp"
+"name"	"Vau War-Tower"	"1"	"abbrev"	"Tower"	"stats"	"mech	35	5	8	1	9	200	100	0	0	8	150	10	120	10	150	0	0	0	0	8	100	7	100	6	80	0	3	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"vau_tower.jpeg"	"v_wartower.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {36	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Vau Warrior Tlaavu"	"1"	"abbrev"	"Tlaavu"	"stats"	"foot	36	5	5	5	7	100	100	0	0	0	0	6	80	10	100	12	150	0	0	0	0	0	0	0	0	0	1	134217728	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	10	8	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"vau_warrior1.jpeg"	"v_warrior.bmp"
@@ -353,86 +353,86 @@
 "name"	"Assembled PTS"	"1"	"abbrev"	"PTS Torpedo"	"stats"	"tread	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	200	0	100	0	0	0	0	0	0	0	0	0	0	0	57	1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	9	1	1"	"art"	"torpedo_pts.jpeg"	"cargo.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {58	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Scout Tank"	"1"	"abbrev"	"Greyhound"	"stats"	"tread	58	10	8	3	5	40	30	0	0	0	0	0	0	7	30	1	10	0	0	0	0	0	0	0	0	0	1	0	10	100	0	0	35	0	0	2	0	4	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"scout_tank.jpeg"	"scout_tank.bmp"
+"name"	"Scout Tank"	"1"	"abbrev"	"Greyhound"	"stats"	"tread	58	10	8	3	5	40	30	0	0	0	0	0	0	7	30	1	10	0	0	0	0	0	0	0	0	0	2	0	10	100	0	0	35	0	0	2	0	4	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	4	1	1"	"art"	"scout_tank.jpeg"	"scout_tank.bmp"
 "name"	"Cavalry"	"3"	"abbrev"	"Cavalry"	"stats"	"foot	58	10	7	4	7	15	30	0	0	0	0	0	0	0	0	3	20	0	0	0	0	0	0	0	0	0	1	0	16	0	160	0	0	0	0	1	0	0	0	0	0	0	0	-1	-1	13	99	2	272	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"cavalry.jpeg"	"horse.bmp"
 "name"	"Shantor Cavalry"	"3"	"abbrev"	"Shantor"	"stats"	"foot	58	10	7	4	7	15	30	0	0	0	0	0	0	2	15	4	30	0	0	0	0	0	0	0	0	0	1	0	16	0	160	0	0	0	0	1	0	0	0	0	0	0	0	-1	-1	13	4	2	349	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"shant.jpeg"	"shantor.bmp"
 "name"	"Trusnikron Cavalry"	"3"	"abbrev"	"Cavalry"	"stats"	"foot	58	14	7	5	8	20	30	0	0	0	0	0	0	2	15	4	30	0	0	0	0	0	0	0	0	0	1	0	100	1000	160	0	0	0	0	0	0	0	0	0	0	2	0	-1	-1	13	1	2	333	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1"	"art"	"t_cavalry.jpeg"	"horse.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {59	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Medium Tank"	"1"	"abbrev"	"Pitbull"	"stats"	"tread	58	8	5	2	2	60	30	0	0	0	0	0	0	4	60	2	30	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"medium_tank.jpeg"	"med_tank.bmp"
-"name"	"Cx-Omega"	"1"	"abbrev"	"Cx-Omega"	"stats"	"tread	58	8	5	2	3	90	30	0	0	0	0	0	0	7	80	3	50	0	0	0	0	0	0	0	0	0	1	0	12	120	0	0	15	0	0	1	0	4	0	0	1	0	0	-1	-1	3	1	2	280	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"cx-omega.jpeg"	"minimite.bmp"
-"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	2	303	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
-"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
-"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
-"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Medium Tank"	"1"	"abbrev"	"Pitbull"	"stats"	"tread	58	8	5	2	2	60	30	0	0	0	0	0	0	4	60	2	30	0	0	0	0	0	0	0	0	0	2	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"medium_tank.jpeg"	"med_tank.bmp"
+"name"	"Cx-Omega"	"1"	"abbrev"	"Cx-Omega"	"stats"	"tread	58	8	5	2	3	90	30	0	0	0	0	0	0	7	80	3	50	0	0	0	0	0	0	0	0	0	2	0	12	120	0	0	15	0	0	1	0	4	0	0	1	0	0	-1	-1	3	1	2	280	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"cx-omega.jpeg"	"minimite.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	2	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	2	303	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	2	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	5	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
+"name"	"Heavy Tank"	"1"	"abbrev"	"Direwolf"	"stats"	"tread	59	6	5	1	3	90	30	0	0	0	0	0	0	7	80	5	80	0	0	0	0	0	0	0	0	0	2	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"heavy_tank.jpeg"	"heavy_tank.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {60	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Anti-personnel Tank"	"1"	"abbrev"	"Grim Reaper"	"stats"	"tread	60	8	5	2	2	50	30	0	0	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	60	0	0	3	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"anti_inf_tank.jpeg"	"anti_inf_tank.bmp"
+"name"	"Anti-personnel Tank"	"1"	"abbrev"	"Grim Reaper"	"stats"	"tread	60	8	5	2	2	50	30	0	0	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	2	0	25	250	0	0	60	0	0	3	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"anti_inf_tank.jpeg"	"anti_inf_tank.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {61	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	55	3	325	0	0	0	0	0	0	0	0	0	0	1	2	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
-"name"	"Mantius Crusader-X"	"1"	"abbrev"	"Mantius"	"stats"	"tread	58	8	5	1	3	130	30	0	0	0	0	0	0	9	130	6	90	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	60	0	0	3	0	5	20	0	5	0	0	-1	-1	3	0	3	325	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mantius.jpeg"	"mantius.bmp"
-"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
-"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
-"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	55	3	325	0	0	0	0	0	0	0	0	0	0	1	2	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mantius Crusader-X"	"1"	"abbrev"	"Mantius"	"stats"	"tread	58	8	5	1	3	130	30	0	0	0	0	0	0	9	130	6	90	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	60	0	0	3	0	5	20	0	5	0	0	-1	-1	3	0	3	325	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mantius.jpeg"	"mantius.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	13	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	5	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
+"name"	"Mega Tank"	"1"	"abbrev"	"Mastiff"	"stats"	"tread	61	6	5	1	2	120	30	0	0	0	0	0	0	8	120	5	80	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	70	0	0	4	0	5	20	0	5	0	0	-1	-1	3	6	3	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"mega_tank.jpeg"	"mega_tank.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {62	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	12	5	3	7	95	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"Imperial Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	14	5	3	7	100	30	7	60	0	0	0	0	9	80	6	60	0	0	0	0	0	0	0	0	0	1	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	9	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"imperial_hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"Su-325 Hover Tank"	"1"	"abbrev"	"Black Adder"	"stats"	"hover	58	14	5	3	7	100	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	1	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"su325_tank.jpeg"	"hover_tank.bmp"
-"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	12	5	3	7	95	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Imperial Hover Tank"	"1"	"abbrev"	"Kestral"	"stats"	"hover	58	14	5	3	7	100	30	7	60	0	0	0	0	9	80	6	60	0	0	0	0	0	0	0	0	0	2	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	9	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"imperial_hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Su-325 Hover Tank"	"1"	"abbrev"	"Black Adder"	"stats"	"hover	58	14	5	3	7	100	30	0	0	0	0	0	0	9	70	6	60	0	0	0	0	0	0	0	0	0	2	0	45	450	0	0	45	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"su325_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	309	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
 "name"	"unused"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	58	10	5	3	6	90	30	0	0	0	0	0	0	8	60	6	60	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	-1	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_tank.jpeg"	"hover_tank.bmp"
-"name"	"2nd Republic Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	62	16	8	6	8	120	30	0	0	0	0	0	0	10	120	8	80	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_tank.jpeg"	"hover_tank.bmp"
+"name"	"2nd Republic Hover Tank"	"1"	"abbrev"	"Hover Tank"	"stats"	"hover	62	16	8	6	8	120	30	0	0	0	0	0	0	10	120	8	80	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_tank.jpeg"	"hover_tank.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {63	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Falcon"	"stats"	"hover	63	12	4	3	7	105	30	0	0	0	0	0	0	9	110	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	306	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
-"name"	"2nd Republic Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	94	16	8	6	8	130	30	0	0	0	0	0	0	12	120	5	50	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Falcon"	"stats"	"hover	63	12	4	3	7	105	30	0	0	0	0	0	0	9	110	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	3	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	306	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	63	10	4	3	6	100	30	0	0	0	0	0	0	9	100	4	40	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	306	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"hover_at.jpeg"	"hover_at.bmp"
+"name"	"2nd Republic Hover AT"	"1"	"abbrev"	"Hover AT"	"stats"	"hover	94	16	8	6	8	130	30	0	0	0	0	0	0	12	120	5	50	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	80	0	0	20	0	20	30	0	10	0	0	-1	-1	-1	99	3	0	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"2nd_hover_at.jpeg"	"hover_at.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {64	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Peregrine"	"stats"	"hover	64	12	6	3	7	95	30	0	0	0	0	8	110	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	5	0	0	10	0	15	10	0	5	0	0	-1	-1	3	3	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
-"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	308	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	0	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Peregrine"	"stats"	"hover	64	12	6	3	7	95	30	0	0	0	0	8	110	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	5	0	0	10	0	15	10	0	5	0	0	-1	-1	3	3	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	1	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	2	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	4	2	308	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
+"name"	"Hover Flak"	"1"	"abbrev"	"Hover Flak"	"stats"	"hover	64	10	6	3	6	90	30	0	0	0	0	8	100	0	0	2	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	40	0	0	10	0	6	15	0	6	0	0	-1	-1	-1	44	2	308	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"hover_flak.jpeg"	"hover_flak.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {65	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Tank Killer"	"1"	"abbrev"	"Tank Killer"	"stats"	"tread	65	8	4	2	2	80	30	0	0	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"tank_destroyer.jpeg"	"tk.bmp"
+"name"	"Tank Killer"	"1"	"abbrev"	"Tank Killer"	"stats"	"tread	65	8	4	2	2	80	30	0	0	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	2	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"tank_destroyer.jpeg"	"tk.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {66	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Heavy Tank Killer"	"1"	"abbrev"	"Wolverine"	"stats"	"tread	66	6	3	1	3	110	30	0	0	0	0	0	0	8	120	0	0	0	0	0	0	0	0	0	0	0	1	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	3	302	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"heavy_tank_destroyer.jpeg"	"heavy_tk.bmp"
+"name"	"Heavy Tank Killer"	"1"	"abbrev"	"Wolverine"	"stats"	"tread	66	6	3	1	3	110	30	0	0	0	0	0	0	8	120	0	0	0	0	0	0	0	0	0	0	0	2	0	35	350	0	0	60	0	0	3	0	5	20	0	4	0	0	-1	-1	3	55	3	302	0	0	0	0	0	0	0	0	0	0	1	4	1	2	1	1"	"art"	"heavy_tank_destroyer.jpeg"	"heavy_tk.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {67	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"SP Flak"	"1"	"abbrev"	"Tornado"	"stats"	"tread	67	8	6	2	3	60	30	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_flak.jpeg"	"sp_flak.bmp"
+"name"	"SP Flak"	"1"	"abbrev"	"Tornado"	"stats"	"tread	67	8	6	2	3	60	30	0	0	0	0	6	90	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_flak.jpeg"	"sp_flak.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {68	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"SP Artillery"	"3"	"abbrev"	"Smyter"	"stats"	"tread	68	8	6	2	2	60	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_artillery.jpeg"	"sp_art.bmp"
+"name"	"SP Artillery"	"3"	"abbrev"	"Smyter"	"stats"	"tread	68	8	6	2	2	60	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	25	250	0	0	50	0	0	2	0	5	0	0	0	0	0	-1	-1	3	99	2	0	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"sp_artillery.jpeg"	"sp_art.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {69	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	99	2	260	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
-"name"	"Xf-123 'City Killer'"	"1"	"abbrev"	"Xf-123"	"stats"	"tread	69	4	6	1	1	80	30	0	0	5	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	16	160	0	0	30	0	0	6	6	5	10	0	0	0	0	-1	-1	3	2	2	260	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"xf-123.jpeg"	"ass_gun.bmp"
-"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
-"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	99	2	260	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+"name"	"Xf-123 'City Killer'"	"1"	"abbrev"	"Xf-123"	"stats"	"tread	69	4	6	1	1	80	30	0	0	5	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	16	160	0	0	30	0	0	6	6	5	10	0	0	0	0	-1	-1	3	2	2	260	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"xf-123.jpeg"	"ass_gun.bmp"
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	13	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
+"name"	"Assault Artillery"	"3"	"abbrev"	"Goliath"	"stats"	"tread	69	6	6	1	1	100	30	0	0	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	30	300	0	0	60	0	0	3	0	5	20	0	0	0	0	-1	-1	3	22	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"assault_gun.jpeg"	"ass_gun.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {70	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Rocket Artillery"	"3"	"abbrev"	"Howler"	"stats"	"tread	70	8	6	1	1	100	30	0	0	3	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	30	300	0	0	60	0	0	10	0	3	20	0	5	0	0	-1	-1	3	55	2	343	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"rocket_artillery.jpeg"	"rocket_art.bmp"
+"name"	"Rocket Artillery"	"3"	"abbrev"	"Howler"	"stats"	"tread	70	8	6	1	1	100	30	0	0	3	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	30	300	0	0	60	0	0	10	0	3	20	0	5	0	0	-1	-1	3	55	2	343	0	0	0	0	0	0	0	0	0	0	1	4	1	8	1	1"	"art"	"rocket_artillery.jpeg"	"rocket_art.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {71	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Plague Artillery"	"3"	"abbrev"	"Pestulator"	"stats"	"tread	71	8	6	1	1	100	30	0	0	4	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	402653184	40	400	0	0	60	0	0	20	20	10	20	0	5	0	0	-1	-1	3	55	3	334	0	0	0	0	0	0	0	0	0	0	1	1	1	8	1	1"	"art"	"pestulator_artillery.jpeg"	"plagueart.bmp"
+"name"	"Plague Artillery"	"3"	"abbrev"	"Pestulator"	"stats"	"tread	71	8	6	1	1	100	30	0	0	4	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	402653184	40	400	0	0	60	0	0	20	20	10	20	0	5	0	0	-1	-1	3	55	3	334	0	0	0	0	0	0	0	0	0	0	1	1	1	8	1	1"	"art"	"pestulator_artillery.jpeg"	"plagueart.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {72	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Stealth Tank"	"1"	"abbrev"	"Wraith"	"stats"	"tread	72	8	5	13	4	110	30	0	0	0	0	0	0	8	60	3	30	0	0	0	0	0	0	0	0	0	1	0	40	400	0	0	60	0	0	3	0	40	40	0	6	0	0	-1	-1	3	55	2	356	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"stealth_tank.jpeg"	"stealthtank.bmp"
-"name"	"Assault Stealth Tank"	"1"	"abbrev"	"Spectre"	"stats"	"tread	72	8	7	14	6	140	30	0	0	0	0	0	0	10	80	5	40	0	0	0	0	0	0	0	0	0	1	0	60	600	0	0	80	0	0	6	0	80	80	0	10	0	0	-1	-1	3	55	3	265	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"ass_stealth_tank.jpeg"	"stealthtank.bmp"
+"name"	"Stealth Tank"	"1"	"abbrev"	"Wraith"	"stats"	"tread	72	8	5	13	4	110	30	0	0	0	0	0	0	8	60	3	30	0	0	0	0	0	0	0	0	0	2	0	40	400	0	0	60	0	0	3	0	40	40	0	6	0	0	-1	-1	3	55	2	356	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"stealth_tank.jpeg"	"stealthtank.bmp"
+"name"	"Assault Stealth Tank"	"1"	"abbrev"	"Spectre"	"stats"	"tread	72	8	7	14	6	140	30	0	0	0	0	0	0	10	80	5	40	0	0	0	0	0	0	0	0	0	2	0	60	600	0	0	80	0	0	6	0	80	80	0	10	0	0	-1	-1	3	55	3	265	0	0	0	0	0	0	0	0	0	0	1	4	1	3	1	1"	"art"	"ass_stealth_tank.jpeg"	"stealthtank.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {73	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Gunship"	"1"	"abbrev"	"Dragonfly"	"stats"	"air	73	15	8	3	6	35	30	5	50	0	0	4	10	6	70	4	40	0	0	0	0	0	0	0	0	0	1	131072	30	300	0	0	8	0	0	2	0	20	10	0	0	0	0	-1	-1	3	55	2	298	0	0	0	0	0	0	0	0	0	0	1	4	0	2	1	1"	"art"	"gunshp06.jpeg"	"gunship.bmp"
@@ -507,20 +507,20 @@
 "name"	"STING"	"1"	"abbrev"	"STING"	"stats"	"foot	84	8	10	6	8	30	30	0	0	0	0	0	0	0	0	6	60	0	0	0	0	0	0	0	0	0	1	0	20	2000	2	0	0	0	0	0	0	100	0	0	0	0	0	-1	-1	13	1	2	358	0	0	0	0	0	0	0	0	0	0	1	0	1	5	1	1"	"art"	"sting.jpeg"	"house_spy.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {85	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Flak"	"1"	"abbrev"	"Flak"	"stats"	"wheel	85	6	3	4	1	40	30	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"flak.jpeg"	"flak.bmp"
+"name"	"Flak"	"1"	"abbrev"	"Flak"	"stats"	"wheel	85	6	3	4	1	40	30	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"flak.jpeg"	"flak.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {86	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Anti-Tank Gun"	"1"	"abbrev"	"ATG"	"stats"	"wheel	86	6	3	4	3	40	30	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"atg01.jpeg"	"at.bmp"
+"name"	"Anti-Tank Gun"	"1"	"abbrev"	"ATG"	"stats"	"wheel	86	6	3	4	3	40	30	0	0	0	0	0	0	5	80	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	20	0	0	1	0	3	0	0	0	0	0	-1	-1	3	55	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	2	1	1"	"art"	"atg01.jpeg"	"at.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {87	 	 	 	 	 	 																																																																	 	 	 	 
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"L-66 'Wild Wombat'"	"1"	"abbrev"	"L-66"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	6	60	0	0	20	0	0	4	0	5	0	0	0	0	0	-1	-1	3	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"L66.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	2	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	3	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	4	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
-"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	-1	44	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"L-66 'Wild Wombat'"	"1"	"abbrev"	"L-66"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	60	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	6	60	0	0	20	0	0	4	0	5	0	0	0	0	0	-1	-1	3	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"L66.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	2	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	3	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	4	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	5	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	3	6	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
+"name"	"Artillery"	"3"	"abbrev"	"Artillery"	"stats"	"wheel	87	6	3	4	1	20	30	0	0	3	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	2	25	0	0	15	0	0	1	0	3	0	0	0	0	0	-1	-1	-1	44	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	1"	"art"	"aa88grid.jpeg"	"artillery.bmp"
 }	 	 	 	 	 	 																																																																	 	 	 	 
 {88	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Plague Bomb"	"1"	"abbrev"	"Plague Bomb"	"stats"	"hover	88	4	1	7	2	20	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1207959552	10	0	0	0	5	0	1	100	200	1	0	0	1	0	0	-1	-1	23	55	2	10	0	0	0	0	0	0	0	0	0	0	1	1	0	8	1	1"	"art"	"plague_bomb.jpeg"	"plague.bmp"
@@ -828,7 +828,7 @@
 "name"	"Duke Duncan Li Halan"	"0"	"abbrev"	"Duncan"	"stats"	"foot	133	8	5	4	10	10	40	0	0	0	0	0	0	3	25	6	50	0	0	0	0	0	0	0	0	0	1	10	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	13	100	0	0	0	0	0	0	0	0	0	0	0	1	0	1	8	1	0"	"art"	"duncan.jpeg"	"li-halan.bmp"
 }																																																																										
 {134																																																																										
-"name"	"Flying Crescent"	"1"	"abbrev"	"Crescent"	"stats"	"air	134	20	8	15	9	100	30	5	50	0	0	6	40	6	100	6	80	0	0	0	0	0	0	0	0	0	1	524288	60	600	0	0	16	0	0	4	0	40	20	0	10	0	0	-1	-1	3	4	4	290	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"crescent.jpeg"	"crescent.bmp"
+"name"	"Flying Crescent"	"1"	"abbrev"	"Crescent"	"stats"	"air	134	20	8	15	9	100	30	5	50	0	0	6	40	6	100	6	80	0	0	0	0	0	0	0	0	0	2	524288	60	600	0	0	16	0	0	4	0	40	20	0	10	0	0	-1	-1	3	4	4	290	0	0	0	0	0	0	0	0	0	0	1	0	0	5	1	1"	"art"	"crescent.jpeg"	"crescent.bmp"
 }																																																																										
 {135	 	 	 	 	 	 																																																																	 	 	 	 
 "name"	"Church Galliot"	"1"	"abbrev"	"Halvor"	"stats"	"jump	135	3	5	4	10	60	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	30	8	50	3	0	16384	25	250	0	0	140	0	0	1	0	30	0	0	10	0	1	-1	-1	14	6	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	1	1"	"art"	"galliot_church.jpeg"	"galliot.bmp"

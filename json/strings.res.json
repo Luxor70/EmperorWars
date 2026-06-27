@@ -1810,7 +1810,7 @@
         },
         {
             "ID": 29682,
-            "value": "Combat is restriced on Byzantium II until someone has made a claim to the emperor's crown.  Until that time, only spies, submarines, and stealth ships are permitted to engage in combat."
+            "value": "Combat is restricted on Byzantium II until someone has made a claim to the emperor's crown.  Until that time, only spies, submarines, and stealth ships are permitted to engage in combat."
         },
         {
             "ID": 29683,
@@ -2193,6 +2193,10 @@
             "value": "The map has been saved as {}.\n"
         },
         {
+            "ID": 29779,
+            "value": "Cargo is too big and cannot fit into transport!"
+        },
+        {
             "ID": 29780,
             "value": "You receive %d more in taxes \nbecause of %s!"
         },
@@ -2361,12 +2365,28 @@
             "value": "Thank you for your loan payment.\n\nYour loan is now paid in full."
         },
         {
+            "ID": 29867,
+            "value": "Are you sure you want to secure a loan for %d Firebirds?"
+        },
+        {
             "ID": 29974,
             "value": "On"
         },
         {
             "ID": 29975,
             "value": "Off"
+        },
+        {
+            "ID": 29976,
+            "value": "You do not have the required unit to produce %s on %s."
+        },
+        {
+            "ID": 29977,
+            "value": "You do not have the required technology to produce %s on %s."
+        },
+        {
+            "ID": 29978,
+            "value": "~Choose"
         },
         {
             "ID": 30000,
@@ -2383,6 +2403,26 @@
         {
             "ID": 30003,
             "value": "Not available in demo."
+        },
+        {
+            "ID": 30500,
+            "value": "List of Queues"
+        },
+        {
+            "ID": 30501,
+            "value": "Queue Units"
+        },
+        {
+            "ID": 30502,
+            "value": "Queue"
+        },
+        {
+            "ID": 30503,
+            "value": "Queue Name:"
+        },
+        {
+            "ID": 30504,
+            "value": "That queue is currently in production."
         },
         {
             "ID": 31000,
@@ -2966,7 +3006,7 @@
         },
         {
             "ID": 32132,
-            "value": "Can be loaded onto a transport"
+            "value": "Can be loaded onto a transport (consumes {} capacity)"
         },
         {
             "ID": 32133,

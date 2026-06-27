@@ -16,7 +16,7 @@
             "fore": 921102,
             "back": 16316664,
             "data1": "efs",
-            "data2": "FileMenu"
+            "data2": "HexMenu"
         },
         {
             "type": "bitmask",
@@ -83,6 +83,18 @@
             "tooltip": "End your current turn",
             "data": "BIN/efsbut16.bin"
         },
+		{
+            "type": "static",
+            "id": 1325,
+            "x": 0,
+            "y": 0,
+            "dx": 0,
+            "dy": 0,
+            "style": 0,
+            "fore": 0,
+            "back": 0,
+            "data": "~x dummy hotkey for space button"
+        },
         {
             "type": "bitmask",
             "id": 151,
@@ -95,6 +107,18 @@
             "back": 0,
             "tooltip": "Show space",
             "data": "BIN/efsbut2.bin"
+        },
+		{
+            "type": "static",
+            "id": 1326,
+            "x": 0,
+            "y": 0,
+            "dx": 0,
+            "dy": 0,
+            "style": 0,
+            "fore": 0,
+            "back": 0,
+            "data": "~l dummy hotkey for launch button"
         },
         {
             "type": "bitmask",
@@ -161,7 +185,7 @@
         }
     ]
 },
-"FileMenu": {
+"HexMenu": {
     "columns": [
         {
             "hotkey": 70,
@@ -195,7 +219,7 @@
                     "text": "~Options"
                 },
                 {
-                    "hotkey": 82,
+                    "hotkey": 77,
                     "flags": 0,
                     "winId": 7113,
                     "text": "~Main Menu"
@@ -216,7 +240,7 @@
             "text": "   O~rders",
             "items": [
                 {
-                    "hotkey": 0,
+                    "hotkey": 32,
                     "flags": 0,
                     "winId": 1310,
                     "text": "Skip (space)"
@@ -240,10 +264,10 @@
                     "text": "~Go"
                 },
                 {
-                    "hotkey": 0,
+                    "hotkey": 65,
                     "flags": 0,
                     "winId": 1316,
-                    "text": "Group All (dclick)"
+                    "text": "Group ~All"
                 },
                 {
                     "hotkey": 86,
@@ -388,6 +412,12 @@
                     "flags": 0,
                     "winId": 7322,
                     "text": "~City Info"
+                },
+                {
+                    "hotkey": 81,
+                    "flags": 0,
+                    "winId": 7323,
+                    "text": "~Queues"
                 }
             ]
         },
@@ -432,7 +462,7 @@
             "fore": 921102,
             "back": 16316664,
             "data1": "efs",
-            "data2": "FileMenu"
+            "data2": "StarMenu"
         },
         {
             "type": "bitmask",
@@ -527,7 +557,7 @@
         }
     ]
 },
-"FileMenu": {
+"StarMenu": {
     "columns": [
         {
             "hotkey": 70,
@@ -561,7 +591,7 @@
                     "text": "~Options"
                 },
                 {
-                    "hotkey": 82,
+                    "hotkey": 77,
                     "flags": 0,
                     "winId": 7113,
                     "text": "~Main Menu"
@@ -582,7 +612,7 @@
             "text": "   O~rders",
             "items": [
                 {
-                    "hotkey": 0,
+                    "hotkey": 32,
                     "flags": 0,
                     "winId": 1310,
                     "text": "Skip (space)"
@@ -609,37 +639,13 @@
                     "hotkey": 65,
                     "flags": 0,
                     "winId": 1316,
-                    "text": "Group ~All (dclick)"
+                    "text": "Group ~All"
                 },
                 {
                     "hotkey": 86,
                     "flags": 0,
                     "winId": 1317,
                     "text": "~View Stack"
-                },
-                {
-                    "hotkey": 82,
-                    "flags": 0,
-                    "winId": 1318,
-                    "text": "Build/Raze ~Road"
-                },
-                {
-                    "hotkey": 66,
-                    "flags": 0,
-                    "winId": 1319,
-                    "text": "~Build City"
-                },
-                {
-                    "hotkey": 122,
-                    "flags": 0,
-                    "winId": 1320,
-                    "text": "Ra~ze City"
-                },
-                {
-                    "hotkey": 85,
-                    "flags": 0,
-                    "winId": 1322,
-                    "text": "Build ~Units"
                 },
                 {
                     "hotkey": 110,
@@ -754,7 +760,14 @@
                     "flags": 0,
                     "winId": 7322,
                     "text": "~City Info"
+                },
+                {
+                    "hotkey": 81,
+                    "flags": 0,
+                    "winId": 7323,
+                    "text": "~Queues"
                 }
+
             ]
         },
         {
@@ -1070,7 +1083,7 @@
             "fore": 13290702,
             "back": 921102,
             "tooltip": "Starts a new game",
-            "data1": "~Start New"
+            "data1": "~Start New Game"
         },
         {
             "type": "button",
@@ -2212,6 +2225,7 @@
     "dx": 504,
     "dy": 231,
     "style": 16384,
+    "activeControlOnFocus": 200,
     "controls": [
         {
             "type": "static",
@@ -2457,6 +2471,32 @@
         },
         {
             "type": "button",
+            "id": 301,
+            "x": 442,
+            "y": 187,  
+            "dx": 20001,
+            "dy": 20001,
+            "style": 1,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": " ",
+            "data2": "X"
+        },
+        {
+            "type": "static",
+            "id": 1031,
+            "x": 467,
+            "y": 187,
+            "dx": 150,
+            "dy": 20001,
+            "style": 64,
+            "fore": 13290702,
+            "back": -1,
+            "tooltip": "The city will repeatedly build this unit",
+            "data": "Repeat build"
+        },
+        {
+            "type": "button",
             "id": 101,
             "x": 132,
             "y": 42,
@@ -2466,6 +2506,19 @@
             "fore": 13290702,
             "back": 921102,
             "data1": "E~xit"
+        },
+        {
+            "type": "button",
+            "id": 7323,
+            "x": 132,
+            "y": 57,
+            "dx": 40,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "tooltip": "Opens the Queues dialog",
+            "data1": "~Que."
         }
     ]
 },
@@ -2475,6 +2528,7 @@
     "dx": 520,
     "dy": 256,
     "style": 0,
+    "activeControlOnFocus": 200,
     "controls": [
         {
             "type": "static",
@@ -2567,6 +2621,7 @@
     "dx": 640,
     "dy": 320,
     "style": 0,
+    "activeControlOnFocus": 200,
     "controls": [
         {
             "type": "listbox",
@@ -4576,6 +4631,7 @@
     "dx": 640,
     "dy": 480,
     "style": 16384,
+    "activeControlOnFocus": 200,
     "controls": [
         {
             "type": "listbox",
@@ -4590,8 +4646,19 @@
         },
         {
             "type": "button",
-            "id": 1324,
+            "id": 1323,
             "x": 260,
+            "y": 455,
+            "dx": 100,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102
+        },
+        {
+            "type": "button",
+            "id": 1324,
+            "x": 140,
             "y": 455,
             "dx": 100,
             "dy": 20001,
@@ -4679,6 +4746,7 @@
     "dx": 640,
     "dy": 480,
     "style": 16384,
+    "activeControlOnFocus": 201,
     "controls": [
         {
             "type": "listbox",
@@ -4703,5 +4771,167 @@
             "back": 921102,
             "data1": "E~xit"
         }
+    ]
+},
+
+"QueuesDlg": {
+    "x": 0,
+    "y": 0,
+    "dx": 640,
+    "dy": 480,
+    "style": 16384,
+    "controls": [
+        {
+            "type": "listbox",
+            "id": 201,
+            "x": 10,
+            "y": 30,
+            "dx": 300,
+            "dy": 380,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102
+        },
+        {
+            "type": "listbox",
+            "id": 202,
+            "x": 330,
+            "y": 110,
+            "dx": 300,
+            "dy": 300,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102
+        },
+        {
+            "type": "button",
+            "id": 107,
+            "x": 530,
+            "y": 50,
+            "dx": 100,
+            "dy": 20,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Rename"
+        },
+        {
+            "type": "edit",
+            "id": 108,
+            "x": 330,
+            "y": 50,
+            "dx": 190,
+            "dy": 20,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "maxLength": 25
+        },
+        {
+            "type": "button",
+            "id": 103,
+            "x": 10,
+            "y": 420,
+            "dx": 130,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Add Queue"
+        },
+        {
+            "type": "button",
+            "id": 104,
+            "x": 180,
+            "y": 420,
+            "dx": 130,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Delete Queue"
+        },
+        {
+            "type": "button",
+            "id": 105,
+            "x": 330,
+            "y": 420,
+            "dx": 130,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "Add ~Unit"
+        },
+        {
+            "type": "button",
+            "id": 106,
+            "x": 500,
+            "y": 420,
+            "dx": 130,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "De~lete Unit"
+        },
+        {
+            "type": "button",
+            "id": 100,
+            "x": 555,
+            "y": 455,
+            "dx": 75,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Close"
+        }
+    ]
+},
+
+"QueueAddDlg": {
+    "x": 0,
+    "y": 0,
+    "dx": 640,
+    "dy": 480,
+    "style": 16384,
+    "controls": [
+        {
+            "type": "listbox",
+            "id": 251,
+            "x": 20,
+            "y": 40,
+            "dx": 600,
+            "dy": 400,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102
+        },
+        {
+            "type": "button",
+            "id": 100,
+            "x": 555,
+            "y": 455,
+            "dx": 75,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Add"
+        },
+        {
+            "type": "button",
+            "id": 101,
+            "x": 455,
+            "y": 455,
+            "dx": 75,
+            "dy": 20001,
+            "style": 0,
+            "fore": 13290702,
+            "back": 921102,
+            "data1": "~Cancel"
+        }
+
     ]
 }

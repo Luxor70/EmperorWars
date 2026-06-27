@@ -286,3 +286,7 @@ Please follow these steps.
 4.3.3
 - Added new icons by anternofer
 - Increased cargo slots for many units
+
+4.3.3a
+- EFS 1.52g compatibility patch
+- Tread, wheel, and some hover units now take 2 cargo space
